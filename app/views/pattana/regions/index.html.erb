@@ -1,0 +1,34 @@
+<div class="row">
+      
+  <div class="col-md-12">
+    
+    <ul class="nav nav-tabs">
+    </ul>
+    <div class="tab-content">
+      <div class="tab-pane active">
+
+        <div id="div_region_action_buttons">
+          <div class="row">
+            <div class="col-md-6">
+
+              <%= theme_button('Refresh', 'refresh', pattana.regions_path(), classes: "pull-left", btn_type: "white") %>
+
+            </div>
+            <div class="col-md-6">
+              <%= search_form_kuppayam(Region, pattana.regions_path, text: @filters[:query]) %>
+            </div>
+          </div>
+        </div>
+        <%= clear_tag(10) %>
+
+        <div id="div_region_index">
+          <%= render :partial=>"pattana/regions/index" %>
+        </div>
+        <%= clear_tag(10) %>
+
+      </div>
+    </div>
+
+  </div>
+
+</div>

@@ -1,0 +1,51 @@
+<div class="table-responsive"> 
+	<table class="table table-hover members-table middle-align">
+	  <thead> 
+			<tr> 
+				<th style="text-align:center;width:5%;">#</th> 
+				<th style="text-align:left;width:30%;">Name</th>
+				<th style="text-align:center;width:15%;">Region</th>
+				<th style="text-align:center;width:15%;">Country</th>
+				<th style="text-align:center;width:10%;">Priority</th>
+				<th style="text-align:center;width:15%;">Show in API</th>
+				<th style="text-align:center;width:10%;">Actions</th>
+			</tr> 
+		</thead>
+	  <tbody>
+	  	<% @cities.each_with_index do |city, i| %>
+	  		
+	  		<%# edit_link = edit_city_path(id: city.id) %>
+				<%# delete_link = city_path(id: city.id) %>
+				<% edit_link = "#" %>
+				<% delete_link = "#" %>
+				
+		    <tr id="tr_city_<%= city.id %>">
+		      
+		      <td class="text-align-center"><%= city.id %></td>
+		      <td class="text-align-left"><%= link_to city.name, pattana.city_path(city), remote: true %></td>
+
+		      <td class="text-align-center"><%= city.region.name if city.region %></td>
+		      <td class="text-align-center"><%= city.country.name if city.country %></td>
+		      <td  class="text-align-center"><%= city.priority %></td>
+		      <td  class="text-align-center"><%= city.display_show_in_api %></td>
+		      
+					<td class="action-links" style="width:10%">
+
+		      	<%= link_to raw("<i class=\"linecons-pencil\"></i> Edit City"), edit_link, :remote=>true, class: "edit" %>
+
+		        <%= link_to raw("<i class=\"linecons-trash\"></i> Delete"), delete_link, method: :delete, role: "menuitem", tabindex: "-1", data: { confirm: 'Are you sure?' }, :remote=>true, class: "delete" %>
+
+		      </td>
+
+		    </tr>
+		  <% end %>
+	  </tbody>
+	</table>
+</div>
+
+<div class="row">
+  <div class="col-sm-12">
+    <%= paginate_kuppayam(@cities) %>
+  </div>
+</div>
+

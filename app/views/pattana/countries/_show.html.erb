@@ -1,0 +1,221 @@
+<div id="div_country_show">
+  
+  <div class="row">
+
+    <div class="col-md-9 col-sm-12 col-xs-12" style="border-right:1px solid #f1f1f1;">
+
+      <div class="visible-sm visible-xs mt-50"></div>
+
+      <%= theme_panel_heading(@country.name) %>
+
+      <%= theme_panel_sub_heading("ID: #{@country.id}", "#") %><br>
+
+    </div>
+
+  </div>
+
+  <%= clear_tag(50) %>
+
+  <ul class="nav nav-pills">
+
+    <li class="active">
+      <a href="#country_details" data-toggle="tab" aria-expanded="false">
+        <span class="visible-xs"><i class="fa-database"></i></span>
+        <span class="hidden-xs">Country Details</span>
+      </a>
+    </li>
+
+    <li class="">
+      <a href="#regions" data-toggle="tab" aria-expanded="false">
+        <span class="visible-xs"><i class="fa-database"></i></span>
+        <span class="hidden-xs">Regions</span>
+      </a>
+    </li>
+
+    <li class="">
+      <a href="#cities" data-toggle="tab" aria-expanded="false">
+        <span class="visible-xs"><i class="fa-database"></i></span>
+        <span class="hidden-xs">Cities</span>
+      </a>
+    </li>
+  </ul>
+
+  <div class="tab-content">
+
+    <div class="tab-pane active" id="country_details" style="border: 1px solid #000;min-height:200px;padding:20px;margin-bottom:20px;max-height: 400px;overflow-y: auto;">
+      
+      <%= clear_tag(20) %>
+
+      <div class="table-responsive"> 
+
+        <table class="table table-striped table-condensed table-bordered mb-30"> 
+          <tbody>
+            
+            <tr>
+              <th style="width:25%;">FIPS</th>
+              <th style="width:25%">ISO 2</th>
+              <th style="width:25%">ISO 3</th>
+              <th style="width:25%">ITU</th>
+            </tr>
+
+            <tr>
+              <td class="word-break"><%= @country.fips %></td>
+              <td class="word-break"><%= @country.iso_alpha_2 %></td>
+              <td class="word-break"><%= @country.iso_alpha_3 %></td>
+              <td class="word-break"><%= @country.itu_code %></td>
+            </tr>
+
+            <tr>
+              <th>Dialing Prefix</th>
+              <th>Top Level Domain</th>
+              <th>Currency Code</th>
+              <th>Currency Name</th>
+            </tr>
+
+            <tr>
+              <td class="word-break"><%= @country.dialing_prefix %></td>
+              <td class="word-break"><%= @country.tld %></td>
+              <td class="word-break"><%= @country.currency_code %></td>
+              <td class="word-break"><%= @country.currency_name %></td>
+            </tr>
+
+            <tr>
+              <th>Is Independent?</th>
+              <th>Languages</th>
+              <th>Capital</th>
+              <th>Continent</th>
+            </tr>
+
+            <tr>
+              <td class="word-break"><%= @country.is_independent %></td>
+              <td class="word-break"><%= @country.languages %></td>
+              <td class="word-break"><%= @country.capital %></td>
+              <td class="word-break"><%= @country.continent %></td>
+            </tr>
+
+            <tr>
+              <th>Show in API</th>
+              <th>Priority</th>
+              <th>Latitude</th>
+              <th>Longitude</th>
+            </tr>
+
+            <tr>
+              <td class="word-break"><%= @country.show_in_api %></td>
+              <td class="word-break"><%= @country.priority %></td>
+              <td class="word-break"><%= @country.latitude %></td>
+              <td class="word-break"><%= @country.longitude %></td>
+            </tr>
+
+            <tr>
+              <th>Created At</th>
+              <th>Updated At</th>
+              <th></th>
+              <th></th>
+            </tr>
+
+            <tr>
+              <td class="word-break"><%= @country.created_at %></td>
+              <td class="word-break"><%= @country.updated_at %></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="tab-pane" id="regions" style="border: 1px solid #000;min-height:200px;padding:20px;margin-bottom:20px;max-height: 400px;overflow-y: auto;">
+      <%= clear_tag(20) %>
+
+      <div id="div_region_action_buttons">
+        <div class="row">
+          <div class="col-md-6">
+
+            <%= theme_button('Refresh', 'refresh', regions_country_path(@country), classes: "pull-left", btn_type: "white") %>
+            
+          </div>
+          <div class="col-md-6">
+            <%= search_form_kuppayam(Region, regions_country_path(@country), text: "") %>
+          </div>
+        </div>
+      </div>
+      <%= clear_tag(10) %>
+
+      <div id="div_region_counts">
+        <div class="row">
+
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          
+            <div style="border: 1px solid #ddd; margin-bottom: 20px;">
+            
+              <div class="xe-widget xe-counter xe-counter-info" 
+                  data-count=".num" 
+                  data-from="0" 
+                  data-to="99.9" 
+                  data-suffix="%" 
+                  data-duration="2"
+                  style="margin-bottom: 0px; 
+                  padding: 0px; 
+                  width: 15%;
+                  margin: 0px auto;">
+                <div class="xe-icon">
+                  <i class="linecons-database"></i>
+                </div>
+                <div class="xe-label">
+                  <strong class="num"><%= @country.regions.count %></strong>
+                  <span>Total</span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          
+            <div style="border: 1px solid #ddd; margin-bottom: 20px;">
+            
+              <div class="xe-widget xe-counter" 
+                  data-count=".num" 
+                  data-from="0" 
+                  data-to="99.9" 
+                  data-suffix="%" 
+                  data-duration="2"
+                  style="margin-bottom: 0px; 
+                  padding: 0px; 
+                  width: 15%;
+                  margin: 0px auto;">
+                <div class="xe-icon">
+                  <i class="linecons-cloud"></i>
+                </div>
+                <div class="xe-label">
+                  <strong class="num"><%= @country.regions.show_in_api.count %></strong>
+                  <span>Show in API</span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          
+          
+        </div>
+      </div>
+      <div id="div_region_index">
+        <%= link_to 'Refresh', regions_country_path(@country), remote: true %>
+        <%#= render :partial=>"master_data/admin_regions/index" %>
+      </div>
+    </div>
+
+    <div class="tab-pane" id="cities" style="border: 1px solid #000;min-height:200px;padding:20px;margin-bottom:20px;max-height: 400px;overflow-y: auto;">
+      <%= clear_tag(20) %>
+    </div>
+
+  </div>
+
+  <%= link_to "Close", "#", onclick: "closeLargeModal();", class: "btn btn-primary pull-right" %>
+
+  <%= clear_tag %>
+</div>

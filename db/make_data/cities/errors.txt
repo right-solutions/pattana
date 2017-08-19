@@ -1,0 +1,107 @@
+Summary: Error while saving city: Irving
+Details: Error! Country must exist
+
+Summary: Error while saving city: -99.78617
+Details: Error! Country must exist
+
+Summary: Error while saving city:
+Details: Error! Country must exist, Name can't be blank, and Name is too short (minimum is 3 characters)
+
+Summary: Error while saving city: Zvecan
+Details: Error! Country must exist
+
+Summary: Error while saving city: Zubin Potok
+Details: Error! Country must exist
+
+Summary: Error while saving city: Vushtrri
+Details: Error! Country must exist
+
+Summary: Error while saving city: Vitina
+Details: Error! Country must exist
+
+Summary: Error while saving city: Ferizaj
+Details: Error! Country must exist
+
+Summary: Error while saving city: Suva Reka
+Details: Error! Country must exist
+
+Summary: Error while saving city: Strpce
+Details: Error! Country must exist
+
+Summary: Error while saving city: Shtime
+Details: Error! Country must exist
+
+Summary: Error while saving city: Srbica
+Details: Error! Country must exist
+
+Summary: Error while saving city: Prizren
+Details: Error! Country must exist
+
+Summary: Error while saving city: Pristina
+Details: Error! Country must exist
+
+Summary: Error while saving city: Podujeva
+Details: Error! Country must exist
+
+Summary: Error while saving city: Peje
+Details: Error! Country must exist
+
+Summary: Error while saving city: Orahovac
+Details: Error! Country must exist
+
+Summary: Error while saving city: Obiliq
+Details: Error! Country must exist
+
+Summary: Error while saving city: Novo Brdo
+Details: Error! Country must exist
+
+Summary: Error while saving city: Mamusa
+Details: Error! Country must exist
+
+Summary: Error while saving city: Llazice
+Details: Error! Country must exist
+
+Summary: Error while saving city: Lipljan
+Details: Error! Country must exist
+
+Summary: Error while saving city: Leposaviq
+Details: Error! Country must exist
+
+Summary: Error while saving city: Mitrovice
+Details: Error! Country must exist
+
+Summary: Error while saving city: Kamenica
+Details: Error! Country must exist
+
+Summary: Error while saving city: Kosovo Polje
+Details: Error! Country must exist
+
+Summary: Error while saving city: Klina
+Details: Error! Country must exist
+
+Summary: Error while saving city: Kacanik
+Details: Error! Country must exist
+
+Summary: Error while saving city: Isniq
+Details: Error! Country must exist
+
+Summary: Error while saving city: Strellc i Eperm
+Details: Error! Country must exist
+
+Summary: Error while saving city: Gjilan
+Details: Error! Country must exist
+
+Summary: Error while saving city: Glogovac
+Details: Error! Country must exist
+
+Summary: Error while saving city: Dragash
+Details: Error! Country must exist
+
+Summary: Error while saving city: Hani i Elezit
+Details: Error! Country must exist
+
+Summary: Error while saving city: Decan
+Details: Error! Country must exist
+
+Summary: Error while saving city: Gjakove
+Details: Error! Country must exist

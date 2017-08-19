@@ -1,0 +1,19 @@
+<tr id="tr_region_<%= region.id %>">
+          
+  <th scope="row" style="text-align:center;width:5%;">
+    <% if i < 0 %>
+      <i class="fa fa-check text-success"></i>
+    <% else %>
+      <%= i + 1 + (@per_page.to_i * (@current_page.to_i - 1)) %>
+    <% end %>
+  </th>
+
+  <td class="region-name" style="text-align:center;width:50%;"><%= region.display_name %></td>
+
+  <td class="region-name" style="text-align:center;width:15%;"><%= region.iso_code %></td>
+
+  <td class="region-name" style="text-align:center;width:15%;"><%= region.priority %></td>
+
+  <td class="region-name" style="text-align:center;width:15%;"><%= region.display_show_in_api %></td>
+
+</tr>

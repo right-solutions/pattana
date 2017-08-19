@@ -1,0 +1,52 @@
+<div class="table-responsive"> 
+	<table class="table table-hover members-table middle-align">
+	  <thead> 
+			<tr>
+				<th style="text-align:center;width:5%;">#</th> 
+				<th style="text-align:left;width:40%;">Name</th>
+				<th style="text-align:center;width:10%;">FIPS</th>
+				<th style="text-align:center;width:10%;">ISO 2</th>
+				<th style="text-align:center;width:10%;">Priority</th>
+				<th style="text-align:center;width:15%;">Show in API</th>
+				<th style="text-align:center;width:10%;">Actions</th>
+			</tr> 
+		</thead>
+	  <tbody>
+	  	<% @countries.each_with_index do |country, i| %>
+	  		
+	  		<%# edit_link = edit_country_path(id: country.id) %>
+				<%# delete_link = country_path(id: country.id) %>
+				<% edit_link = "#" %>
+				<% delete_link = "#" %>
+				
+		    <tr id="tr_country_<%= country.id %>">
+		      
+		      <td class="text-align-center"><%= country.id %></td>
+		      
+		      <td class="text-align-left"><%= link_to country.name, pattana.country_path(country), remote: true %></td>
+
+		      <td class="text-align-center"><%= country.fips %></td>
+		      <td class="text-align-center"><%= country.iso_alpha_2 %></td>
+		      <td class="text-align-center"><%= country.priority %></td>
+		      <td class="text-align-center"><%= country.display_show_in_api %></td>
+		      
+					<td class="action-links text-align-center" style="width:10%">
+
+		      	<%= link_to raw("<i class=\"linecons-pencil\"></i>"), edit_link, :remote=>true, class: "edit pull-left ml-15" %>
+
+		        <%= link_to raw("<i class=\"linecons-trash\"></i>"), delete_link, method: :delete, role: "menuitem", tabindex: "-1", data: { confirm: 'Are you sure?' }, :remote=>true, class: "delete pull-left ml-10", style: "margin-top:0px !important;" %>
+
+		      </td>
+
+		    </tr>
+		  <% end %>
+	  </tbody>
+	</table>
+</div>
+
+<div class="row">
+  <div class="col-sm-12">
+    <%= paginate_kuppayam(@countries) %>
+  </div>
+</div>
+

@@ -1,0 +1,92 @@
+<div id="div_region_show">
+  
+  <div class="row">
+
+    <div class="col-md-9 col-sm-12 col-xs-12" style="border-right:1px solid #f1f1f1;">
+
+      <div class="visible-sm visible-xs mt-50"></div>
+
+      <%= theme_panel_heading(@region.name) %>
+
+      <%= theme_panel_sub_heading(@region.iso_code, "#") if @region.iso_code %><br>
+
+      <%= theme_panel_sub_heading(@region.country.name, "#") if @region.country %><br>
+
+      <%= clear_tag(10) %>
+      
+    </div>
+
+  </div>
+
+  <%= clear_tag(50) %>
+
+  <ul class="nav nav-pills">
+
+    <li class="active">
+      <a href="#region_details" data-toggle="tab" aria-expanded="false">
+        <span class="visible-xs"><i class="fa-database"></i></span>
+        <span class="hidden-xs">Region Details</span>
+      </a>
+    </li>
+
+    <li class="">
+      <a href="#technical_details" data-toggle="tab" aria-expanded="false">
+        <span class="visible-xs"><i class="fa-database"></i></span>
+        <span class="hidden-xs">Technical Details</span>
+      </a>
+    </li>
+  </ul>
+
+  <div class="tab-content">
+
+    <div class="tab-pane active" id="region_details" style="border: 1px solid #000;min-height:200px;padding:20px;margin-bottom:20px;max-height: 400px;overflow-y: auto;">
+      
+      <%= clear_tag(20) %>
+
+      <div class="table-responsive"> 
+        <table class="table table-striped table-condensed table-bordered mb-30"> 
+          <tbody>
+            
+            <tr>
+              <th>ID</th><td><%= @region.id %></td>
+              <th>Name</th><td><%= @region.name %></td>
+            </tr>
+            <tr>
+              <th>ISO Code</th><td><%= @region.iso_code if @region.iso_code %></td>
+              <th>Country</th><td><%= @region.country.name if @region.country %></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+    </div>
+
+    <div class="tab-pane" id="technical_details">
+      
+      <%= clear_tag(20) %>
+
+      <div class="table-responsive"> 
+        <table class="table table-striped table-condensed table-bordered mb-30"> 
+          <tbody>
+            
+            <tr>
+              <th>ID</th><td><%= @region.id %></td>
+              <th></th><td></td>
+            </tr>
+
+            <tr>
+              <th>Created At</th><td><%= @region.created_at.strftime("%m/%d/%Y - %H:%M:%S") if @region.created_at %></td>
+              <th>Updated At</th><td><%= @region.updated_at.strftime("%m/%d/%Y - %H:%M:%S") if @region.updated_at %></td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+
+  <%= link_to "Close", "#", onclick: "closeLargeModal();", class: "btn btn-primary pull-right" %>
+
+  <%= clear_tag %>
+</div>

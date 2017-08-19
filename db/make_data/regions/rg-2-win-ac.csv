@@ -1,0 +1,1001 @@
+name,iso_code,latitude,longitude
+"Al Jahra",KW-05,29.332001,47.695549
+"Al Kuwayt",KW-02,NULL,NULL
+"Hawalli",KW-03,29.329404,48.00393
+"Creek",KY-01,19.75,-79.766667
+"Eastern",KY-02,NULL,NULL
+"Midland",KY-03,NULL,NULL
+"South Town",KY-04,NULL,NULL
+"Spot Bay",KY-05,NULL,NULL
+"Stake Bay",KY-06,NULL,NULL
+"West End",KY-07,NULL,NULL
+"Western",KY-08,NULL,NULL
+"Almaty",KZ-01,NULL,NULL
+"Almaty City",KZ-02,NULL,NULL
+"Aqmola",KZ-03,NULL,NULL
+"Astana",KZ-05,NULL,NULL
+"Atyrau",KZ-06,NULL,NULL
+"Bayqonyr",KZ-08,45.865312,63.325149
+"East Kazakhstan",KZ-15,NULL,NULL
+"Mangghystau",KZ-09,NULL,NULL
+"North Kazakhstan",KZ-16,NULL,NULL
+"Pavlodar",KZ-11,NULL,NULL
+"Qaraghandy",KZ-12,NULL,NULL
+"Qostanay",KZ-13,NULL,NULL
+"Qyzylorda",KZ-14,NULL,NULL
+"South Kazakhstan",KZ-10,NULL,NULL
+"West Kazakhstan",KZ-07,NULL,NULL
+"Zhambyl",KZ-17,NULL,NULL
+"Attapu",LA-01,NULL,NULL
+"Champasak",LA-02,NULL,NULL
+"Houaphan",LA-03,NULL,NULL
+"Khammouan",LA-04,NULL,NULL
+"Louang Namtha",LA-05,NULL,NULL
+"Louangphrabang",LA-17,NULL,NULL
+"Oudomxai",LA-07,NULL,NULL
+"Phongsali",LA-08,NULL,NULL
+"Saravan",LA-09,NULL,NULL
+"Savannakhet",LA-10,NULL,NULL
+"Vientiane",LA-11,NULL,NULL
+"Xaignabouri",LA-13,NULL,NULL
+"Xiangkhoang",LA-14,NULL,NULL
+"Beqaa",LB-01,NULL,NULL
+"Beyrouth",LB-04,NULL,NULL
+"Liban-Nord",LB-03,NULL,NULL
+"Liban-Sud",LB-06,NULL,NULL
+"Mont-Liban",LB-05,NULL,NULL
+"Nabatiye",LB-07,NULL,NULL
+"Anse-la-Raye",LC-01,NULL,NULL
+"Castries",LC-03,NULL,NULL
+"Choiseul",LC-04,NULL,NULL
+"Dauphin",LC-02,-27.48884,153.015094
+"Dennery",LC-05,13.91555,-60.89183
+"Gros-Islet",LC-06,14.07784,-60.945
+"Laborie",LC-07,NULL,NULL
+"Micoud",LC-08,13.816667,-60.916667
+"Praslin",LC-11,NULL,NULL
+"Soufriere",LC-09,13.85323,-61.052071
+"Vieux-Fort",LC-10,13.73037,-60.94738
+"Balzers",LI-01,NULL,NULL
+"Eschen",LI-02,NULL,NULL
+"Gamprin",LI-03,47.220298,9.509629
+"Mauren",LI-04,NULL,NULL
+"Planken",LI-05,NULL,NULL
+"Ruggell",LI-06,NULL,NULL
+"Schaan",LI-07,NULL,NULL
+"Schellenberg",LI-08,47.230886,9.546729
+"Triesen",LI-09,NULL,NULL
+"Triesenberg",LI-10,NULL,NULL
+"Vaduz",LI-11,NULL,NULL
+"Amparai",LK-01,7.3333,81.6166
+"Anuradhapura",LK-02,8.301361,80.426498
+"Badulla",LK-03,6.9935,81.0473
+"Batticaloa",LK-04,7.704834,81.677055
+"Colombo",LK-23,6.921484,79.852779
+"Galle",LK-06,6.0308,80.2387
+"Gampaha",LK-24,7.089895,79.999413
+"Hambantota",LK-07,6.1233,81.1174
+"Jaffna",LK-25,9.6663,80.0203
+"Kalutara",LK-09,6.5894,79.9573
+"Kandy",LK-10,7.3016,80.6476
+"Kegalla",LK-11,7.2546,80.3411
+"Kurunegala",LK-12,7.4805,80.3664
+"Mannar",LK-26,8.9725,79.911
+"Matale",LK-14,7.4437,80.6114
+"Matara",LK-15,5.976,80.425
+"Moneragala",LK-16,NULL,NULL
+"Mullaittivu",LK-27,9.223421,80.790939
+"Nuwara Eliya",LK-17,6.9658,80.7578
+"Polonnaruwa",LK-18,7.932857,81.008087
+"Puttalam",LK-19,8.033396,79.82579
+"Ratnapura",LK-20,6.6847,80.4036
+"Trincomalee",LK-21,8.5766,81.2309
+"Vavuniya",LK-28,8.756166,80.493141
+"Bong",LR-01,6.616856,-9.199711
+"Grand Bassa",LR-11,NULL,NULL
+"Grand Cape Mount",LR-04,NULL,NULL
+"Grand Jide",LR-02,NULL,NULL
+"Lofa",LR-05,NULL,NULL
+"Maryland",LR-06,38.903555,-76.896904
+"Monrovia",LR-07,6.300387,-10.79573
+"Montserrado",LR-14,NULL,NULL
+"Nimba",LR-09,7.5,-8.583333
+"Sino",LR-10,5.284467,-8.941356
+"Berea",LS-10,-29.2,27.808333
+"Butha-Buthe",LS-11,-28.830807,28.455025
+"Leribe",LS-12,-28.958333,28.108333
+"Mafeteng",LS-13,-29.82243,27.23902
+"Maseru",LS-14,NULL,NULL
+"Mohales Hoek",LS-15,-30.158529,27.480089
+"Mokhotlong",LS-16,-29.28936,29.06063
+"Qachas Nek",LS-17,-30.125959,28.702419
+"Quthing",LS-18,-30.411449,27.716221
+"Thaba-Tseka",LS-19,-29.625,28.484013
+"Alytaus Apskritis",LT-56,NULL,NULL
+"Kauno Apskritis",LT-57,NULL,NULL
+"Klaipedos Apskritis",LT-58,NULL,NULL
+"Marijampoles Apskritis",LT-59,NULL,NULL
+"Panevezio Apskritis",LT-60,NULL,NULL
+"Siauliu Apskritis",LT-61,NULL,NULL
+"Taurages Apskritis",LT-62,NULL,NULL
+"Telsiu Apskritis",LT-63,NULL,NULL
+"Utenos Apskritis",LT-64,NULL,NULL
+"Vilniaus Apskritis",LT-65,NULL,NULL
+"Diekirch",LU-01,NULL,NULL
+"Grevenmacher",LU-02,NULL,NULL
+"Luxembourg",LU-03,NULL,NULL
+"Aizkraukles",LV-01,NULL,NULL
+"Aluksnes",LV-02,NULL,NULL
+"Balvu",LV-03,NULL,NULL
+"Bauskas",LV-04,NULL,NULL
+"Daugavpils",LV-06,NULL,NULL
+"Dobeles",LV-08,NULL,NULL
+"Gulbenes",LV-09,NULL,NULL
+"Jelgava",LV-11,56.648416,23.713941
+"Jelgavas",LV-12,NULL,NULL
+"Jurmala",LV-13,56.968154,23.770527
+"Kuldigas",LV-15,NULL,NULL
+"Limbazu",LV-18,NULL,NULL
+"Ludzas",LV-19,NULL,NULL
+"Madonas",LV-20,NULL,NULL
+"Ogres",LV-21,NULL,NULL
+"Preilu",LV-22,NULL,NULL
+"Riga",LV-25,NULL,NULL
+"Rigas",LV-26,NULL,NULL
+"Saldus",LV-27,NULL,NULL
+"Talsu",LV-28,NULL,NULL
+"Tukuma",LV-29,NULL,NULL
+"Valkas",LV-30,NULL,NULL
+"Valmieras",LV-31,NULL,NULL
+"Ventspils",LV-32,NULL,NULL
+"Ajdabiya",LY-47,30.105851,20.836091
+"Al",LY-03,32.652599,14.27167
+"Al Fatih",LY-48,32.142551,20.883333
+"Al Jabal al Akhdar",LY-49,32.54438,21.680775
+"Al Jufrah",LY-05,28.491796,16.677305
+"Al Khums",LY-50,32.652599,14.27167
+"Al Kufrah",LY-08,24.132549,23.268591
+"An Nuqat al Khams",LY-51,32.775,12.066666
+"Ash Shati'",LY-13,27.540315,13.987545
+"Awbari",LY-52,26.679131,12.72949
+"Az Zawiyah",LY-53,31.983333,24.666667
+"Banghazi",LY-54,NULL,NULL
+"Darnah",LY-55,32.75735,22.6455
+"Ghadamis",LY-56,30.139495,9.489738
+"Gharyan",LY-57,30.350834,13.1
+"Misratah",LY-58,NULL,NULL
+"Murzuq",LY-30,24.844416,15.750545
+"Sabha",LY-34,NULL,NULL
+"Sawfajjin",LY-59,31.275,14.833639
+"Surt",LY-60,31.20528,16.588369
+"Tarabulus",LY-61,NULL,NULL
+"Tarhunah",LY-41,32.291528,13.568472
+"Tubruq",LY-42,32.087,23.9642
+"Yafran",LY-62,31.675,12.199305
+"Zlitan",LY-45,32.378107,14.583333
+"Agadir",MA-01,NULL,NULL
+"Al Hoceima",MA-02,35.249299,-3.937112
+"Azilal",MA-03,31.9669,-6.5662
+"Ben Slimane",MA-04,33.62328,-7.120642
+"Beni Mellal",MA-05,32.350201,-6.358787
+"Boulemane",MA-06,NULL,NULL
+"Casablanca",MA-07,NULL,NULL
+"Chaouen",MA-08,NULL,NULL
+"El Jadida",MA-09,33.255909,-8.50783
+"El Kelaa des Srarhna",MA-10,NULL,NULL
+"Er Rachidia",MA-11,31.94474,-4.4006
+"Essaouira",MA-12,NULL,NULL
+"Fes",MA-13,NULL,NULL
+"Figuig",MA-14,NULL,NULL
+"Guelmim",MA-33,NULL,NULL
+"Ifrane",MA-34,34.05,-3.766667
+"Kenitra",MA-15,NULL,NULL
+"Khemisset",MA-16,NULL,NULL
+"Khenifra",MA-17,32.9382,-5.6674
+"Khouribga",MA-18,32.88475,-6.91615
+"Laayoune",MA-35,26.858333,-13.125
+"Larache",MA-41,35.1918,-6.1536
+"Marrakech",MA-19,NULL,NULL
+"Meknes",MA-20,NULL,NULL
+"Nador",MA-21,NULL,NULL
+"Ouarzazate",MA-22,30.9173,-6.919119
+"Oujda",MA-23,NULL,NULL
+"Rabat-Sale",MA-24,NULL,NULL
+"Safi",MA-25,NULL,NULL
+"Settat",MA-26,NULL,NULL
+"Sidi Kacem",MA-38,NULL,NULL
+"Tan-Tan",MA-36,28.432649,-11.10033
+"Tanger",MA-27,NULL,NULL
+"Taounate",MA-37,NULL,NULL
+"Taroudannt",MA-39,NULL,NULL
+"Tata",MA-29,29.7428,-7.9726
+"Taza",MA-30,34.2234,-4.0069
+"Tetouan",MA-40,NULL,NULL
+"Tiznit",MA-32,NULL,NULL
+"La Condamine",MC-01,43.734664,7.421143
+"Monaco",MC-02,43.732529,7.418907
+"Monte-Carlo",MC-03,43.740439,7.425577
+"Balti",MD-46,NULL,NULL
+"Cahul",MD-47,NULL,NULL
+"Chisinau",MD-48,NULL,NULL
+"Edinet",MD-50,NULL,NULL
+"Gagauzia",MD-51,NULL,NULL
+"Lapusna",MD-52,NULL,NULL
+"Orhei",MD-53,NULL,NULL
+"Soroca",MD-54,NULL,NULL
+"Stinga Nistrului",MD-49,NULL,NULL
+"Tighina",MD-55,NULL,NULL
+"Ungheni",MD-56,NULL,NULL
+"Antananarivo",MG-05,NULL,NULL
+"Antsiranana",MG-01,-13.96909,49.165152
+"Fianarantsoa",MG-02,NULL,NULL
+"Mahajanga",MG-03,NULL,NULL
+"Toamasina",MG-04,NULL,NULL
+"Toliara",MG-06,-21.930395,45.291124
+"Aracinovo",MK-01,NULL,NULL
+"Bac",MK-02,NULL,NULL
+"Belcista",MK-03,NULL,NULL
+"Berovo",MK-04,41.711871,22.864028
+"Bistrica",MK-05,NULL,NULL
+"Bitola",MK-06,NULL,NULL
+"Blatec",MK-07,41.839661,22.593161
+"Bogdanci",MK-08,NULL,NULL
+"Bogomila",MK-09,41.59623,21.48348
+"Bogovinje",MK-10,NULL,NULL
+"Bosilovo",MK-11,NULL,NULL
+"Brvenica",MK-12,NULL,NULL
+"Cair",MK-13,NULL,NULL
+"Capari",MK-14,41.05,21.183333
+"Caska",MK-15,NULL,NULL
+"Cegrane",MK-16,41.844662,20.99925
+"Centar",MK-17,NULL,NULL
+"Centar Zupa",MK-18,NULL,NULL
+"Cesinovo",MK-19,NULL,NULL
+"Cucer-Sandevo",MK-20,NULL,NULL
+"Debar",MK-21,41.525927,20.536737
+"Delcevo",MK-22,NULL,NULL
+"Delogozdi",MK-23,NULL,NULL
+"Demir Hisar",MK-24,NULL,NULL
+"Demir Kapija",MK-25,41.424385,22.267475
+"Dobrusevo",MK-26,NULL,NULL
+"Dolna Banjica",MK-27,NULL,NULL
+"Dolneni",MK-28,41.428208,21.454711
+"Dorce Petrov",MK-29,NULL,NULL
+"Drugovo",MK-30,41.487342,20.933831
+"Dzepciste",MK-31,NULL,NULL
+"Gazi Baba",MK-32,NULL,NULL
+"Gevgelija",MK-33,NULL,NULL
+"Gostivar",MK-34,NULL,NULL
+"Gradsko",MK-35,NULL,NULL
+"Ilinden",MK-36,NULL,NULL
+"Izvor",MK-37,41.563822,21.685935
+"Jegunovce",MK-38,NULL,NULL
+"Kamenjane",MK-39,NULL,NULL
+"Karbinci",MK-40,NULL,NULL
+"Karpos",MK-41,NULL,NULL
+"Kavadarci",MK-42,NULL,NULL
+"Kicevo",MK-43,NULL,NULL
+"Kisela Voda",MK-44,NULL,NULL
+"Klecevce",MK-45,NULL,NULL
+"Kocani",MK-46,NULL,NULL
+"Konce",MK-47,NULL,NULL
+"Kondovo",MK-48,NULL,NULL
+"Konopiste",MK-49,NULL,NULL
+"Kosel",MK-50,NULL,NULL
+"Kratovo",MK-51,42.077669,22.188454
+"Kriva Palanka",MK-52,42.198016,22.333701
+"Krivogastani",MK-53,41.3482,21.34119
+"Krusevo",MK-54,41.378222,21.249313
+"Kuklis",MK-55,NULL,NULL
+"Kukurecani",MK-56,NULL,NULL
+"Kumanovo",MK-57,NULL,NULL
+"Labunista",MK-58,NULL,NULL
+"Lipkovo",MK-59,42.147407,21.589199
+"Lozovo",MK-60,NULL,NULL
+"Lukovo",MK-61,NULL,NULL
+"Makedonska Kamenica",MK-62,NULL,NULL
+"Makedonski Brod",MK-63,NULL,NULL
+"Mavrovi Anovi",MK-64,NULL,NULL
+"Meseista",MK-65,41.243191,20.78484
+"Miravci",MK-66,41.303411,22.431497
+"Mogila",MK-67,41.111762,21.393068
+"Murtino",MK-68,41.419395,22.706132
+"Negotino",MK-69,NULL,NULL
+"Negotino-Polosko",MK-70,NULL,NULL
+"Novaci",MK-71,41.04707,21.469955
+"Novo Selo",MK-72,41.418178,22.87933
+"Oblesevo",MK-73,41.89201,22.334049
+"Ohrid",MK-74,NULL,NULL
+"Orasac",MK-75,NULL,NULL
+"Orizari",MK-76,41.925785,22.436979
+"Oslomej",MK-77,NULL,NULL
+"Pehcevo",MK-78,41.768509,22.901895
+"Petrovec",MK-79,NULL,NULL
+"Plasnica",MK-80,41.462608,21.138651
+"Podares",MK-81,NULL,NULL
+"Prilep",MK-82,NULL,NULL
+"Probistip",MK-83,NULL,NULL
+"Radovis",MK-84,NULL,NULL
+"Rankovce",MK-85,42.181734,22.120188
+"Resen",MK-86,NULL,NULL
+"Rosoman",MK-87,NULL,NULL
+"Rostusa",MK-88,NULL,NULL
+"Samokov",MK-89,NULL,NULL
+"Saraj",MK-90,NULL,NULL
+"Sipkovica",MK-91,NULL,NULL
+"Sopiste",MK-92,NULL,NULL
+"Sopotnica",MK-93,41.298389,21.16424
+"Srbinovo",MK-94,NULL,NULL
+"Star Dojran",MK-96,NULL,NULL
+"Staravina",MK-95,41.090305,21.760409
+"Staro Nagoricane",MK-97,NULL,NULL
+"Stip",MK-98,NULL,NULL
+"Struga",MK-99,NULL,NULL
+"Strumica",MK-A1,NULL,NULL
+"Studenicani",MK-A2,NULL,NULL
+"Suto Orizari",MK-A3,NULL,NULL
+"Sveti Nikole",MK-A4,NULL,NULL
+"Tearce",MK-A5,42.108794,21.046225
+"Tetovo",MK-A6,NULL,NULL
+"Topolcani",MK-A7,NULL,NULL
+"Valandovo",MK-A8,NULL,NULL
+"Vasilevo",MK-A9,NULL,NULL
+"Veles",MK-B1,NULL,NULL
+"Velesta",MK-B2,41.24696,20.65213
+"Vevcani",MK-B3,NULL,NULL
+"Vinica",MK-B4,41.879848,22.513377
+"Vitoliste",MK-B5,NULL,NULL
+"Vranestica",MK-B6,NULL,NULL
+"Vrapciste",MK-B7,NULL,NULL
+"Vratnica",MK-B8,NULL,NULL
+"Vrutok",MK-B9,41.76563,20.824766
+"Zajas",MK-C1,41.593868,20.952858
+"Zelenikovo",MK-C2,NULL,NULL
+"Zelino",MK-C3,NULL,NULL
+"Zitose",MK-C4,NULL,NULL
+"Zletovo",MK-C5,41.981483,22.197522
+"Zrnovci",MK-C6,NULL,NULL
+"Bamako",ML-01,NULL,NULL
+"Gao",ML-09,16.2668,-0.042694
+"Kayes",ML-03,NULL,NULL
+"Kidal",ML-10,18.444309,1.401523
+"Koulikoro",ML-07,12.863795,-7.569686
+"Mopti",ML-04,14.480395,-4.190015
+"Segou",ML-05,13.439598,-6.268461
+"Sikasso",ML-06,11.315983,-5.669683
+"Tombouctou",ML-08,16.77206,-3.007782
+"Chin State",MM-02,NULL,NULL
+"Irrawaddy",MM-03,NULL,NULL
+"Kachin State",MM-04,NULL,NULL
+"Karan State",MM-05,NULL,NULL
+"Kayah State",MM-06,NULL,NULL
+"Magwe",MM-07,20.1253,94.9318
+"Mandalay",MM-08,21.526697,95.859206
+"Mon State",MM-13,NULL,NULL
+"Pegu",MM-09,17.3291,96.4991
+"Rakhine State",MM-01,NULL,NULL
+"Rangoon",MM-14,16.867,96.1419
+"Sagaing",MM-10,24.473055,95.52068
+"Shan State",MM-11,NULL,NULL
+"Tenasserim",MM-12,12.569545,97.854305
+"Yangon",MM-17,NULL,NULL
+"Arhangay",MN-01,48.081193,100.954934
+"Bayan-Olgiy",MN-03,48.202342,89.95168
+"Bayanhongor",MN-02,45.016666,99.325
+"Bulgan",MN-21,48.779655,103.346699
+"Darhan",MN-05,49.90258,106.175003
+"Darhan Uul",MN-23,NULL,NULL
+"Dornod",MN-06,48.266506,115.745317
+"Dornogovi",MN-07,44.55355,109.866666
+"Dundgovi",MN-08,45.4,106.365114
+"Dzavhan",MN-09,48.283333,96.492791
+"Erdenet",MN-22,48.988945,104.140419
+"Govi-Altay",MN-10,46.100966,95.908333
+"Govi-Sumber",MN-24,NULL,NULL
+"Hentiy",MN-11,47.783333,110.458065
+"Hovd",MN-12,47.337268,92.396063
+"Hovsgol",MN-13,49.975,99.841666
+"Omnogovi",MN-14,43.410993,103.741667
+"Orhon",MN-25,NULL,NULL
+"Ovorhangay",MN-15,45.797805,102.917962
+"Selenge",MN-16,49.489476,106.425434
+"Suhbaatar",MN-17,46.3,113.579001
+"Tov",MN-18,47.598993,106.5
+"Ulaanbaatar",MN-20,NULL,NULL
+"Uvs",MN-19,49.718135,92.766792
+"Ilhas",MO-01,NULL,NULL
+"Macau",MO-02,22.201874,113.544202
+"Adrar",MR-07,20.413935,-12.469033
+"Assaba",MR-03,16.136835,-11.82893
+"Brakna",MR-05,16.642385,-13.833333
+"Dakhlet Nouadhibou",MR-08,20.88364,-17.041511
+"Gorgol",MR-04,15.965265,-13.09689
+"Guidimaka",MR-10,15.383333,-12.133333
+"Hodh Ech Chargui",MR-01,16.491667,-7.092829
+"Hodh El Gharbi",MR-02,16.322221,-9.672034
+"Inchiri",MR-12,19.747311,-14.39091
+"Tagant",MR-09,18.15149,-10.912906
+"Tiris Zemmour",MR-11,24.255131,-9.245411
+"Trarza",MR-06,NULL,NULL
+"Saint Anthony",MS-01,NULL,NULL
+"Saint Georges",MS-02,NULL,NULL
+"Saint Peter",MS-03,NULL,NULL
+"Agalega Islands",MU-21,NULL,NULL
+"Black River",MU-12,NULL,NULL
+"Cargados Carajos",MU-22,NULL,NULL
+"Flacq",MU-13,NULL,NULL
+"Grand Port",MU-14,NULL,NULL
+"Moka",MU-15,NULL,NULL
+"Pamplemousses",MU-16,NULL,NULL
+"Plaines Wilhems",MU-17,NULL,NULL
+"Port Louis",MU-18,NULL,NULL
+"Riviere du Rempart",MU-19,NULL,NULL
+"Rodrigues",MU-23,NULL,NULL
+"Savanne",MU-20,NULL,NULL
+"Aliff",MV-02,NULL,NULL
+"Baa",MV-20,5.086287,73.002712
+"Daalu",MV-17,NULL,NULL
+"Faafu",MV-14,3.162773,72.937028
+"Gaafu Aliff",MV-27,NULL,NULL
+"Gaafu Daalu",MV-28,NULL,NULL
+"Haa Aliff",MV-07,NULL,NULL
+"Haa Daalu",MV-23,NULL,NULL
+"Kaafu",MV-26,NULL,NULL
+"Laamu",MV-05,1.956545,73.406176
+"Laviyani",MV-03,NULL,NULL
+"Meemu",MV-12,2.940104,73.501436
+"Naviyani",MV-29,NULL,NULL
+"Noonu",MV-25,5.824573,73.305436
+"Raa",MV-13,5.671056,72.925614
+"Seenu",MV-01,-0.639219,73.158331
+"Shaviyani",MV-24,6.210959,73.104339
+"Thaa",MV-08,2.362182,73.137205
+"Waavu",MV-04,NULL,NULL
+"Balaka",MW-26,-14.982065,34.95803
+"Blantyre",MW-24,NULL,NULL
+"Chikwawa",MW-02,-16.02433,34.786751
+"Chiradzulu",MW-03,-15.68867,35.11969
+"Chitipa",MW-04,-9.700939,33.27325
+"Dedza",MW-06,-14.383815,34.335994
+"Dowa",MW-07,-13.703316,33.963566
+"Karonga",MW-08,-9.930657,33.937891
+"Kasungu",MW-09,-13.033366,33.484166
+"Likoma",MW-27,-12.067111,34.734153
+"Lilongwe",MW-11,NULL,NULL
+"Machinga",MW-28,NULL,NULL
+"Mangochi",MW-12,-14.483333,35.266667
+"Mchinji",MW-13,-13.79977,32.881305
+"Mulanje",MW-29,-16.023616,35.49595
+"Mwanza",MW-25,-15.6051,34.527014
+"Mzimba",MW-15,-11.897435,33.597809
+"Nkhata Bay",MW-17,-11.607,34.27942
+"Nkhotakota",MW-18,-12.9691,34.2665
+"Nsanje",MW-19,-16.92071,35.261884
+"Ntcheu",MW-16,-14.7968,34.6251
+"Ntchisi",MW-20,-13.3531,33.9211
+"Phalombe",MW-30,-15.80015,35.646465
+"Rumphi",MW-21,-11.017475,33.814855
+"Salima",MW-22,-13.78197,34.45899
+"Thyolo",MW-05,-16.0643,35.1342
+"Zomba",MW-23,NULL,NULL
+"Aguascalientes",MX-01,NULL,NULL
+"Baja California",MX-02,NULL,NULL
+"Baja California Sur",MX-03,NULL,NULL
+"Campeche",MX-04,NULL,NULL
+"Chiapas",MX-05,NULL,NULL
+"Chihuahua",MX-06,NULL,NULL
+"Coahuila de Zaragoza",MX-07,NULL,NULL
+"Colima",MX-08,NULL,NULL
+"Distrito Federal",MX-09,NULL,NULL
+"Durango",MX-10,NULL,NULL
+"Guanajuato",MX-11,NULL,NULL
+"Guerrero",MX-12,NULL,NULL
+"Hidalgo",MX-13,NULL,NULL
+"Jalisco",MX-14,NULL,NULL
+"Mexico",MX-15,NULL,NULL
+"Michoacan de Ocampo",MX-16,NULL,NULL
+"Morelos",MX-17,NULL,NULL
+"Nayarit",MX-18,NULL,NULL
+"Nuevo Leon",MX-19,NULL,NULL
+"Oaxaca",MX-20,NULL,NULL
+"Puebla",MX-21,NULL,NULL
+"Queretaro de Arteaga",MX-22,NULL,NULL
+"Quintana Roo",MX-23,NULL,NULL
+"San Luis Potosi",MX-24,NULL,NULL
+"Sinaloa",MX-25,NULL,NULL
+"Sonora",MX-26,NULL,NULL
+"Tabasco",MX-27,NULL,NULL
+"Tamaulipas",MX-28,NULL,NULL
+"Tlaxcala",MX-29,NULL,NULL
+"Veracruz-Llave",MX-30,NULL,NULL
+"Yucatan",MX-31,NULL,NULL
+"Zacatecas",MX-32,NULL,NULL
+"Johor",MY-01,NULL,NULL
+"Kedah",MY-02,NULL,NULL
+"Kelantan",MY-03,NULL,NULL
+"Labuan",MY-15,NULL,NULL
+"Melaka",MY-04,NULL,NULL
+"Negeri Sembilan",MY-05,NULL,NULL
+"Pahang",MY-06,NULL,NULL
+"Perak",MY-07,NULL,NULL
+"Perlis",MY-08,NULL,NULL
+"Pulau Pinang",MY-09,NULL,NULL
+"Sabah",MY-16,NULL,NULL
+"Sarawak",MY-11,NULL,NULL
+"Selangor",MY-12,NULL,NULL
+"Terengganu",MY-13,NULL,NULL
+"Wilayah Persekutuan",MY-14,NULL,NULL
+"Cabo Delgado",MZ-01,-12.333612,39.380555
+"Gaza",MZ-02,-23.304747,32.899948
+"Inhambane",MZ-03,-23.87167,35.38688
+"Manica",MZ-10,-20.0749,34.719261
+"Maputo",MZ-04,NULL,NULL
+"Nampula",MZ-06,NULL,NULL
+"Niassa",MZ-07,NULL,NULL
+"Sofala",MZ-05,NULL,NULL
+"Tete",MZ-08,NULL,NULL
+"Zambezia",MZ-09,NULL,NULL
+"Bethanien",NA-01,-26.50238,17.16074
+"Boesmanland",NA-03,NULL,NULL
+"Caprivi",NA-28,NULL,NULL
+"Caprivi Oos",NA-02,NULL,NULL
+"Damaraland",NA-22,NULL,NULL
+"Erongo",NA-29,NULL,NULL
+"Gobabis",NA-04,-22.505,18.97028
+"Grootfontein",NA-05,-25.016667,16.75
+"Hardap",NA-30,NULL,NULL
+"Hereroland Oos",NA-23,NULL,NULL
+"Hereroland Wes",NA-24,NULL,NULL
+"Kaokoland",NA-06,NULL,NULL
+"Karas",NA-31,NULL,NULL
+"Karasburg",NA-20,-28,18.716667
+"Karibib",NA-07,-21.938294,15.85231
+"Kavango",NA-25,NULL,NULL
+"Keetmanshoop",NA-08,-26.5762,18.1466
+"Kunene",NA-32,NULL,NULL
+"Luderitz",NA-09,-26.6762,15.2468
+"Maltahohe",NA-10,-24.84044,16.979435
+"Mariental",NA-26,-24.6247,17.961
+"Namaland",NA-27,NULL,NULL
+"Ohangwena",NA-33,-17.467409,15.897137
+"Okahandja",NA-11,-21.977849,16.907895
+"Okavango",NA-34,NULL,NULL
+"Omaheke",NA-35,NULL,NULL
+"Omaruru",NA-12,-21.42582,15.95642
+"Omusati",NA-36,NULL,NULL
+"Oshana",NA-37,NULL,NULL
+"Oshikoto",NA-38,NULL,NULL
+"Otjiwarongo",NA-13,-18.083333,13.083333
+"Otjozondjupa",NA-39,NULL,NULL
+"Outjo",NA-14,-20.105135,16.143895
+"Owambo",NA-15,NULL,NULL
+"Rehoboth",NA-16,-23.321605,17.079619
+"Swakopmund",NA-17,-22.6709,14.5686
+"Tsumeb",NA-18,-19.2666,17.7333
+"Windhoek",NA-21,NULL,NULL
+"Agadez",NE-01,16.9918,7.985669
+"Diffa",NE-02,13.31166,12.60946
+"Dosso",NE-03,13.04794,3.201155
+"Maradi",NE-04,NULL,NULL
+"Niamey",NE-05,13.51405,2.1073
+"Tahoua",NE-06,14.89715,5.264483
+"Zinder",NE-07,13.7986,8.9891
+"Abia",NG-45,NULL,NULL
+"Abuja Capital Territory",NG-11,NULL,NULL
+"Adamawa",NG-35,NULL,NULL
+"Akwa Ibom",NG-21,NULL,NULL
+"Anambra",NG-25,NULL,NULL
+"Bauchi",NG-46,NULL,NULL
+"Bayelsa",NG-52,NULL,NULL
+"Benue",NG-26,NULL,NULL
+"Borno",NG-27,NULL,NULL
+"Cross River",NG-22,NULL,NULL
+"Delta",NG-36,NULL,NULL
+"Ebonyi",NG-53,NULL,NULL
+"Edo",NG-37,NULL,NULL
+"Ekiti",NG-54,7.6,5.1
+"Enugu",NG-47,NULL,NULL
+"Gombe",NG-55,NULL,NULL
+"Imo",NG-28,NULL,NULL
+"Jigawa",NG-39,NULL,NULL
+"Kaduna",NG-23,NULL,NULL
+"Kano",NG-29,NULL,NULL
+"Katsina",NG-24,NULL,NULL
+"Kebbi",NG-40,12.033333,4.633333
+"Kogi",NG-41,NULL,NULL
+"Kwara",NG-30,NULL,NULL
+"Lagos",NG-05,NULL,NULL
+"Nassarawa",NG-56,NULL,NULL
+"Niger",NG-31,NULL,NULL
+"Ogun",NG-16,NULL,NULL
+"Ondo",NG-48,NULL,NULL
+"Osun",NG-42,NULL,NULL
+"Oyo",NG-32,NULL,NULL
+"Plateau",NG-49,NULL,NULL
+"Rivers",NG-50,NULL,NULL
+"Sokoto",NG-51,NULL,NULL
+"Taraba",NG-43,8.716667,13.15
+"Yobe",NG-44,NULL,NULL
+"Zamfara",NG-57,NULL,NULL
+"Boaco",NI-01,NULL,NULL
+"Carazo",NI-02,NULL,NULL
+"Chinandega",NI-03,NULL,NULL
+"Chontales",NI-04,12.130165,-85.10038
+"Esteli",NI-05,13.147049,-86.423076
+"Granada",NI-06,NULL,NULL
+"Jinotega",NI-07,13.804153,-85.54496
+"Leon",NI-08,NULL,NULL
+"Madriz",NI-09,13.427183,-86.418978
+"Managua",NI-10,NULL,NULL
+"Masaya",NI-11,NULL,NULL
+"Matagalpa",NI-12,NULL,NULL
+"Nueva Segovia",NI-13,13.771502,-86.269413
+"Rio San Juan",NI-14,11.294,-84.423649
+"Rivas",NI-15,NULL,NULL
+"Zelaya",NI-16,NULL,NULL
+"Drenthe",NL-01,NULL,NULL
+"Dronten",NL-12,52.523516,5.717889
+"Flevoland",NL-16,NULL,NULL
+"Friesland",NL-02,NULL,NULL
+"Gelderland",NL-03,NULL,NULL
+"Groningen",NL-04,NULL,NULL
+"Lelystad",NL-14,52.510007,5.477723
+"Limburg",NL-05,NULL,NULL
+"Noord-Brabant",NL-06,NULL,NULL
+"Noord-Holland",NL-07,NULL,NULL
+"Overijssel",NL-08,52.486132,6.42529
+"Utrecht",NL-09,NULL,NULL
+"Zeeland",NL-10,NULL,NULL
+"Zuid-Holland",NL-11,NULL,NULL
+"Zuidelijke IJsselmeerpolders",NL-13,NULL,NULL
+"Akershus",NO-01,NULL,NULL
+"Aust-Agder",NO-02,NULL,NULL
+"Buskerud",NO-04,NULL,NULL
+"Finnmark",NO-05,NULL,NULL
+"Hedmark",NO-06,NULL,NULL
+"Hordaland",NO-07,NULL,NULL
+"More og Romsdal",NO-08,NULL,NULL
+"Nord-Trondelag",NO-10,NULL,NULL
+"Nordland",NO-09,NULL,NULL
+"Oppland",NO-11,NULL,NULL
+"Oslo",NO-12,NULL,NULL
+"Ostfold",NO-13,NULL,NULL
+"Rogaland",NO-14,NULL,NULL
+"Sogn og Fjordane",NO-15,NULL,NULL
+"Sor-Trondelag",NO-16,NULL,NULL
+"Telemark",NO-17,NULL,NULL
+"Troms",NO-18,NULL,NULL
+"Vest-Agder",NO-19,NULL,NULL
+"Vestfold",NO-20,NULL,NULL
+"Bagmati",NP-01,27.830105,85.345552
+"Bheri",NP-02,28.497206,81.721542
+"Dhawalagiri",NP-03,28.65681,83.533581
+"Gandaki",NP-04,28.328066,84.316917
+"Janakpur",NP-05,27.369043,85.949856
+"Karnali",NP-06,29.571586,82.472812
+"Kosi",NP-07,27.15545,87.333866
+"Lumbini",NP-08,27.802501,83.561152
+"Mahakali",NP-09,29.386108,80.587177
+"Mechi",NP-10,27.139403,87.83413
+"Narayani",NP-11,27.314321,84.715374
+"Rapti",NP-12,28.337317,82.451027
+"Sagarmatha",NP-13,27.267533,86.653414
+"Seti",NP-14,29.232908,81.159915
+"Aiwo",NR-01,NULL,NULL
+"Anabar",NR-02,NULL,NULL
+"Anetan",NR-03,NULL,NULL
+"Anibare",NR-04,NULL,NULL
+"Baiti",NR-05,NULL,NULL
+"Boe",NR-06,NULL,NULL
+"Buada",NR-07,NULL,NULL
+"Denigomodu",NR-08,NULL,NULL
+"Ewa",NR-09,NULL,NULL
+"Ijuw",NR-10,NULL,NULL
+"Meneng",NR-11,NULL,NULL
+"Nibok",NR-12,NULL,NULL
+"Uaboe",NR-13,NULL,NULL
+"Yaren",NR-14,-0.547189,166.911617
+"Akaroa",NZ-01,-43.806031,172.966568
+"Amuri",NZ-03,-43.537445,172.518814
+"Ashburton",NZ-04,-43.902496,171.749326
+"Bay of Islands",NZ-07,-35.181293,174.199209
+"Bruce",NZ-08,-40.75173,175.604404
+"Buller",NZ-09,-41.78452,172.12283
+"Chatham Islands",NZ-10,-44.004282,-176.38372
+"Cheviot",NZ-11,-42.813045,173.273989
+"Clifton",NZ-12,-46.45028,168.367828
+"Clutha",NZ-13,-41.248878,174.788564
+"Cook",NZ-14,-41.301431,174.77384
+"Dannevirke",NZ-16,-40.207508,176.104084
+"Egmont",NZ-17,-39.266982,174.059744
+"Eketahuna",NZ-18,-40.645019,175.703102
+"Ellesmere",NZ-19,-43.663895,172.356444
+"Eltham",NZ-20,-39.429715,174.299222
+"Eyre",NZ-21,-43.379619,172.369483
+"Featherston",NZ-22,-41.117026,175.322651
+"Franklin",NZ-24,-36.851153,174.749257
+"Golden Bay",NZ-26,-40.686377,172.687033
+"Great Barrier Island",NZ-27,-36.199793,175.428669
+"Grey",NZ-28,-36.860581,174.734626
+"Hauraki Plains",NZ-29,-37.337252,175.454916
+"Hawera",NZ-30,-39.593354,174.278291
+"Hawke's Bay",NZ-31,-39.505076,177.030104
+"Heathcote",NZ-32,-43.577533,172.707428
+"Hikurangi",NZ-D9,-35.598386,174.286615
+"Hobson",NZ-33,-36.849814,174.760834
+"Hokianga",NZ-34,-35.935355,173.861988
+"Horowhenua",NZ-35,-40.607551,175.253554
+"Hurunui",NZ-D4,-42.880287,172.7509
+"Hutt",NZ-36,-43.524026,171.62063
+"Inangahua",NZ-37,-41.859783,171.949586
+"Inglewood",NZ-38,-39.155985,174.20723
+"Kaikoura",NZ-39,-42.402306,173.680563
+"Kairanga",NZ-40,-40.348207,175.531938
+"Kiwitea",NZ-41,-40.108114,175.721985
+"Lake",NZ-43,-46.013211,170.080408
+"Mackenzie",NZ-45,-44.257969,170.094554
+"Malvern",NZ-46,-45.846128,170.506364
+"Manaia",NZ-E1,-39.550919,174.124862
+"Manawatu",NZ-47,-39.504299,175.645004
+"Mangonui",NZ-48,-34.992104,173.531193
+"Maniototo",NZ-49,-45.1975,170.028363
+"Marlborough",NZ-50,-41.688202,173.516998
+"Masterton",NZ-51,-40.948949,175.660764
+"Matamata",NZ-52,-37.809565,175.773252
+"Mount Herbert",NZ-53,-43.689447,172.741565
+"Ohinemuri",NZ-54,-37.371702,175.675373
+"Opotiki",NZ-55,-38.004206,177.287115
+"Oroua",NZ-56,-40.332362,175.411409
+"Otamatea",NZ-57,-39.906905,175.021554
+"Otorohanga",NZ-58,-38.184058,175.212606
+"Oxford",NZ-59,-43.299089,172.184525
+"Pahiatua",NZ-60,-40.453381,175.840662
+"Paparua",NZ-61,-43.518313,172.448371
+"Patea",NZ-63,-39.757187,174.47666
+"Piako",NZ-65,-37.678821,175.394655
+"Pohangina",NZ-66,-40.172709,175.793708
+"Raglan",NZ-67,-37.802571,174.872606
+"Rangiora",NZ-68,-43.304038,172.59056
+"Rangitikei",NZ-69,-40.345488,175.602947
+"Rodney",NZ-70,-42.527041,172.703428
+"Rotorua",NZ-71,-38.139826,176.247073
+"Runanga",NZ-E2,-42.400668,171.251443
+"Saint Kilda",NZ-E3,-45.904729,170.503053
+"Silverpeaks",NZ-D5,-45.728374,170.463893
+"Southland",NZ-72,-45.465301,167.925995
+"Stewart Island",NZ-73,-47,167.866667
+"Stratford",NZ-74,-39.337746,174.284045
+"Strathallan",NZ-D6,-45.888365,170.50409
+"Taranaki",NZ-76,-39.300201,174.371994
+"Taumarunui",NZ-77,-38.883033,175.262876
+"Taupo",NZ-78,-38.686594,176.069694
+"Tauranga",NZ-79,NULL,NULL
+"Thames-Coromandel",NZ-E4,-36.959957,175.613249
+"Tuapeka",NZ-81,-45.936123,169.551691
+"Vincent",NZ-82,-36.900084,174.922168
+"Waiapu",NZ-83,-38.00997,178.272191
+"Waiheke",NZ-D8,-36.79504,175.097165
+"Waihemo",NZ-84,-45.324555,170.569918
+"Waikato",NZ-85,-40.621122,172.678871
+"Waikohu",NZ-86,-38.391125,177.719561
+"Waimairi",NZ-88,-43.480428,172.719679
+"Waimarino",NZ-89,-37.044409,174.870204
+"Waimate",NZ-90,-44.734039,171.046498
+"Waimate West",NZ-91,-35.273059,173.901139
+"Waimea",NZ-92,-45.872306,168.683312
+"Waipa",NZ-93,-38.450698,175.394441
+"Waipawa",NZ-95,-39.942547,176.588587
+"Waipukurau",NZ-96,-39.995673,176.556677
+"Wairarapa South",NZ-97,NULL,NULL
+"Wairewa",NZ-98,-43.769883,172.795367
+"Wairoa",NZ-99,-39.039527,177.42539
+"Waitaki",NZ-A4,-44.937925,171.09713
+"Waitomo",NZ-A6,-38.260916,175.112533
+"Waitotara",NZ-A8,-39.80589,174.734355
+"Wallace",NZ-E6,-36.95069,174.776967
+"Wanganui",NZ-B2,-39.930326,175.047663
+"Waverley",NZ-E5,-39.761033,174.629861
+"Westland",NZ-B3,-45.902388,170.424167
+"Whakatane",NZ-B4,-37.958434,176.985889
+"Whangarei",NZ-A1,-35.72287,174.322685
+"Whangaroa",NZ-A2,-35.052229,173.741948
+"Woodville",NZ-A3,-40.337094,175.866697
+"Ad Dakhiliyah",OM-01,NULL,NULL
+"Al Batinah",OM-02,NULL,NULL
+"Al Wusta",OM-03,NULL,NULL
+"Ash Sharqiyah",OM-04,NULL,NULL
+"Az Zahirah",OM-05,NULL,NULL
+"Masqat",OM-06,NULL,NULL
+"Musandam",OM-07,NULL,NULL
+"Zufar",OM-08,NULL,NULL
+"Bocas del Toro",PA-01,NULL,NULL
+"Chiriqui",PA-02,NULL,NULL
+"Cocle",PA-03,NULL,NULL
+"Colon",PA-04,NULL,NULL
+"Darien",PA-05,NULL,NULL
+"Herrera",PA-06,7.855381,-80.677398
+"Los Santos",PA-07,NULL,NULL
+"Panama",PA-08,NULL,NULL
+"San Blas",PA-09,NULL,NULL
+"Veraguas",PA-10,NULL,NULL
+"Amazonas",PE-01,NULL,NULL
+"Ancash",PE-02,NULL,NULL
+"Apurimac",PE-03,NULL,NULL
+"Arequipa",PE-04,NULL,NULL
+"Ayacucho",PE-05,NULL,NULL
+"Cajamarca",PE-06,NULL,NULL
+"Callao",PE-07,NULL,NULL
+"Cusco",PE-08,NULL,NULL
+"Huancavelica",PE-09,NULL,NULL
+"Huanuco",PE-10,NULL,NULL
+"Ica",PE-11,NULL,NULL
+"Junin",PE-12,NULL,NULL
+"La Libertad",PE-13,NULL,NULL
+"Lambayeque",PE-14,NULL,NULL
+"Lima",PE-15,NULL,NULL
+"Loreto",PE-16,NULL,NULL
+"Madre de Dios",PE-17,NULL,NULL
+"Moquegua",PE-18,NULL,NULL
+"Pasco",PE-19,NULL,NULL
+"Piura",PE-20,NULL,NULL
+"Puno",PE-21,NULL,NULL
+"San Martin",PE-22,NULL,NULL
+"Tacna",PE-23,NULL,NULL
+"Tumbes",PE-24,NULL,NULL
+"Ucayali",PE-25,NULL,NULL
+"Central",PG-01,-9.078217,148.097753
+"Chimbu",PG-08,-6.30067,144.67245
+"East New Britain",PG-10,-5.069804,151.587379
+"East Sepik",PG-11,-4.156437,143.123997
+"Eastern Highlands",PG-09,-6.512004,145.650747
+"Enga",PG-19,-5.467761,143.567908
+"Gulf",PG-02,-7.65354,144.92883
+"Madang",PG-12,-4.991999,145.673834
+"Manus",PG-13,-1.728484,145.514313
+"Milne Bay",PG-03,NULL,NULL
+"Morobe",PG-14,NULL,NULL
+"National Capital",PG-20,NULL,NULL
+"New Ireland",PG-15,-3.086389,151.620537
+"North Solomons",PG-07,NULL,NULL
+"Northern",PG-04,-8.951506,148.271852
+"Sandaun",PG-18,-3.997003,142.091103
+"Southern Highlands",PG-05,-5.842113,143.491669
+"West New Britain",PG-17,-5.430028,150.076101
+"Western",PG-06,-7.091743,142.383453
+"Western Highlands",PG-16,-5.645085,144.616932
+"Abra",PH-01,NULL,NULL
+"Agusan del Norte",PH-02,NULL,NULL
+"Agusan del Sur",PH-03,NULL,NULL
+"Aklan",PH-04,NULL,NULL
+"Albay",PH-05,NULL,NULL
+"Angeles",PH-A1,NULL,NULL
+"Antique",PH-06,NULL,NULL
+"Aurora",PH-G8,NULL,NULL
+"Bacolod",PH-A2,NULL,NULL
+"Bago",PH-A3,NULL,NULL
+"Baguio",PH-A4,NULL,NULL
+"Bais",PH-A5,9.595244,123.122299
+"Basilan",PH-22,NULL,NULL
+"Basilan City",PH-A6,NULL,NULL
+"Bataan",PH-07,NULL,NULL
+"Batanes",PH-08,NULL,NULL
+"Batangas",PH-09,NULL,NULL
+"Batangas City",PH-A7,NULL,NULL
+"Benguet",PH-10,NULL,NULL
+"Bohol",PH-11,NULL,NULL
+"Bukidnon",PH-12,NULL,NULL
+"Bulacan",PH-13,NULL,NULL
+"Butuan",PH-A8,NULL,NULL
+"Cabanatuan",PH-A9,NULL,NULL
+"Cadiz",PH-B1,NULL,NULL
+"Cagayan",PH-14,NULL,NULL
+"Cagayan de Oro",PH-B2,NULL,NULL
+"Calbayog",PH-B3,NULL,NULL
+"Caloocan",PH-B4,NULL,NULL
+"Camarines Norte",PH-15,NULL,NULL
+"Camarines Sur",PH-16,NULL,NULL
+"Camiguin",PH-17,NULL,NULL
+"Canlaon",PH-B5,NULL,NULL
+"Capiz",PH-18,NULL,NULL
+"Catanduanes",PH-19,NULL,NULL
+"Cavite",PH-20,NULL,NULL
+"Cavite City",PH-B6,NULL,NULL
+"Cebu",PH-21,NULL,NULL
+"Cebu City",PH-B7,NULL,NULL
+"Cotabato",PH-B8,NULL,NULL
+"Dagupan",PH-B9,16.0382,120.337196
+"Danao",PH-C1,NULL,NULL
+"Dapitan",PH-C2,8.657005,123.432198
+"Davao",PH-24,NULL,NULL
+"Davao City",PH-C3,NULL,NULL
+"Davao del Sur",PH-25,NULL,NULL
+"Davao Oriental",PH-26,NULL,NULL
+"Dipolog",PH-C4,NULL,NULL
+"Dumaguete",PH-C5,NULL,NULL
+"Eastern Samar",PH-23,NULL,NULL
+"General Santos",PH-C6,NULL,NULL
+"Gingoog",PH-C7,NULL,NULL
+"Ifugao",PH-27,NULL,NULL
+"Iligan",PH-C8,NULL,NULL
+"Ilocos Norte",PH-28,NULL,NULL
+"Ilocos Sur",PH-29,NULL,NULL
+"Iloilo",PH-30,NULL,NULL
+"Iloilo City",PH-C9,NULL,NULL
+"Iriga",PH-D1,NULL,NULL
+"Isabela",PH-31,NULL,NULL
+"Kalinga-Apayao",PH-32,NULL,NULL
+"La Carlota",PH-D2,NULL,NULL
+"La Union",PH-36,NULL,NULL
+"Laguna",PH-33,NULL,NULL
+"Lanao del Norte",PH-34,NULL,NULL
+"Lanao del Sur",PH-35,NULL,NULL
+"Laoag",PH-D3,NULL,NULL
+"Lapu-Lapu",PH-D4,NULL,NULL
+"Legaspi",PH-D5,NULL,NULL
+"Leyte",PH-37,NULL,NULL
+"Lipa",PH-D6,NULL,NULL
+"Lucena",PH-D7,NULL,NULL
+"Maguindanao",PH-56,NULL,NULL
+"Mandaue",PH-D8,NULL,NULL
+"Manila",PH-D9,NULL,NULL
+"Marawi",PH-E1,NULL,NULL
+"Marinduque",PH-38,NULL,NULL
+"Masbate",PH-39,NULL,NULL
+"Mindoro Occidental",PH-40,NULL,NULL
+"Mindoro Oriental",PH-41,NULL,NULL
+"Misamis Occidental",PH-42,NULL,NULL
+"Misamis Oriental",PH-43,NULL,NULL
+"Mountain",PH-44,NULL,NULL
+"Naga",PH-E2,NULL,NULL
+"Negros Occidental",PH-H3,NULL,NULL
+"Negros Oriental",PH-46,NULL,NULL
+"North Cotabato",PH-57,NULL,NULL
+"Northern Samar",PH-67,NULL,NULL
+"Nueva Ecija",PH-47,NULL,NULL
+"Nueva Vizcaya",PH-48,NULL,NULL
+"Olongapo",PH-E3,NULL,NULL
+"Ormoc",PH-E4,NULL,NULL
+"Oroquieta",PH-E5,NULL,NULL
+"Ozamis",PH-E6,NULL,NULL
+"Pagadian",PH-E7,7.829801,123.437103
+"Palawan",PH-49,NULL,NULL
+"Palayan",PH-E8,NULL,NULL
+"Pampanga",PH-50,NULL,NULL
+"Pangasinan",PH-51,NULL,NULL
+"Pasay",PH-E9,NULL,NULL
+"Puerto Princesa",PH-F1,NULL,NULL
+"Quezon",PH-H2,NULL,NULL
+"Quezon City",PH-F2,NULL,NULL
+"Quirino",PH-68,NULL,NULL
+"Rizal",PH-53,NULL,NULL
+"Romblon",PH-54,NULL,NULL
+"Roxas",PH-F3,NULL,NULL
+"Samar",PH-55,NULL,NULL
+"San Carlos",PH-F4,NULL,NULL
+"San Jose",PH-F6,10.75484,121.944298
+"San Pablo",PH-F7,NULL,NULL
+"Silay",PH-F8,NULL,NULL
+"Siquijor",PH-69,NULL,NULL
+"Sorsogon",PH-58,NULL,NULL
+"South Cotabato",PH-70,NULL,NULL
+"Southern Leyte",PH-59,NULL,NULL
+"Sultan Kudarat",PH-71,NULL,NULL
+"Sulu",PH-60,NULL,NULL
+"Surigao",PH-F9,NULL,NULL
+"Surigao del Norte",PH-61,NULL,NULL
+"Surigao del Sur",PH-62,NULL,NULL
+"Tacloban",PH-G1,NULL,NULL
+"Tagaytay",PH-G2,NULL,NULL
+"Tagbilaran",PH-G3,NULL,NULL
+"Tangub",PH-G4,8.064722,123.750198
+"Tarlac",PH-63,NULL,NULL
+"Tawitawi",PH-72,NULL,NULL
+"Toledo",PH-G5,NULL,NULL
+"Trece Martires",PH-G6,NULL,NULL
+"Zambales",PH-64,NULL,NULL
+"Zamboanga",PH-G7,NULL,NULL
+"Zamboanga del Norte",PH-65,NULL,NULL
+"Zamboanga del Sur",PH-66,NULL,NULL
+"Azad Kashmir",PK-06,NULL,NULL
+"Balochistan",PK-02,NULL,NULL
+"Federally Administered Tribal Areas",PK-01,33.025469,70.551628

@@ -1,0 +1,1001 @@
+iso_code,name
+MH-100,Erikub Atoll
+MH-120,Jaluit Atoll
+MH-150,Kwajalein Atoll
+MH-160,Lae Atoll
+MH-180,Likiep Atoll
+MH-190,Majuro Atoll
+MH-300,Maloelap Atoll
+MH-320,Mili Atoll
+MH-330,Namdrik Atoll
+MH-340,Namu Atoll
+MH-350,Rongelap Atoll
+MH-360,Rongrik Atoll
+MH-385,Taka Atoll
+MH-073,Bokak Atoll
+MH-390,Ujae Atoll
+MH-400,Ujelang
+MH-410,Utrik Atoll
+MH-420,Wotho Atoll
+MH-430,Wotje Atoll
+MH-110,Jabat Island
+MH-130,Jemo Island
+MH-140,Kili Island
+MH-170,Lib Island
+MH-310,Mejit Island
+MK-E9,Valandovo
+MK-86,Resen
+MK-51,Kratovo
+MK-78,Pehcevo
+MK-72,Novo Selo
+MK-11,Bosilovo
+MK-A9,Vasilevo
+MK-E5,Dojran
+MK-08,Bogdanci
+MK-47,Konce
+MK-62,Makedonska Kamenica
+MK-C6,Zrnovci
+MK-40,Karbinci
+MK-25,Demir Kapija
+MK-87,Rosoman
+MK-35,Gradsko
+MK-60,Lozovo
+MK-19,Cesinovo-Oblesevo
+MK-E1,Novaci
+MK-04,Berovo
+MK-06,Bitola
+MK-D9,Mogila
+MK-01,Aracinovo
+MK-C7,Bogovinje
+MK-12,Brvenica
+MK-C8,Cair
+MK-C9,Caska Municipality
+MK-D1,Centar
+MK-18,Centar Zupa
+MK-20,Cucer-Sandevo
+MK-D2,Debar
+MK-22,Delcevo
+MK-D3,Demir Hisar
+MK-28,Dolneni
+MK-29,Opstina Gjorce Petrov
+MK-30,Drugovo
+MK-32,Gazi Baba
+MK-33,Gevgelija
+MK-D4,Gostivar
+MK-36,Ilinden
+MK-D5,Jegunovce
+MK-41,Karpos
+MK-D6,Kavadarci
+MK-43,Kicevo
+MK-44,Kisela Voda
+MK-46,Kocani
+MK-52,Kriva Palanka
+MK-53,Krivogastani
+MK-54,Krusevo
+MK-D7,Kumanovo
+MK-59,Opstina Lipkovo
+MK-D8,Makedonski Brod
+MK-69,Negotino
+MK-E2,Ohrid
+MK-77,Oslomej
+MK-79,Petrovec
+MK-80,Plasnica
+MK-E3,Prilep
+MK-83,Probistip
+MK-84,Radovis
+MK-85,Opstina Rankovce
+MK-E4,Mavrovo and Rostusa
+MK-90,Saraj
+MK-92,Sopiste
+MK-97,Staro Nagoricane
+MK-98,Stip
+MK-E6,Struga
+MK-E7,Strumica
+MK-A2,Studenicani
+MK-A3,Suto Orizari
+MK-A4,Sveti Nikole
+MK-A5,Tearce
+MK-E8,Tetovo
+MK-F1,Veles
+MK-B3,Vevcani
+MK-B4,Vinica
+MK-B6,Vranestica
+MK-B7,Vrapciste
+MK-C1,Zajas
+MK-C2,Zelenikovo
+MK-C3,Zelino
+MK-F3,Aerodrom
+MK-F4,Butel
+MK-F5,Debarca
+MK-F6,Grad Skopje
+ML-08,Tombouctou
+ML-06,Sikasso
+ML-05,Segou
+ML-04,Mopti
+ML-07,Koulikoro
+ML-03,Kayes
+ML-09,Gao
+ML-01,Bamako
+ML-10,Kidal
+MM-12,Tanintharyi
+MM-11,Shan
+MM-10,Sagain
+MM-17,Yangon
+MM-01,Rakhine
+MM-16,Bago
+MM-13,Mon
+MM-08,Mandalay
+MM-15,Magway
+MM-06,Kayah
+MM-05,Kayin
+MM-04,Kachin
+MM-03,Ayeyarwady
+MM-02,Chin
+MM-18,Nay Pyi Taw
+MN-19,Uvs
+MN-12,Hovd
+MN-10,Govi-Altay
+MN-09,Dzabkhan
+MN-03,Bayan-Olgiy
+MN-02,Bayanhongor
+MN-20,Ulaanbaatar
+MN-18,Central Aimak
+MN-17,Suhbaatar
+MN-16,Selenge
+MN-15,OEvoerhangay
+MN-14,OEmnoegovi
+MN-13,Hovsgol
+MN-11,Hentiy
+MN-08,Middle Govi
+MN-07,East Gobi Aymag
+MN-06,East Aimak
+MN-21,Bulgan
+MN-01,Arhangay
+MN-23,Darhan Uul
+MN-24,Govi-Sumber
+MN-25,Orhon
+MP-100,Rota
+MP-110,Saipan
+MP-120,Tinian
+MP-085,Northern Islands
+MQ-MQ,Martinique
+MR-06,Trarza
+MR-11,Tiris Zemmour
+MR-09,Tagant
+MR-12,Inchiri
+MR-02,Hodh El Gharbi
+MR-01,Hodh ech Chargui
+MR-10,Guidimaka
+MR-04,Gorgol
+MR-08,Dakhlet Nouadhibou
+MR-05,Brakna
+MR-03,Assaba
+MR-07,Adrar
+MR-13,Nouakchott Ouest
+MR-14,Nouakchott Nord
+MR-15,Nouakchott Sud
+MS-03,Saint Peter
+MS-02,Saint Georges
+MS-01,Saint Anthony
+MT-01,Attard
+MT-02,Balzan
+MT-03,Il-Birgu
+MT-04,Birkirkara
+MT-05,Birzebbuga
+MT-06,Bormla
+MT-07,Dingli
+MT-08,Il-Fgura
+MT-09,Il-Furjana
+MT-10,Il-Fontana
+MT-11,Ghajnsielem
+MT-12,L-Gharb
+MT-13,Hal Gharghur
+MT-14,L-Ghasri
+MT-15,Hal Ghaxaq
+MT-16,Il-Gudja
+MT-17,Il-Gzira
+MT-18,Il-Hamrun
+MT-19,L-Iklin
+MT-20,L-Imdina
+MT-21,L-Imgarr
+MT-22,L-Imqabba
+MT-23,L-Imsida
+MT-24,L-Imtarfa
+MT-25,L-Isla
+MT-26,Il-Kalkara
+MT-27,Ta' Kercem
+MT-28,Kirkop
+MT-29,Lija
+MT-30,Luqa
+MT-31,Il-Marsa
+MT-32,Marsaskala
+MT-33,Marsaxlokk
+MT-34,Il-Mellieha
+MT-35,Il-Mosta
+MT-36,Il-Munxar
+MT-37,In-Nadur
+MT-38,In-Naxxar
+MT-39,Paola
+MT-40,Pembroke
+MT-41,Tal-Pieta
+MT-42,Il-Qala
+MT-43,Qormi
+MT-44,Il-Qrendi
+MT-45,Ir-Rabat
+MT-46,Victoria
+MT-47,Safi
+MT-48,Saint John
+MT-49,Saint Julian
+MT-50,Saint Lawrence
+MT-51,Saint Lucia
+MT-52,Saint Paul's Bay
+MT-53,Saint Venera
+MT-54,Sannat
+MT-55,Is-Siggiewi
+MT-56,Tas-Sliema
+MT-57,Is-Swieqi
+MT-58,Tarxien
+MT-59,Ta' Xbiex
+MT-61,Ix-Xaghra
+MT-62,Ix-Xewkija
+MT-63,Ix-Xghajra
+MT-64,Haz-Zabbar
+MT-65,Haz-Zebbug
+MT-66,Iz-Zebbug
+MT-67,Iz-Zejtun
+MT-68,Iz-Zurrieq
+MT-60,Il-Belt Valletta
+MU-21,Agalega Islands
+MU-20,Savanne
+MU-19,Riviere du Rempart
+MU-18,Port Louis
+MU-17,Plaines Wilhems
+MU-16,Pamplemousses
+MU-15,Moka
+MU-14,Grand Port
+MU-13,Flacq
+MU-12,Black River
+MU-22,Cargados Carajos
+MU-23,Rodrigues
+MV-47,Vaavu Atholhu
+MV-46,Thaa Atholhu
+MV-45,Shaviyani Atholhu
+MV-01,Seenu
+MV-44,Raa Atoll
+MV-43,Noonu Atoll
+MV-42,Gnyaviyani Atoll
+MV-41,Meemu Atholhu
+MV-39,Lhaviyani Atholhu
+MV-05,Laamu
+MV-38,Kaafu Atoll
+MV-37,Haa Dhaalu Atholhu
+MV-36,Haa Alifu Atholhu
+MV-35,Gaafu Dhaalu Atholhu
+MV-34,Gaafu Alifu Atholhu
+MV-33,Faafu Atholhu
+MV-32,Dhaalu Atholhu
+MV-31,Baa Atholhu
+MV-30,Northern Ari Atoll
+MV-10346475,Southern Ari Atoll
+MW-S,Southern Region
+MW-N,Northern Region
+MW-C,Central Region
+MX-31,Yucatan
+MX-30,Veracruz
+MX-29,Tlaxcala
+MX-28,Tamaulipas
+MX-27,Tabasco
+MX-23,Quintana Roo
+MX-22,Queretaro
+MX-21,Puebla
+MX-20,Oaxaca
+MX-19,Nuevo Leon
+MX-17,Morelos
+MX-15,Mexico
+MX-13,Hidalgo
+MX-12,Guerrero
+MX-09,Mexico City
+MX-05,Chiapas
+MX-04,Campeche
+MX-32,Zacatecas
+MX-26,Sonora
+MX-25,Sinaloa
+MX-24,San Luis Potosi
+MX-18,Nayarit
+MX-16,Michoacan
+MX-14,Jalisco
+MX-11,Guanajuato
+MX-10,Durango
+MX-08,Colima
+MX-07,Coahuila
+MX-06,Chihuahua
+MX-03,Baja California Sur
+MX-02,Baja California
+MX-01,Aguascalientes
+MY-04,Melaka
+MY-13,Terengganu
+MY-12,Selangor
+MY-11,Sarawak
+MY-16,Sabah
+MY-08,Perlis
+MY-07,Perak
+MY-06,Pahang
+MY-05,Negeri Sembilan
+MY-03,Kelantan
+MY-14,Kuala Lumpur
+MY-09,Penang
+MY-02,Kedah
+MY-01,Johor
+MY-15,Labuan
+MY-17,Putrajaya
+MZ-09,Zambezia
+MZ-08,Tete
+MZ-05,Sofala
+MZ-07,Niassa
+MZ-06,Nampula
+MZ-04,Maputo
+MZ-10,Manica
+MZ-03,Inhambane
+MZ-02,Gaza
+MZ-01,Cabo Delgado
+MZ-11,Maputo City
+NA-28,Zambezi
+NA-21,Khomas
+NA-29,Erongo
+NA-30,Hardap
+NA-31,Karas
+NA-32,Kunene
+NA-33,Ohangwena
+NA-35,Omaheke
+NA-36,Omusati
+NA-37,Oshana
+NA-38,Oshikoto
+NA-39,Otjozondjupa
+NA-40,Kavango East
+NA-41,Kavango West
+NC-02,South Province
+NC-01,North Province
+NC-03,Loyalty Islands
+NE-07,Zinder
+NE-06,Tahoua
+NE-04,Maradi
+NE-03,Dosso
+NE-02,Diffa
+NE-01,Agadez
+NE-09,Tillaberi
+NE-08,Niamey
+NG-51,Sokoto
+NG-50,Rivers
+NG-49,Plateau
+NG-32,Oyo
+NG-48,Ondo
+NG-16,Ogun
+NG-31,Niger
+NG-05,Lagos
+NG-30,Kwara
+NG-24,Katsina
+NG-29,Kano
+NG-23,Kaduna
+NG-28,Imo
+NG-22,Cross River
+NG-27,Borno
+NG-26,Benue
+NG-46,Bauchi
+NG-25,Anambra
+NG-21,Akwa Ibom
+NG-11,FCT
+NG-45,Abia
+NG-36,Delta
+NG-35,Adamawa
+NG-37,Edo
+NG-47,Enugu
+NG-39,Jigawa
+NG-52,Bayelsa
+NG-53,Ebonyi
+NG-54,Ekiti
+NG-55,Gombe
+NG-56,Nassarawa
+NG-57,Zamfara
+NG-40,Kebbi
+NG-41,Kogi
+NG-42,Osun
+NG-43,Taraba
+NG-44,Yobe
+NI-15,Rivas
+NI-14,Rio San Juan
+NI-13,Nueva Segovia
+NI-12,Matagalpa
+NI-11,Masaya
+NI-10,Managua
+NI-09,Madriz
+NI-08,Leon
+NI-07,Jinotega
+NI-06,Granada
+NI-05,Esteli
+NI-04,Chontales
+NI-03,Chinandega
+NI-02,Carazo
+NI-01,Boaco
+NI-17,Atlantico Norte (RAAN)
+NI-18,Atlantico Sur
+NL-11,South Holland
+NL-10,Zeeland
+NL-09,Utrecht
+NL-15,Overijssel
+NL-07,North Holland
+NL-06,North Brabant
+NL-05,Limburg
+NL-04,Groningen
+NL-03,Gelderland
+NL-02,Friesland
+NL-01,Drenthe
+NL-16,Flevoland
+NO-05,Finnmark
+NO-20,Vestfold
+NO-19,Vest-Agder
+NO-18,Troms
+NO-17,Telemark
+NO-16,Sor-Trondelag
+NO-15,Sogn og Fjordane
+NO-14,Rogaland
+NO-13,Ostfold
+NO-12,Oslo
+NO-11,Oppland
+NO-10,Nord-Trondelag
+NO-09,Nordland
+NO-08,More og Romsdal
+NO-07,Hordaland
+NO-06,Hedmark
+NO-04,Buskerud
+NO-02,Aust-Agder
+NO-01,Akershus
+NP-FR,Far Western
+NP-MR,Mid Western
+NP-CR,Central Region
+NP-ER,Eastern Region
+NP-WR,Western Region
+NP-00,Patheka
+NR-14,Yaren
+NR-13,Uaboe
+NR-12,Nibok
+NR-11,Meneng
+NR-10,Ijuw
+NR-09,Ewa
+NR-08,Denigomodu
+NR-07,Buada
+NR-06,Boe
+NR-05,Baiti
+NR-04,Anibare
+NR-03,Anetan
+NR-02,Anabar
+NR-01,Aiwo
+NZ-G2,Wellington
+NZ-F3,Manawatu-Wanganui
+NZ-G1,Waikato
+NZ-TAS,Tasman
+NZ-F9,Taranaki
+NZ-F8,Southland
+NZ-E8,Bay of Plenty
+NZ-F6,Northland
+NZ-F4,Marlborough
+NZ-F2,Hawke's Bay
+NZ-F1,Gisborne
+NZ-E9,Canterbury
+NZ-E7,Auckland
+NZ-10,Chatham Islands
+NZ-F5,Nelson
+NZ-F7,Otago
+NZ-G3,West Coast
+OM-01,Ad Dakhiliyah
+OM-02,Al Batinah South
+OM-03,Al Wusta
+OM-04,Southeastern Governorate
+OM-09,Az Zahirah
+OM-06,Muscat
+OM-07,Musandam
+OM-08,Dhofar
+OM-10,Al Buraimi
+OM-12,Northeastern Governorate
+OM-11,Al Batinah North
+PA-10,Veraguas
+PA-09,Guna Yala
+PA-08,Panama
+PA-07,Los Santos
+PA-06,Herrera
+PA-05,Darien
+PA-04,Colon
+PA-03,Cocle
+PA-02,Chiriqui
+PA-01,Bocas del Toro
+PA-11,Embera
+PA-12,Ngoebe-Bugle
+PA-13,Panama Oeste
+PE-25,Ucayali
+PE-24,Tumbes
+PE-22,San Martin
+PE-20,Piura
+PE-16,Loreto
+PE-14,Lambayeque
+PE-13,La Libertad
+PE-10,Huanuco
+PE-06,Cajamarca
+PE-02,Ancash
+PE-01,Amazonas
+PE-23,Tacna
+PE-21,Puno
+PE-19,Pasco
+PE-18,Moquegua
+PE-17,Madre de Dios
+PE-LMA,Lima
+PE-15,Lima region
+PE-12,Junin
+PE-11,Ica
+PE-09,Huancavelica
+PE-08,Cusco
+PE-07,Callao
+PE-05,Ayacucho
+PE-04,Arequipa
+PE-03,Apurimac
+PF-04,Iles Marquises
+PF-03,Iles Tuamotu-Gambier
+PF-02,Leeward Islands
+PF-01,Iles du Vent
+PF-05,Iles Australes
+PG-17,West New Britain
+PG-06,Western Province
+PG-16,Western Highlands
+PG-05,Southern Highlands
+PG-18,Sandaun
+PG-07,Bougainville
+PG-04,Northern Province
+PG-15,New Ireland
+PG-20,National Capital
+PG-14,Morobe
+PG-13,Manus
+PG-12,Madang
+PG-02,Gulf
+PG-19,Enga
+PG-11,East Sepik
+PG-10,East New Britain
+PG-09,Eastern Highlands
+PG-08,Chimbu
+PG-03,Milne Bay
+PG-01,Central Province
+PG-21,Hela
+PG-22,Jiwaka
+PH-14,ARMM
+PH-10,Northern Mindanao
+PH-41,Mimaropa
+PH-02,Cagayan Valley
+PH-12,Soccsksargen
+PH-13,Caraga
+PH-15,Cordillera
+PH-01,Ilocos
+PH-40,Calabarzon
+PH-06,Western Visayas
+PH-03,Central Luzon
+PH-07,Central Visayas
+PH-08,Eastern Visayas
+PH-09,Zamboanga Peninsula
+PH-11,Davao
+PH-05,Bicol
+PH-NCR,Metro Manila
+PH-NIR,Negros Island Region
+PK-08,Islamabad
+PK-05,Sindh
+PK-04,Punjab
+PK-03,Khyber Pakhtunkhwa
+PK-07,Gilgit-Baltistan
+PK-01,FATA
+PK-02,Balochistan
+PK-06,Azad Kashmir
+PL-75,Lublin
+PL-77,Lesser Poland Voivodeship
+PL-78,Mazovia
+PL-80,Subcarpathian Voivodeship
+PL-81,Podlasie
+PL-84,Swietokrzyskie
+PL-85,Warmia-Masuria
+PL-72,Lower Silesia
+PL-74,Lodz Voivodeship
+PL-76,Lubusz
+PL-79,Opole Voivodeship
+PL-82,Pomerania
+PL-83,Silesia
+PL-86,Greater Poland
+PL-87,West Pomerania
+PL-73,Kujawsko-Pomorskie
+PM-97502,Saint-Pierre
+PM-97501,Miquelon-Langlade
+PR-001,Adjuntas
+PR-003,Aguada
+PR-005,Aguadilla
+PR-007,Aguas Buenas
+PR-009,Aibonito
+PR-011,Anasco
+PR-013,Arecibo
+PR-015,Arroyo
+PR-017,Barceloneta
+PR-019,Barranquitas
+PR-021,Bayamon
+PR-023,Cabo Rojo
+PR-025,Caguas
+PR-027,Camuy
+PR-029,Canovanas
+PR-031,Carolina
+PR-033,Catano
+PR-035,Cayey
+PR-037,Ceiba
+PR-039,Ciales
+PR-041,Cidra
+PR-043,Coamo
+PR-045,Comerio
+PR-047,Corozal
+PR-049,Culebra
+PR-051,Dorado
+PR-053,Fajardo
+PR-054,Florida
+PR-055,Guanica
+PR-057,Guayama
+PR-059,Guayanilla
+PR-061,Guaynabo
+PR-063,Gurabo
+PR-065,Hatillo
+PR-067,Hormigueros
+PR-069,Humacao
+PR-071,Isabela
+PR-073,Municipio de Jayuya
+PR-075,Juana Diaz
+PR-077,Municipio de Juncos
+PR-079,Lajas
+PR-081,Lares
+PR-083,Las Marias
+PR-085,Las Piedras
+PR-087,Loiza
+PR-089,Luquillo
+PR-091,Manati
+PR-093,Maricao
+PR-095,Maunabo
+PR-097,Mayaguez
+PR-099,Moca
+PR-101,Morovis
+PR-103,Naguabo
+PR-105,Naranjito
+PR-107,Orocovis
+PR-109,Patillas
+PR-111,Penuelas
+PR-113,Ponce
+PR-117,Rincon
+PR-115,Quebradillas
+PR-119,Rio Grande
+PR-121,Sabana Grande
+PR-123,Salinas
+PR-125,San German
+PR-127,San Juan
+PR-129,San Lorenzo
+PR-131,San Sebastian
+PR-133,Santa Isabel Municipio
+PR-135,Toa Alta
+PR-137,Toa Baja
+PR-139,Trujillo Alto
+PR-141,Utuado
+PR-143,Vega Alta
+PR-145,Vega Baja
+PR-149,Villalba
+PR-151,Yabucoa
+PR-153,Yauco
+PR-147,Vieques
+PS-GZ,Gaza Strip
+PS-WE,West Bank
+PT-19,Setubal
+PT-18,Santarem
+PT-16,Portalegre
+PT-14,Lisbon
+PT-13,Leiria
+PT-09,Faro
+PT-08,Evora
+PT-06,Castelo Branco
+PT-03,Beja
+PT-10,Madeira
+PT-22,Viseu
+PT-21,Vila Real
+PT-20,Viana do Castelo
+PT-17,Porto
+PT-11,Guarda
+PT-07,Coimbra
+PT-05,Braganca
+PT-04,Braga
+PT-02,Aveiro
+PT-23,Azores
+PW-11,Ngatpang
+PW-16,Sonsorol
+PW-05,Kayangel
+PW-04,Hatohobei
+PW-01,Aimeliik
+PW-02,Airai
+PW-03,Angaur
+PW-06,Koror
+PW-07,Melekeok
+PW-08,Ngaraard
+PW-12,Ngchesar
+PW-09,Ngarchelong
+PW-10,Ngardmau
+PW-13,Ngaremlengui
+PW-14,Ngiwal
+PW-15,Peleliu
+PY-17,San Pedro
+PY-16,Presidente Hayes
+PY-15,Paraguari
+PY-13,Neembucu
+PY-12,Misiones
+PY-11,Itapua
+PY-10,Guaira
+PY-08,Cordillera
+PY-07,Concepcion
+PY-06,Central
+PY-19,Canindeyu
+PY-05,Caazapa
+PY-04,Caaguazu
+PY-02,Amambay
+PY-01,Alto Parana
+PY-23,Alto Paraguay
+PY-22,Asuncion
+PY-24,Boqueron
+QA-08,Madinat ash Shamal
+QA-04,Al Khawr
+QA-09,Baladiyat Umm Salal
+QA-06,Baladiyat ar Rayyan
+QA-01,Baladiyat ad Dawhah
+QA-10,Al Wakrah
+QA-13,Baladiyat az Za`ayin
+RE-RE,Reunion
+RO-40,Vrancea
+RO-39,Valcea
+RO-38,Vaslui
+RO-37,Tulcea
+RO-36,Timis
+RO-35,Teleorman
+RO-34,Suceava
+RO-33,Sibiu
+RO-32,Satu Mare
+RO-31,Salaj
+RO-30,Prahova
+RO-29,Olt
+RO-28,Neamt
+RO-27,Mures
+RO-26,Mehedinti
+RO-25,Maramures
+RO-23,Iasi
+RO-22,Ialomita
+RO-21,Hunedoara
+RO-20,Harghita
+RO-19,Gorj
+RO-42,Giurgiu
+RO-18,Galati
+RO-17,Dolj
+RO-16,Dambovita
+RO-15,Covasna
+RO-14,Constanta
+RO-13,Cluj
+RO-12,Caras-Severin
+RO-41,Calarasi
+RO-11,Buzau
+RO-10,Bucuresti
+RO-09,Brasov
+RO-08,Braila
+RO-07,Botosani
+RO-06,Bistrita-Nasaud
+RO-05,Bihor
+RO-04,Bacau
+RO-03,Arges
+RO-02,Arad
+RO-01,Alba
+RO-43,Ilfov
+RS-VO,Vojvodina
+RS-SE,Central Serbia
+RU-88,Jaroslavl
+RU-86,Voronezj
+RU-85,Vologda
+RU-84,Volgograd
+RU-81,Ulyanovsk
+RU-80,Udmurtiya
+RU-77,Tverskaya
+RU-76,Tula
+RU-73,Tatarstan
+RU-72,Tambov
+RU-70,Stavropol'skiy
+RU-69,Smolensk
+RU-67,Saratov
+RU-65,Samara
+RU-62,Rjazan
+RU-61,Rostov
+RU-60,Pskov
+RU-90,Perm
+RU-57,Penza
+RU-56,Orjol
+RU-55,Orenburg
+RU-52,Novgorod
+RU-68,North Ossetia
+RU-50,Nenets
+RU-49,Murmansk
+RU-48,Moscow
+RU-47,Moscow Oblast
+RU-46,Mordoviya
+RU-45,Mariy-El
+RU-43,Lipetsk
+RU-42,Leningradskaya Oblast'
+RU-66,St.-Petersburg
+RU-41,Kursk
+RU-38,Krasnodarskiy
+RU-37,Kostroma
+RU-34,Komi
+RU-33,Kirov
+RU-28,Karelia
+RU-27,Karachayevo-Cherkesiya
+RU-25,Kaluga
+RU-24,Kalmykiya
+RU-23,Kaliningrad
+RU-22,Kabardino-Balkariya
+RU-21,Ivanovo
+RU-19,Ingushetiya
+RU-51,Nizjnij Novgorod
+RU-17,Dagestan
+RU-16,Chuvashia
+RU-12,Chechnya
+RU-10,Brjansk
+RU-09,Belgorod
+RU-08,Bashkortostan
+RU-07,Astrakhan
+RU-06,Arkhangelskaya
+RU-01,Adygeya
+RU-83,Vladimir
+RU-87,Yamalo-Nenets
+RU-78,Tyumenskaya
+RU-79,Republic of Tyva
+RU-75,Tomsk
+RU-71,Sverdlovsk
+RU-54,Omsk
+RU-53,Novosibirsk
+RU-40,Kurgan
+RU-91,Krasnoyarskiy
+RU-32,Khanty-Mansia
+RU-31,Khakasiya
+RU-29,Kemerovo
+RU-03,Altai
+RU-13,Chelyabinsk
+RU-04,Altai Krai
+RU-63,Chukot
+RU-59,Primorskiy
+RU-30,Khabarovsk
+RU-20,Irkutsk
+RU-89,Jewish Autonomous Oblast
+RU-05,Amur
+RU-11,Respublika Buryatiya
+RU-64,Sakhalin
+RU-44,Magadan
+RU-92,Kamtsjatka
+RU-15,Chukotka
+RU-93,Transbaikal Territory
+RW-11,Eastern Province
+RW-12,Kigali
+RW-13,Northern Province
+RW-14,Western Province
+RW-15,Southern Province
+SA-19,Tabuk
+SA-16,Najran
+SA-14,Makkah
+SA-17,Jizan
+SA-13,Hai'l Region
+SA-11,'Asir
+SA-06,Eastern Province
+SA-10,Ar Riyad
+SA-08,Al-Qassim
+SA-05,Al Madinah al Munawwarah
+SA-20,Al Jawf
+SA-15,Northern Borders
+SA-02,Al Bahah
+SB-11,Western Province
+SB-03,Malaita
+SB-07,Isabel
+SB-06,Guadalcanal
+SB-10,Central Province
+SB-09,Temotu
+SB-08,Makira
+SB-12,Choiseul
+SB-13,Rennell and Bellona
+SB-14,Honiara
+SC-23,Takamaka
+SC-22,Saint Louis
+SC-27,Port Glaud
+SC-20,Pointe Larue
+SC-19,Plaisance
+SC-18,Mont Fleuri
+SC-17,Mont Buxton
+SC-26,English River
+SC-25,Inner Islands
+SC-24,Grand Anse Mahe
+SC-14,Grand Anse Praslin
+SC-12,Glacis
+SC-11,Cascade
+SC-10,Bel Ombre
+SC-09,Bel Air
+SC-08,Beau Vallon
+SC-07,Baie Sainte Anne
+SC-06,Baie Lazare
+SC-05,Anse Royale
+SC-03,Anse Etoile
+SC-02,Anse Boileau
+SC-01,Anse-aux-Pins
+SC-29,Les Mamelles
+SC-30,Roche Caiman
+SC-28,Au Cap
+SD-43,Northern State
+SD-29,Khartoum
+SD-36,Red Sea
+SD-38,Al Jazirah
+SD-39,Al Qadarif
+SD-41,White Nile
+SD-42,Blue Nile
+SD-47,Western Darfur
+SD-62,West Kordofan State
+SD-49,Southern Darfur
+SD-50,Southern Kordofan
+SD-52,Kassala
+SD-53,River Nile
+SD-55,Northern Darfur
+SD-56,North Kordofan
+SD-58,Sinnar
+SD-60,Eastern Darfur
+SD-61,Central Darfur
+SE-14,Norrbotten
+SE-25,Vaestmanland
+SE-24,Vaesternorrland
+SE-23,Vaesterbotten
+SE-22,Vaermland
+SE-21,Uppsala
+SE-26,Stockholm
+SE-18,Soedermanland
+SE-16,OEstergoetland
+SE-15,OErebro
+SE-12,Kronoberg
+SE-10,Dalarna
+SE-09,Kalmar
+SE-08,Joenkoeping
+SE-07,Jaemtland
+SE-06,Halland
+SE-05,Gotland
+SE-03,Gaevleborg
+SE-02,Blekinge
+SE-27,Skane
+SE-28,Vaestra Goetaland
+SG-01,Central Singapore
+SG-02,North East
+SG-04,South East
+SG-05,South West
+SG-03,North West
+SH-01,Ascension
+SH-03,Tristan da Cunha
+SH-02,Saint Helena
+SI-N5,Zalec
+SI-E7,Zagorje ob Savi
+SI-E5,Vrhnika
+SI-D5,Trzic
+SI-D4,Trebnje
+SI-D3,Trbovlje
+SI-D2,Tolmin
+SI-D7,Velenje
+SI-C5,Smarje pri Jelsah
+SI-C4,Slovenska Konjice
+SI-L8,Slovenska Bistrica
+SI-C2,Slovenj Gradec
+SI-B9,Skofja Loka
+SI-B7,Sezana
+SI-B6,Sevnica
+SI-L7,Sentjur
+SI-L1,Ribnica
+SI-A3,Radovljica
+SI-A2,Radlje ob Dravi
+SI-K7,Ptuj
+SI-94,Postojna
+SI-J9,Piran-Pirano
+SI-87,Ormoz
