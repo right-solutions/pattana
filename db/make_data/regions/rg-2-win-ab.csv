@@ -1,0 +1,1001 @@
+name,iso_code,latitude,longitude
+"Kafr ash Shaykh",EG-21,NULL,NULL
+"Matruh",EG-22,NULL,NULL
+"Qina",EG-23,NULL,NULL
+"Shamal Sina'",EG-27,30.3877,33.815547
+"Suhaj",EG-24,NULL,NULL
+"Andalucia",ES-51,NULL,NULL
+"Aragon",ES-52,NULL,NULL
+"Asturias",ES-34,NULL,NULL
+"Canarias",ES-53,NULL,NULL
+"Cantabria",ES-39,NULL,NULL
+"Castilla y Leon",ES-55,NULL,NULL
+"Castilla-La Mancha",ES-54,NULL,NULL
+"Catalonia",ES-56,NULL,NULL
+"Comunidad Valenciana",ES-60,NULL,NULL
+"Extremadura",ES-57,NULL,NULL
+"Galicia",ES-58,NULL,NULL
+"Islas Baleares",ES-07,NULL,NULL
+"La Rioja",ES-27,NULL,NULL
+"Madrid",ES-29,NULL,NULL
+"Murcia",ES-31,NULL,NULL
+"Navarra",ES-32,NULL,NULL
+"Pais Vasco",ES-59,NULL,NULL
+"Addis Abeba",ET-10,NULL,NULL
+"Adis Abeba",ET-44,9.022736,38.746799
+"Afar",ET-14,NULL,NULL
+"Amara",ET-46,8.8,34.733333
+"Amhara",ET-02,NULL,NULL
+"Benishangul",ET-13,NULL,NULL
+"Binshangul Gumuz",ET-47,NULL,NULL
+"Dire Dawa",ET-48,9.589229,41.87019
+"Gambela Hizboch",ET-49,NULL,NULL
+"Gambella",ET-08,8.128333,34.562778
+"Hareri Hizb",ET-50,NULL,NULL
+"Oromiya",ET-51,NULL,NULL
+"Somali",ET-07,NULL,NULL
+"Southern",ET-11,NULL,NULL
+"Sumale",ET-52,NULL,NULL
+"Tigray",ET-12,13.666667,39.683333
+"YeDebub Biheroch Bihereseboch na Hizboch",ET-54,NULL,NULL
+"Eastern Finland",FI-14,NULL,NULL
+"Lapland",FI-06,NULL,NULL
+"Oulu",FI-08,NULL,NULL
+"Southern Finland",FI-13,NULL,NULL
+"Western Finland",FI-15,NULL,NULL
+"Central",FJ-01,NULL,NULL
+"Eastern",FJ-02,NULL,NULL
+"Northern",FJ-03,NULL,NULL
+"Rotuma",FJ-04,-12.5,177.083333
+"Western",FJ-05,NULL,NULL
+"Chuuk",FM-03,NULL,NULL
+"Kosrae",FM-01,NULL,NULL
+"Pohnpei",FM-02,NULL,NULL
+"Yap",FM-04,NULL,NULL
+"Alsace",FR-C1,NULL,NULL
+"Aquitaine",FR-97,NULL,NULL
+"Auvergne",FR-98,NULL,NULL
+"Basse-Normandie",FR-99,NULL,NULL
+"Bourgogne",FR-A1,NULL,NULL
+"Bretagne",FR-A2,NULL,NULL
+"Centre",FR-A3,NULL,NULL
+"Champagne-Ardenne",FR-A4,NULL,NULL
+"Corse",FR-A5,NULL,NULL
+"Franche-Comte",FR-A6,NULL,NULL
+"Haute-Normandie",FR-A7,NULL,NULL
+"Ile-de-France",FR-A8,NULL,NULL
+"Languedoc-Roussillon",FR-A9,NULL,NULL
+"Limousin",FR-B1,NULL,NULL
+"Lorraine",FR-B2,NULL,NULL
+"Midi-Pyrenees",FR-B3,NULL,NULL
+"Nord-Pas-de-Calais",FR-B4,NULL,NULL
+"Pays de la Loire",FR-B5,NULL,NULL
+"Picardie",FR-B6,NULL,NULL
+"Poitou-Charentes",FR-B7,NULL,NULL
+"Provence-Alpes-Cote d'Azur",FR-B8,NULL,NULL
+"Rhone-Alpes",FR-B9,NULL,NULL
+"Estuaire",GA-01,NULL,NULL
+"Haut-Ogooue",GA-02,-1.158333,13.625
+"Moyen-Ogooue",GA-03,-0.460345,10.518148
+"Ngounie",GA-04,-1.801056,11.246085
+"Nyanga",GA-05,-3.083334,10.889559
+"Ogooue-Ivindo",GA-06,0.341953,12.857685
+"Ogooue-Lolo",GA-07,-0.937319,12.60437
+"Ogooue-Maritime",GA-08,NULL,NULL
+"Woleu-Ntem",GA-09,1.258931,11.825
+"Aberdeen City",GB-T5,NULL,NULL
+"Aberdeenshire",GB-T6,NULL,NULL
+"Angus",GB-T7,NULL,NULL
+"Antrim",GB-Q6,NULL,NULL
+"Ards",GB-Q7,NULL,NULL
+"Argyll and Bute",GB-T8,NULL,NULL
+"Armagh",GB-Q8,NULL,NULL
+"Avon",GB-01,51.414792,-2.601525
+"Ballymena",GB-Q9,NULL,NULL
+"Ballymoney",GB-R1,NULL,NULL
+"Banbridge",GB-R2,NULL,NULL
+"Barking and Dagenham",GB-A1,NULL,NULL
+"Barnet",GB-A2,NULL,NULL
+"Barnsley",GB-A3,NULL,NULL
+"Bath and North East Somerset",GB-A4,NULL,NULL
+"Bedfordshire",GB-A5,NULL,NULL
+"Belfast",GB-R3,NULL,NULL
+"Berkshire",GB-03,NULL,NULL
+"Bexley",GB-A6,NULL,NULL
+"Birmingham",GB-A7,NULL,NULL
+"Blackburn with Darwen",GB-A8,NULL,NULL
+"Blackpool",GB-A9,NULL,NULL
+"Blaenau Gwent",GB-X2,NULL,NULL
+"Bolton",GB-B1,NULL,NULL
+"Bournemouth",GB-B2,NULL,NULL
+"Bracknell Forest",GB-B3,NULL,NULL
+"Bradford",GB-B4,NULL,NULL
+"Brent",GB-B5,NULL,NULL
+"Bridgend",GB-X3,NULL,NULL
+"Brighton and Hove",GB-B6,NULL,NULL
+"Bristol, City of",GB-B7,NULL,NULL
+"Bromley",GB-B8,NULL,NULL
+"Buckinghamshire",GB-B9,NULL,NULL
+"Bury",GB-C1,NULL,NULL
+"Caerphilly",GB-X4,NULL,NULL
+"Calderdale",GB-C2,NULL,NULL
+"Cambridgeshire",GB-C3,NULL,NULL
+"Camden",GB-C4,NULL,NULL
+"Cardiff",GB-X5,NULL,NULL
+"Carmarthenshire",GB-X7,NULL,NULL
+"Carrickfergus",GB-R4,NULL,NULL
+"Castlereagh",GB-R5,NULL,NULL
+"Central",GB-79,54.96932,-1.615655
+"Ceredigion",GB-X6,NULL,NULL
+"Cheshire",GB-C5,NULL,NULL
+"Clackmannanshire",GB-U1,NULL,NULL
+"Cleveland",GB-07,54.525579,-1.189651
+"Clwyd",GB-90,NULL,NULL
+"Coleraine",GB-R6,NULL,NULL
+"Conwy",GB-X8,NULL,NULL
+"Cookstown",GB-R7,NULL,NULL
+"Cornwall",GB-C6,NULL,NULL
+"Coventry",GB-C7,NULL,NULL
+"Craigavon",GB-R8,NULL,NULL
+"Croydon",GB-C8,NULL,NULL
+"Cumbria",GB-C9,NULL,NULL
+"Darlington",GB-D1,NULL,NULL
+"Denbighshire",GB-X9,NULL,NULL
+"Derby",GB-D2,NULL,NULL
+"Derbyshire",GB-D3,NULL,NULL
+"Derry",GB-S6,NULL,NULL
+"Devon",GB-D4,NULL,NULL
+"Doncaster",GB-D5,NULL,NULL
+"Dorset",GB-D6,NULL,NULL
+"Down",GB-R9,NULL,NULL
+"Dudley",GB-D7,NULL,NULL
+"Dumfries and Galloway",GB-U2,NULL,NULL
+"Dundee City",GB-U3,NULL,NULL
+"Dungannon",GB-S1,NULL,NULL
+"Durham",GB-D8,NULL,NULL
+"Dyfed",GB-91,52.129642,-4.357746
+"Ealing",GB-D9,NULL,NULL
+"East Ayrshire",GB-U4,NULL,NULL
+"East Dunbartonshire",GB-U5,NULL,NULL
+"East Lothian",GB-U6,NULL,NULL
+"East Renfrewshire",GB-U7,NULL,NULL
+"East Riding of Yorkshire",GB-E1,NULL,NULL
+"East Sussex",GB-E2,NULL,NULL
+"Edinburgh, City of",GB-U8,NULL,NULL
+"Eilean Siar",GB-W8,NULL,NULL
+"Enfield",GB-E3,NULL,NULL
+"Essex",GB-E4,NULL,NULL
+"Falkirk",GB-U9,NULL,NULL
+"Fermanagh",GB-S2,NULL,NULL
+"Fife",GB-V1,NULL,NULL
+"Flintshire",GB-Y1,NULL,NULL
+"Gateshead",GB-E5,NULL,NULL
+"Glasgow City",GB-V2,NULL,NULL
+"Gloucestershire",GB-E6,NULL,NULL
+"Grampian",GB-82,52.87985,-1.495505
+"Greater London",GB-17,NULL,NULL
+"Greater Manchester",GB-18,53.442362,-2.23348
+"Greenwich",GB-E7,NULL,NULL
+"Gwent",GB-92,51.774147,-3.006797
+"Gwynedd",GB-Y2,NULL,NULL
+"Hackney",GB-E8,NULL,NULL
+"Halton",GB-E9,NULL,NULL
+"Hammersmith and Fulham",GB-F1,NULL,NULL
+"Hampshire",GB-F2,NULL,NULL
+"Haringey",GB-F3,NULL,NULL
+"Harrow",GB-F4,NULL,NULL
+"Hartlepool",GB-F5,NULL,NULL
+"Havering",GB-F6,NULL,NULL
+"Hereford and Worcester",GB-20,52.134277,-2.450174
+"Herefordshire",GB-F7,NULL,NULL
+"Hertford",GB-F8,NULL,NULL
+"Highland",GB-V3,NULL,NULL
+"Hillingdon",GB-F9,NULL,NULL
+"Hounslow",GB-G1,NULL,NULL
+"Humberside",GB-22,53.583093,-0.349013
+"Inverclyde",GB-V4,NULL,NULL
+"Isle of Anglesey",GB-X1,NULL,NULL
+"Isle of Wight",GB-G2,NULL,NULL
+"Islington",GB-G3,NULL,NULL
+"Kensington and Chelsea",GB-G4,NULL,NULL
+"Kent",GB-G5,NULL,NULL
+"Kingston upon Hull, City of",GB-G6,NULL,NULL
+"Kingston upon Thames",GB-G7,NULL,NULL
+"Kirklees",GB-G8,NULL,NULL
+"Knowsley",GB-G9,NULL,NULL
+"Lambeth",GB-H1,NULL,NULL
+"Lancashire",GB-H2,NULL,NULL
+"Larne",GB-S3,NULL,NULL
+"Leeds",GB-H3,NULL,NULL
+"Leicester",GB-H4,NULL,NULL
+"Leicestershire",GB-H5,NULL,NULL
+"Lewisham",GB-H6,NULL,NULL
+"Limavady",GB-S4,NULL,NULL
+"Lincolnshire",GB-H7,NULL,NULL
+"Lisburn",GB-S5,NULL,NULL
+"Liverpool",GB-H8,NULL,NULL
+"London, City of",GB-H9,NULL,NULL
+"Lothian",GB-84,55.886686,-3.608939
+"Luton",GB-I1,NULL,NULL
+"Magherafelt",GB-S7,NULL,NULL
+"Manchester",GB-I2,NULL,NULL
+"Medway",GB-I3,NULL,NULL
+"Merseyside",GB-28,NULL,NULL
+"Merthyr Tydfil",GB-Y3,NULL,NULL
+"Merton",GB-I4,NULL,NULL
+"Mid Glamorgan",GB-94,51.65536,-3.400905
+"Middlesbrough",GB-I5,NULL,NULL
+"Midlothian",GB-V5,NULL,NULL
+"Milton Keynes",GB-I6,NULL,NULL
+"Monmouthshire",GB-Y4,NULL,NULL
+"Moray",GB-V6,NULL,NULL
+"Moyle",GB-S8,NULL,NULL
+"Neath Port Talbot",GB-Y5,NULL,NULL
+"Newcastle upon Tyne",GB-I7,NULL,NULL
+"Newham",GB-I8,NULL,NULL
+"Newport",GB-Y6,NULL,NULL
+"Newry and Mourne",GB-S9,NULL,NULL
+"Newtownabbey",GB-T1,NULL,NULL
+"Norfolk",GB-I9,NULL,NULL
+"North Ayrshire",GB-V7,NULL,NULL
+"North Down",GB-T2,NULL,NULL
+"North East Lincolnshire",GB-J2,NULL,NULL
+"North Lanarkshire",GB-V8,NULL,NULL
+"North Lincolnshire",GB-J3,NULL,NULL
+"North Somerset",GB-J4,NULL,NULL
+"North Tyneside",GB-J5,NULL,NULL
+"North Yorkshire",GB-J7,NULL,NULL
+"Northamptonshire",GB-J1,NULL,NULL
+"Northumberland",GB-J6,NULL,NULL
+"Nottingham",GB-J8,NULL,NULL
+"Nottinghamshire",GB-J9,NULL,NULL
+"Oldham",GB-K1,NULL,NULL
+"Omagh",GB-T3,NULL,NULL
+"Orkney",GB-V9,NULL,NULL
+"Oxfordshire",GB-K2,NULL,NULL
+"Pembrokeshire",GB-Y7,NULL,NULL
+"Perth and Kinross",GB-W1,NULL,NULL
+"Peterborough",GB-K3,NULL,NULL
+"Plymouth",GB-K4,NULL,NULL
+"Poole",GB-K5,NULL,NULL
+"Portsmouth",GB-K6,NULL,NULL
+"Powys",GB-Y8,NULL,NULL
+"Reading",GB-K7,NULL,NULL
+"Redbridge",GB-K8,NULL,NULL
+"Redcar and Cleveland",GB-K9,NULL,NULL
+"Renfrewshire",GB-W2,NULL,NULL
+"Rhondda Cynon Taff",GB-Y9,NULL,NULL
+"Richmond upon Thames",GB-L1,NULL,NULL
+"Rochdale",GB-L2,NULL,NULL
+"Rotherham",GB-L3,NULL,NULL
+"Rutland",GB-L4,NULL,NULL
+"Salford",GB-L5,NULL,NULL
+"Sandwell",GB-L7,NULL,NULL
+"Scottish Borders, The",GB-T9,NULL,NULL
+"Sefton",GB-L8,NULL,NULL
+"Sheffield",GB-L9,NULL,NULL
+"Shetland Islands",GB-W3,NULL,NULL
+"Shropshire",GB-L6,NULL,NULL
+"Slough",GB-M1,NULL,NULL
+"Solihull",GB-M2,NULL,NULL
+"Somerset",GB-M3,NULL,NULL
+"South Ayrshire",GB-W4,NULL,NULL
+"South Glamorgan",GB-96,51.548506,-3.32428
+"South Gloucestershire",GB-M6,NULL,NULL
+"South Lanarkshire",GB-W5,NULL,NULL
+"South Tyneside",GB-M7,NULL,NULL
+"South Yorkshire",GB-37,NULL,NULL
+"Southampton",GB-M4,NULL,NULL
+"Southend-on-Sea",GB-M5,NULL,NULL
+"Southwark",GB-M8,NULL,NULL
+"St. Helens",GB-N1,NULL,NULL
+"Staffordshire",GB-M9,NULL,NULL
+"Stirling",GB-W6,NULL,NULL
+"Stockport",GB-N2,NULL,NULL
+"Stockton-on-Tees",GB-N3,NULL,NULL
+"Stoke-on-Trent",GB-N4,NULL,NULL
+"Strabane",GB-T4,NULL,NULL
+"Strathclyde",GB-87,NULL,NULL
+"Suffolk",GB-N5,NULL,NULL
+"Sunderland",GB-N6,NULL,NULL
+"Surrey",GB-N7,NULL,NULL
+"Sutton",GB-N8,NULL,NULL
+"Swansea",GB-Z1,NULL,NULL
+"Swindon",GB-N9,NULL,NULL
+"Tameside",GB-O1,NULL,NULL
+"Tayside",GB-88,55.87392,-3.989278
+"Telford and Wrekin",GB-O2,NULL,NULL
+"Thurrock",GB-O3,NULL,NULL
+"Torbay",GB-O4,NULL,NULL
+"Torfaen",GB-Z2,NULL,NULL
+"Tower Hamlets",GB-O5,NULL,NULL
+"Trafford",GB-O6,NULL,NULL
+"Tyne and Wear",GB-41,55.053928,-2.017697
+"Vale of Glamorgan, The",GB-Z3,NULL,NULL
+"Wakefield",GB-O7,NULL,NULL
+"Walsall",GB-O8,NULL,NULL
+"Waltham Forest",GB-O9,NULL,NULL
+"Wandsworth",GB-P1,NULL,NULL
+"Warrington",GB-P2,NULL,NULL
+"Warwickshire",GB-P3,NULL,NULL
+"West Berkshire",GB-P4,NULL,NULL
+"West Dunbartonshire",GB-W7,NULL,NULL
+"West Glamorgan",GB-97,51.801831,-3.810818
+"West Lothian",GB-W9,NULL,NULL
+"West Midlands",GB-43,NULL,NULL
+"West Sussex",GB-P6,NULL,NULL
+"West Yorkshire",GB-45,NULL,NULL
+"Westminster",GB-P5,NULL,NULL
+"Wigan",GB-P7,NULL,NULL
+"Wiltshire",GB-P8,NULL,NULL
+"Windsor and Maidenhead",GB-P9,NULL,NULL
+"Wirral",GB-Q1,NULL,NULL
+"Wokingham",GB-Q2,NULL,NULL
+"Wolverhampton",GB-Q3,NULL,NULL
+"Worcestershire",GB-Q4,NULL,NULL
+"Wrexham",GB-Z4,NULL,NULL
+"York",GB-Q5,NULL,NULL
+"Saint Andrew",GD-01,NULL,NULL
+"Saint David",GD-02,12.04876,-61.664089
+"Saint George",GD-03,NULL,NULL
+"Saint John",GD-04,NULL,NULL
+"Saint Mark",GD-05,12.19327,-61.696461
+"Saint Patrick",GD-06,NULL,NULL
+"Abashis Raioni",GE-01,NULL,NULL
+"Abkhazia",GE-02,NULL,NULL
+"Adigenis Raioni",GE-03,NULL,NULL
+"Ajaria",GE-04,NULL,NULL
+"Akhalgoris Raioni",GE-05,NULL,NULL
+"Akhalk'alak'is Raioni",GE-06,NULL,NULL
+"Akhalts'ikhis Raioni",GE-07,NULL,NULL
+"Akhmetis Raioni",GE-08,NULL,NULL
+"Ambrolauris Raioni",GE-09,NULL,NULL
+"Aspindzis Raioni",GE-10,NULL,NULL
+"Baghdat'is Raioni",GE-11,NULL,NULL
+"Bolnisis Raioni",GE-12,NULL,NULL
+"Borjomis Raioni",GE-13,NULL,NULL
+"Ch'khorotsqus Raioni",GE-15,NULL,NULL
+"Ch'okhatauris Raioni",GE-16,NULL,NULL
+"Chiat'ura",GE-14,NULL,NULL
+"Dedop'listsqaros Raioni",GE-17,NULL,NULL
+"Dmanisis Raioni",GE-18,NULL,NULL
+"Dushet'is Raioni",GE-19,NULL,NULL
+"Gardabanis Raioni",GE-20,NULL,NULL
+"Gori",GE-21,41.981361,44.109539
+"Goris Raioni",GE-22,NULL,NULL
+"Gurjaanis Raioni",GE-23,NULL,NULL
+"Javis Raioni",GE-24,NULL,NULL
+"K'arelis Raioni",GE-25,NULL,NULL
+"K'ut'aisi",GE-31,NULL,NULL
+"Kaspis Raioni",GE-26,NULL,NULL
+"Kharagaulis Raioni",GE-27,NULL,NULL
+"Khashuris Raioni",GE-28,NULL,NULL
+"Khobis Raioni",GE-29,NULL,NULL
+"Khonis Raioni",GE-30,NULL,NULL
+"Lagodekhis Raioni",GE-32,NULL,NULL
+"Lanch'khut'is Raioni",GE-33,NULL,NULL
+"Lentekhis Raioni",GE-34,NULL,NULL
+"Marneulis Raioni",GE-35,NULL,NULL
+"Martvilis Raioni",GE-36,NULL,NULL
+"Mestiis Raioni",GE-37,NULL,NULL
+"Mts'khet'is Raioni",GE-38,NULL,NULL
+"Ninotsmindis Raioni",GE-39,NULL,NULL
+"Onis Raioni",GE-40,NULL,NULL
+"Ozurget'is Raioni",GE-41,NULL,NULL
+"P'ot'i",GE-42,NULL,NULL
+"Qazbegis Raioni",GE-43,NULL,NULL
+"Qvarlis Raioni",GE-44,NULL,NULL
+"Rust'avi",GE-45,NULL,NULL
+"Sach'kheris Raioni",GE-46,NULL,NULL
+"Sagarejos Raioni",GE-47,NULL,NULL
+"Samtrediis Raioni",GE-48,NULL,NULL
+"Senakis Raioni",GE-49,NULL,NULL
+"Sighnaghis Raioni",GE-50,NULL,NULL
+"T'bilisi",GE-51,41.709981,44.792998
+"T'elavis Raioni",GE-52,NULL,NULL
+"T'erjolis Raioni",GE-53,NULL,NULL
+"T'et'ritsqaros Raioni",GE-54,NULL,NULL
+"T'ianet'is Raioni",GE-55,NULL,NULL
+"Tqibuli",GE-56,NULL,NULL
+"Ts'ageris Raioni",GE-57,NULL,NULL
+"Tsalenjikhis Raioni",GE-58,NULL,NULL
+"Tsalkis Raioni",GE-59,NULL,NULL
+"Tsqaltubo",GE-60,NULL,NULL
+"Vanis Raioni",GE-61,NULL,NULL
+"Zestap'onis Raioni",GE-62,NULL,NULL
+"Zugdidi",GE-63,42.502129,41.86095
+"Zugdidis Raioni",GE-64,NULL,NULL
+"Ashanti",GH-02,NULL,NULL
+"Brong-Ahafo",GH-03,NULL,NULL
+"Central",GH-04,NULL,NULL
+"Eastern",GH-05,6.443033,-0.458333
+"Greater Accra",GH-01,NULL,NULL
+"Northern",GH-06,NULL,NULL
+"Upper East",GH-10,10.733333,-0.753362
+"Upper West",GH-11,NULL,NULL
+"Volta",GH-08,NULL,NULL
+"Western",GH-09,NULL,NULL
+"Nordgronland",GL-01,NULL,NULL
+"Ostgronland",GL-02,NULL,NULL
+"Vestgronland",GL-03,NULL,NULL
+"Banjul",GM-01,NULL,NULL
+"Lower River",GM-02,13.4,-15.691666
+"MacCarthy Island",GM-03,NULL,NULL
+"North Bank",GM-07,13.463586,-15.933333
+"Upper River",GM-04,13.384087,-14.166666
+"Western",GM-05,NULL,NULL
+"Beyla",GN-01,8.708333,-8.325438
+"Boffa",GN-02,10.297138,-14.117445
+"Boke",GN-03,11.057385,-14.408333
+"Conakry",GN-04,NULL,NULL
+"Coyah",GN-30,9.991666,-13.509133
+"Dabola",GN-05,10.620505,-10.9208
+"Dalaba",GN-06,11.82565,-12.549234
+"Dinguiraye",GN-07,11.627974,-10.691666
+"Dubreka",GN-31,9.77487,-13.48532
+"Faranah",GN-09,9.85,-10.79884
+"Forecariah",GN-10,9.393325,-13.041667
+"Fria",GN-11,11.911633,-12.663922
+"Gaoual",GN-12,11.741666,-13.358333
+"Gueckedou",GN-13,8.691579,-10.200025
+"Kankan",GN-32,10.6375,-9.78145
+"Kerouane",GN-15,11.426489,-9.596666
+"Kindia",GN-16,10.35795,-13.60195
+"Kissidougou",GN-17,9.266667,-9.858333
+"Koubia",GN-33,12.175571,-12.286126
+"Koundara",GN-18,12.358333,-13.159111
+"Kouroussa",GN-19,10.533333,-10.068091
+"Labe",GN-34,11.497561,-12.825444
+"Lelouma",GN-35,11.458334,-12.741666
+"Lola",GN-36,7.908334,-8.325
+"Macenta",GN-21,8.378457,-9.383333
+"Mali",GN-22,12.071596,-12.100296
+"Mamou",GN-23,10.149622,-11.955389
+"Mandiana",GN-37,10.686393,-8.658333
+"Nzerekore",GN-38,8.4547,-9.18
+"Pita",GN-25,11.398633,-10.8042
+"Siguiri",GN-39,11.662141,-9.314431
+"Telimele",GN-27,10.8538,-13.482125
+"Tougue",GN-28,11.508334,-11.6
+"Yomou",GN-29,10.6723,-12.273633
+"Annobon",GQ-03,NULL,NULL
+"Bioko Norte",GQ-04,NULL,NULL
+"Bioko Sur",GQ-05,3.441717,8.696038
+"Centro Sur",GQ-06,1.591667,10.475
+"Kie-Ntem",GQ-07,1.958334,10.875
+"Litoral",GQ-08,NULL,NULL
+"Wele-Nzas",GQ-09,1.478656,10.95
+"Aitolia kai Akarnania",GR-31,NULL,NULL
+"Akhaia",GR-38,NULL,NULL
+"Argolis",GR-36,NULL,NULL
+"Arkadhia",GR-41,NULL,NULL
+"Arta",GR-20,39.257078,21.131045
+"Attiki",GR-35,NULL,NULL
+"Dhodhekanisos",GR-47,NULL,NULL
+"Drama",GR-04,41.271417,24.158333
+"Evritania",GR-30,NULL,NULL
+"Evros",GR-01,41.030616,26.05834
+"Evvoia",GR-34,38.512075,23.713319
+"Florina",GR-08,40.740591,21.424662
+"Fokis",GR-32,NULL,NULL
+"Fthiotis",GR-29,38.956575,22.956264
+"Grevena",GR-10,40.05029,21.412603
+"Ilia",GR-39,NULL,NULL
+"Imathia",GR-12,NULL,NULL
+"Ioannina",GR-17,39.655955,20.834226
+"Iraklion",GR-45,NULL,NULL
+"Kardhitsa",GR-23,NULL,NULL
+"Kastoria",GR-09,40.466667,21.139247
+"Kavala",GR-14,40.895889,24.360599
+"Kefallinia",GR-27,38.277131,20.580682
+"Kerkira",GR-25,NULL,NULL
+"Khalkidhiki",GR-15,40.508111,23.664907
+"Khania",GR-43,NULL,NULL
+"Khios",GR-50,38.373409,26.139219
+"Kikladhes",GR-49,NULL,NULL
+"Kilkis",GR-06,41.033333,22.763585
+"Korinthia",GR-37,NULL,NULL
+"Kozani",GR-11,NULL,NULL
+"Lakonia",GR-42,36.902534,22.688189
+"Larisa",GR-21,39.645269,22.350711
+"Lasithi",GR-46,35.185535,25.88944
+"Lesvos",GR-51,39.510497,25.810257
+"Levkas",GR-26,38.910519,21.998131
+"Magnisia",GR-24,39.298579,23.134485
+"Messinia",GR-40,NULL,NULL
+"Pella",GR-07,40.89761,22.189165
+"Pieria",GR-16,NULL,NULL
+"Preveza",GR-19,39.153955,20.69682
+"Rethimni",GR-44,NULL,NULL
+"Rodhopi",GR-02,NULL,NULL
+"Samos",GR-48,37.661529,26.502899
+"Serrai",GR-05,41.093391,23.56204
+"Thesprotia",GR-18,NULL,NULL
+"Thessaloniki",GR-13,NULL,NULL
+"Trikala",GR-22,39.63895,21.708649
+"Voiotia",GR-33,38.375765,23.079725
+"Xanthi",GR-03,41.1484,24.850591
+"Zakinthos",GR-28,37.782879,20.897779
+"Alta Verapaz",GT-01,15.596932,-90.114359
+"Baja Verapaz",GT-02,NULL,NULL
+"Chimaltenango",GT-03,NULL,NULL
+"Chiquimula",GT-04,NULL,NULL
+"El Progreso",GT-05,NULL,NULL
+"Escuintla",GT-06,14.191499,-91.059039
+"Guatemala",GT-07,NULL,NULL
+"Huehuetenango",GT-08,NULL,NULL
+"Izabal",GT-09,NULL,NULL
+"Jalapa",GT-10,NULL,NULL
+"Jutiapa",GT-11,14.149869,-89.89818
+"Peten",GT-12,NULL,NULL
+"Quetzaltenango",GT-13,NULL,NULL
+"Quiche",GT-14,NULL,NULL
+"Retalhuleu",GT-15,14.453467,-91.841876
+"Sacatepequez",GT-16,NULL,NULL
+"San Marcos",GT-17,NULL,NULL
+"Santa Rosa",GT-18,NULL,NULL
+"Solola",GT-19,14.709968,-91.289426
+"Suchitepequez",GT-20,14.376171,-91.440007
+"Totonicapan",GT-21,15.038409,-91.365361
+"Zacapa",GT-22,NULL,NULL
+"Bafata",GW-01,12.166445,-14.684685
+"Biombo",GW-12,11.88055,-15.79065
+"Bissau",GW-11,NULL,NULL
+"Bolama",GW-05,11.588865,-15.468925
+"Cacheu",GW-06,12.26849,-16.165205
+"Gabu",GW-10,12.12055,-14.0982
+"Oio",GW-04,12.28655,-15.2986
+"Quinara",GW-02,11.5737,-15.3887
+"Tombali",GW-07,11.300838,-15.409939
+"Barima-Waini",GY-10,7.769285,-59.748726
+"Cuyuni-Mazaruni",GY-11,6.196833,-59.979461
+"Demerara-Mahaica",GY-12,NULL,NULL
+"East Berbice-Corentyne",GY-13,3.888603,-57.499504
+"Essequibo Islands-West Demerara",GY-14,6.614159,-58.500341
+"Mahaica-Berbice",GY-15,6.278418,-57.828646
+"Pomeroon-Supenaam",GY-16,NULL,NULL
+"Potaro-Siparuni",GY-17,4.861596,-59.218071
+"Upper Demerara-Berbice",GY-18,NULL,NULL
+"Upper Takutu-Upper Essequibo",GY-19,NULL,NULL
+"Atlantida",HN-01,NULL,NULL
+"Choluteca",HN-02,NULL,NULL
+"Colon",HN-03,15.548755,-85.728193
+"Comayagua",HN-04,14.551193,-87.648525
+"Copan",HN-05,NULL,NULL
+"Cortes",HN-06,NULL,NULL
+"El Paraiso",HN-07,13.961111,-86.397265
+"Francisco Morazan",HN-08,NULL,NULL
+"Gracias a Dios",HN-09,15.297685,-84.074761
+"Intibuca",HN-10,14.254961,-88.179536
+"Islas de la Bahia",HN-11,NULL,NULL
+"La Paz",HN-12,14.127596,-87.913945
+"Lempira",HN-13,14.454659,-88.648798
+"Ocotepeque",HN-14,14.475017,-89.035606
+"Olancho",HN-15,14.820052,-85.995711
+"Santa Barbara",HN-16,NULL,NULL
+"Valle",HN-17,13.549931,-87.580012
+"Yoro",HN-18,NULL,NULL
+"Bjelovarsko-Bilogorska",HR-01,NULL,NULL
+"Brodsko-Posavska",HR-02,NULL,NULL
+"Dubrovacko-Neretvanska",HR-03,NULL,NULL
+"Grad Zagreb",HR-21,NULL,NULL
+"Istarska",HR-04,NULL,NULL
+"Karlovacka",HR-05,NULL,NULL
+"Koprivnicko-Krizevacka",HR-06,NULL,NULL
+"Krapinsko-Zagorska",HR-07,NULL,NULL
+"Licko-Senjska",HR-08,NULL,NULL
+"Medimurska",HR-09,NULL,NULL
+"Osjecko-Baranjska",HR-10,NULL,NULL
+"Pozesko-Slavonska",HR-11,NULL,NULL
+"Primorsko-Goranska",HR-12,NULL,NULL
+"Sibensko-Kninska",HR-13,NULL,NULL
+"Sisacko-Moslavacka",HR-14,NULL,NULL
+"Splitsko-Dalmatinska",HR-15,NULL,NULL
+"Varazdinska",HR-16,NULL,NULL
+"Viroviticko-Podravska",HR-17,NULL,NULL
+"Vukovarsko-Srijemska",HR-18,NULL,NULL
+"Zadarska",HR-19,NULL,NULL
+"Zagrebacka",HR-20,NULL,NULL
+"Artibonite",HT-06,19.338183,-72.631967
+"Centre",HT-07,19.008885,-72.025
+"Grand' Anse",HT-08,18.512105,-73.769989
+"Nord",HT-09,19.5753,-72.333333
+"Nord-Est",HT-10,19.508756,-71.895558
+"Nord-Ouest",HT-03,19.852331,-73.046462
+"Ouest",HT-11,NULL,NULL
+"Sud",HT-12,18.227232,-73.696853
+"Sud-Est",HT-13,18.258334,-72.436863
+"Bacs-Kiskun",HU-01,NULL,NULL
+"Baranya",HU-02,NULL,NULL
+"Bekes",HU-03,NULL,NULL
+"Bekescsaba",HU-26,46.684216,21.086753
+"Borsod-Abauj-Zemplen",HU-04,NULL,NULL
+"Budapest",HU-05,NULL,NULL
+"Csongrad",HU-06,NULL,NULL
+"Debrecen",HU-07,NULL,NULL
+"Dunaujvaros",HU-27,46.980668,18.912706
+"Eger",HU-28,47.903198,20.373107
+"Fejer",HU-08,NULL,NULL
+"Gyor",HU-25,NULL,NULL
+"Gyor-Moson-Sopron",HU-09,NULL,NULL
+"Hajdu-Bihar",HU-10,NULL,NULL
+"Heves",HU-11,NULL,NULL
+"Hodmezovasarhely",HU-29,46.430411,20.318829
+"Jasz-Nagykun-Szolnok",HU-20,NULL,NULL
+"Kaposvar",HU-30,46.36653,17.782483
+"Kecskemet",HU-31,46.9062,19.689988
+"Komarom-Esztergom",HU-12,NULL,NULL
+"Miskolc",HU-13,NULL,NULL
+"Nagykanizsa",HU-32,46.455237,16.995341
+"Nograd",HU-14,NULL,NULL
+"Nyiregyhaza",HU-33,47.953161,21.726792
+"Pecs",HU-15,NULL,NULL
+"Pest",HU-16,NULL,NULL
+"Somogy",HU-17,NULL,NULL
+"Sopron",HU-34,47.684898,16.583053
+"Szabolcs-Szatmar-Bereg",HU-18,NULL,NULL
+"Szeged",HU-19,NULL,NULL
+"Szekesfehervar",HU-35,47.188715,18.413808
+"Szolnok",HU-36,47.174662,20.17628
+"Szombathely",HU-37,47.23514,16.621917
+"Tatabanya",HU-38,47.586186,18.394766
+"Tolna",HU-21,NULL,NULL
+"Vas",HU-22,NULL,NULL
+"Veszprem",HU-23,NULL,NULL
+"Zala",HU-24,NULL,NULL
+"Zalaegerszeg",HU-40,46.845389,16.847235
+"Aceh",ID-01,NULL,NULL
+"Bali",ID-02,NULL,NULL
+"Banten",ID-33,-6.412115,105.961223
+"Bengkulu",ID-03,NULL,NULL
+"Gorontalo",ID-34,0.699133,122.161024
+"Jakarta Raya",ID-04,NULL,NULL
+"Jambi",ID-05,NULL,NULL
+"Jawa Barat",ID-30,NULL,NULL
+"Jawa Tengah",ID-07,NULL,NULL
+"Jawa Timur",ID-08,NULL,NULL
+"Kalimantan Barat",ID-11,NULL,NULL
+"Kalimantan Selatan",ID-12,NULL,NULL
+"Kalimantan Tengah",ID-13,NULL,NULL
+"Kalimantan Timur",ID-14,NULL,NULL
+"Kepulauan Bangka Belitung",ID-35,-2.402084,106.923316
+"Lampung",ID-15,NULL,NULL
+"Maluku",ID-28,-3.636802,130.307541
+"Maluku Utara",ID-29,0.079817,126.894764
+"Nusa Tenggara Barat",ID-17,NULL,NULL
+"Nusa Tenggara Timur",ID-18,NULL,NULL
+"Papua",ID-09,NULL,NULL
+"Riau",ID-19,NULL,NULL
+"Sulawesi Selatan",ID-20,NULL,NULL
+"Sulawesi Tengah",ID-21,NULL,NULL
+"Sulawesi Tenggara",ID-22,NULL,NULL
+"Sulawesi Utara",ID-31,NULL,NULL
+"Sumatera Barat",ID-24,NULL,NULL
+"Sumatera Selatan",ID-32,-3.22161,106.214485
+"Sumatera Utara",ID-26,NULL,NULL
+"Yogyakarta",ID-10,NULL,NULL
+"Carlow",IE-01,NULL,NULL
+"Cavan",IE-02,NULL,NULL
+"Clare",IE-03,NULL,NULL
+"Cork",IE-04,NULL,NULL
+"Donegal",IE-06,NULL,NULL
+"Dublin",IE-07,NULL,NULL
+"Galway",IE-10,NULL,NULL
+"Kerry",IE-11,NULL,NULL
+"Kildare",IE-12,NULL,NULL
+"Kilkenny",IE-13,NULL,NULL
+"Laois",IE-15,NULL,NULL
+"Leitrim",IE-14,NULL,NULL
+"Limerick",IE-16,NULL,NULL
+"Longford",IE-18,NULL,NULL
+"Louth",IE-19,NULL,NULL
+"Mayo",IE-20,NULL,NULL
+"Meath",IE-21,NULL,NULL
+"Monaghan",IE-22,NULL,NULL
+"Offaly",IE-23,NULL,NULL
+"Roscommon",IE-24,NULL,NULL
+"Sligo",IE-25,NULL,NULL
+"Tipperary",IE-26,NULL,NULL
+"Waterford",IE-27,NULL,NULL
+"Westmeath",IE-29,NULL,NULL
+"Wexford",IE-30,NULL,NULL
+"Wicklow",IE-31,NULL,NULL
+"HaDarom",IL-01,NULL,NULL
+"HaMerkaz",IL-02,NULL,NULL
+"HaZafon",IL-03,NULL,NULL
+"Hefa",IL-04,NULL,NULL
+"Tel Aviv",IL-05,NULL,NULL
+"Yerushalayim",IL-06,NULL,NULL
+"Andaman and Nicobar Islands",IN-01,NULL,NULL
+"Andhra Pradesh",IN-02,NULL,NULL
+"Arunachal Pradesh",IN-30,NULL,NULL
+"Assam",IN-03,NULL,NULL
+"Bihar",IN-34,NULL,NULL
+"Chandigarh",IN-05,NULL,NULL
+"Chhattisgarh",IN-37,NULL,NULL
+"Dadra and Nagar Haveli",IN-06,NULL,NULL
+"Daman and Diu",IN-32,NULL,NULL
+"Delhi",IN-07,NULL,NULL
+"Goa",IN-33,NULL,NULL
+"Gujarat",IN-09,NULL,NULL
+"Haryana",IN-10,NULL,NULL
+"Himachal Pradesh",IN-11,NULL,NULL
+"Jammu and Kashmir",IN-12,NULL,NULL
+"Jharkhand",IN-38,NULL,NULL
+"Karnataka",IN-19,NULL,NULL
+"Kerala",IN-13,NULL,NULL
+"Lakshadweep",IN-14,10.332617,72.74059
+"Madhya Pradesh",IN-35,NULL,NULL
+"Maharashtra",IN-16,NULL,NULL
+"Manipur",IN-17,NULL,NULL
+"Meghalaya",IN-18,NULL,NULL
+"Mizoram",IN-31,NULL,NULL
+"Nagaland",IN-20,NULL,NULL
+"Orissa",IN-21,NULL,NULL
+"Pondicherry",IN-22,NULL,NULL
+"Punjab",IN-23,NULL,NULL
+"Rajasthan",IN-24,NULL,NULL
+"Sikkim",IN-29,NULL,NULL
+"Tamil Nadu",IN-25,NULL,NULL
+"Tripura",IN-26,NULL,NULL
+"Uttar Pradesh",IN-36,NULL,NULL
+"Uttaranchal",IN-39,NULL,NULL
+"West Bengal",IN-28,NULL,NULL
+"Al Anbar",IQ-01,NULL,NULL
+"Al Basrah",IQ-02,NULL,NULL
+"Al Muthanna",IQ-03,NULL,NULL
+"Al Qadisiyah",IQ-04,31.837274,45.101553
+"An Najaf",IQ-17,NULL,NULL
+"Arbil",IQ-11,NULL,NULL
+"As Sulaymaniyah",IQ-05,NULL,NULL
+"At Ta'mim",IQ-13,NULL,NULL
+"Babil",IQ-06,32.656051,44.531958
+"Baghdad",IQ-07,NULL,NULL
+"Dahuk",IQ-08,NULL,NULL
+"Dhi Qar",IQ-09,NULL,NULL
+"Diyala",IQ-10,NULL,NULL
+"Karbala'",IQ-12,NULL,NULL
+"Maysan",IQ-14,31.99154,47.083365
+"Ninawa",IQ-15,NULL,NULL
+"Salah ad Din",IQ-18,34.544936,43.702881
+"Wasit",IQ-16,32.694176,45.558189
+"Ardabil",IR-32,NULL,NULL
+"Azarbayjan-e Bakhtari",IR-01,NULL,NULL
+"Azarbayjan-e Khavari",IR-02,NULL,NULL
+"Bakhtaran",IR-13,NULL,NULL
+"Bushehr",IR-22,NULL,NULL
+"Chahar Mahall va Bakhtiari",IR-03,NULL,NULL
+"Esfahan",IR-28,NULL,NULL
+"Fars",IR-07,NULL,NULL
+"Gilan",IR-08,NULL,NULL
+"Golestan",IR-37,NULL,NULL
+"Hamadan",IR-09,NULL,NULL
+"Hormozgan",IR-11,NULL,NULL
+"Ilam",IR-10,NULL,NULL
+"Kerman",IR-29,NULL,NULL
+"Khorasan",IR-30,NULL,NULL
+"Khuzestan",IR-15,NULL,NULL
+"Kohkiluyeh va Buyer Ahmadi",IR-05,NULL,NULL
+"Kordestan",IR-16,NULL,NULL
+"Lorestan",IR-23,NULL,NULL
+"Markazi",IR-34,NULL,NULL
+"Mazandaran",IR-35,NULL,NULL
+"Qazvin",IR-38,NULL,NULL
+"Qom",IR-39,NULL,NULL
+"Semnan",IR-25,NULL,NULL
+"Sistan va Baluchestan",IR-04,NULL,NULL
+"Tehran",IR-26,NULL,NULL
+"Yazd",IR-31,NULL,NULL
+"Zanjan",IR-36,NULL,NULL
+"Akranes",IS-01,64.322357,-22.07443
+"Akureyri",IS-02,65.683868,-18.11046
+"Arnessysla",IS-03,NULL,NULL
+"Austur-Bardastrandarsysla",IS-04,NULL,NULL
+"Austur-Hunavatnssysla",IS-05,NULL,NULL
+"Austur-Skaftafellssysla",IS-06,NULL,NULL
+"Borgarfjardarsysla",IS-07,NULL,NULL
+"Dalasysla",IS-08,NULL,NULL
+"Eyjafjardarsysla",IS-09,NULL,NULL
+"Gullbringusysla",IS-10,NULL,NULL
+"Hafnarfjordur",IS-11,NULL,NULL
+"Husavik",IS-12,66.04763,-17.343599
+"Isafjordur",IS-13,66.070558,-23.12886
+"Keflavik",IS-14,64.006538,-22.5721
+"Kjosarsysla",IS-15,NULL,NULL
+"Kopavogur",IS-16,64.11103,-21.905692
+"Myrasysla",IS-17,NULL,NULL
+"Neskaupstadur",IS-18,NULL,NULL
+"Nordur-Isafjardarsysla",IS-19,NULL,NULL
+"Nordur-Mulasysla",IS-20,NULL,NULL
+"Nordur-Tingeyjarsysla",IS-21,NULL,NULL
+"Olafsfjordur",IS-22,66.06517,-18.657633
+"Rangarvallasysla",IS-23,NULL,NULL
+"Reykjavik",IS-24,64.135338,-21.89521
+"Saudarkrokur",IS-25,NULL,NULL
+"Seydisfjordur",IS-26,65.266667,-14
+"Siglufjordur",IS-27,NULL,NULL
+"Skagafjardarsysla",IS-28,NULL,NULL
+"Snafellsnes- og Hnappadalssysla",IS-29,NULL,NULL
+"Strandasysla",IS-30,NULL,NULL
+"Sudur-Mulasysla",IS-31,NULL,NULL
+"Sudur-Tingeyjarsysla",IS-32,NULL,NULL
+"Vestmannaeyjar",IS-33,63.437679,-20.267321
+"Vestur-Bardastrandarsysla",IS-34,NULL,NULL
+"Vestur-Hunavatnssysla",IS-35,NULL,NULL
+"Vestur-Isafjardarsysla",IS-36,NULL,NULL
+"Vestur-Skaftafellssysla",IS-37,NULL,NULL
+"Abruzzi",IT-01,NULL,NULL
+"Basilicata",IT-02,NULL,NULL
+"Calabria",IT-03,NULL,NULL
+"Campania",IT-04,NULL,NULL
+"Emilia-Romagna",IT-05,NULL,NULL
+"Friuli-Venezia Giulia",IT-06,NULL,NULL
+"Lazio",IT-07,NULL,NULL
+"Liguria",IT-08,NULL,NULL
+"Lombardia",IT-09,NULL,NULL
+"Marche",IT-10,NULL,NULL
+"Molise",IT-11,NULL,NULL
+"Piemonte",IT-12,NULL,NULL
+"Puglia",IT-13,NULL,NULL
+"Sardegna",IT-14,NULL,NULL
+"Sicilia",IT-15,NULL,NULL
+"Toscana",IT-16,NULL,NULL
+"Trentino-Alto Adige",IT-17,NULL,NULL
+"Umbria",IT-18,NULL,NULL
+"Valle d'Aosta",IT-19,NULL,NULL
+"Veneto",IT-20,NULL,NULL
+"Clarendon",JM-01,NULL,NULL
+"Hanover",JM-02,NULL,NULL
+"Kingston",JM-17,17.992731,-76.792009
+"Manchester",JM-04,NULL,NULL
+"Portland",JM-07,18.124961,-76.508211
+"Saint Andrew",JM-08,NULL,NULL
+"Saint Ann",JM-09,NULL,NULL
+"Saint Catherine",JM-10,NULL,NULL
+"Saint Elizabeth",JM-11,NULL,NULL
+"Saint James",JM-12,NULL,NULL
+"Saint Mary",JM-13,NULL,NULL
+"Saint Thomas",JM-14,17.967124,-76.422687
+"Trelawny",JM-15,NULL,NULL
+"Westmoreland",JM-16,NULL,NULL
+"Al Balqa'",JO-02,NULL,NULL
+"Al Karak",JO-09,NULL,NULL
+"Al Mafraq",JO-10,NULL,NULL
+"Amman",JO-16,31.949685,35.92635
+"At Tafilah",JO-12,NULL,NULL
+"Az Zarqa",JO-13,32.041149,36.08147
+"Irbid",JO-14,NULL,NULL
+"Ma",JO-07,NULL,NULL
+"Aichi",JP-01,NULL,NULL
+"Akita",JP-02,NULL,NULL
+"Aomori",JP-03,NULL,NULL
+"Chiba",JP-04,NULL,NULL
+"Ehime",JP-05,NULL,NULL
+"Fukui",JP-06,NULL,NULL
+"Fukuoka",JP-07,NULL,NULL
+"Fukushima",JP-08,NULL,NULL
+"Gifu",JP-09,NULL,NULL
+"Gumma",JP-10,NULL,NULL
+"Hiroshima",JP-11,NULL,NULL
+"Hokkaido",JP-12,NULL,NULL
+"Hyogo",JP-13,NULL,NULL
+"Ibaraki",JP-14,NULL,NULL
+"Ishikawa",JP-15,NULL,NULL
+"Iwate",JP-16,NULL,NULL
+"Kagawa",JP-17,NULL,NULL
+"Kagoshima",JP-18,NULL,NULL
+"Kanagawa",JP-19,NULL,NULL
+"Kochi",JP-20,NULL,NULL
+"Kumamoto",JP-21,NULL,NULL
+"Kyoto",JP-22,NULL,NULL
+"Mie",JP-23,NULL,NULL
+"Miyagi",JP-24,NULL,NULL
+"Miyazaki",JP-25,NULL,NULL
+"Nagano",JP-26,NULL,NULL
+"Nagasaki",JP-27,NULL,NULL
+"Nara",JP-28,NULL,NULL
+"Niigata",JP-29,NULL,NULL
+"Oita",JP-30,NULL,NULL
+"Okayama",JP-31,NULL,NULL
+"Okinawa",JP-47,NULL,NULL
+"Osaka",JP-32,NULL,NULL
+"Saga",JP-33,NULL,NULL
+"Saitama",JP-34,NULL,NULL
+"Shiga",JP-35,NULL,NULL
+"Shimane",JP-36,NULL,NULL
+"Shizuoka",JP-37,NULL,NULL
+"Tochigi",JP-38,NULL,NULL
+"Tokushima",JP-39,NULL,NULL
+"Tokyo",JP-40,NULL,NULL
+"Tottori",JP-41,NULL,NULL
+"Toyama",JP-42,NULL,NULL
+"Wakayama",JP-43,NULL,NULL
+"Yamagata",JP-44,NULL,NULL
+"Yamaguchi",JP-45,NULL,NULL
+"Yamanashi",JP-46,NULL,NULL
+"Central",KE-01,NULL,NULL
+"Coast",KE-02,NULL,NULL
+"Eastern",KE-03,NULL,NULL
+"Nairobi Area",KE-05,NULL,NULL
+"North-Eastern",KE-06,1.123543,40.293748
+"Nyanza",KE-07,NULL,NULL
+"Rift Valley",KE-08,NULL,NULL
+"Western",KE-09,NULL,NULL
+"Batken",KG-09,NULL,NULL
+"Bishkek",KG-01,NULL,NULL
+"Chuy",KG-02,NULL,NULL
+"Jalal-Abad",KG-03,NULL,NULL
+"Naryn",KG-04,NULL,NULL
+"Osh",KG-08,39.977753,73.09539
+"Talas",KG-06,NULL,NULL
+"Ysyk-Kol",KG-07,NULL,NULL
+"Batdambang",KH-29,13.1122,103.2126
+"Kampong Cham",KH-02,12.061499,105.642132
+"Kampong Chhnang",KH-03,12.174812,104.544854
+"Kampong Spoe",KH-04,11.4582,104.5088
+"Kampong Thum",KH-05,12.7206,104.8882
+"Kampot",KH-06,10.785451,104.32603
+"Kandal",KH-07,11.39354,104.978661
+"Kaoh Kong",KH-08,11.42569,103.018997
+"Kracheh",KH-09,12.4924,106.0252
+"Mondol Kiri",KH-10,12.741562,106.979027
+"Pailin",KH-30,12.85,102.583333
+"Phnum Penh",KH-11,NULL,NULL
+"Pouthisat",KH-12,12.5279,103.925
+"Preah Vihear",KH-13,13.766696,105.120397
+"Prey Veng",KH-14,11.357923,105.470314
+"Rotanokiri",KH-15,NULL,NULL
+"Siemreab-Otdar Meanchey",KH-16,NULL,NULL
+"Stoeng Treng",KH-17,13.5181,105.9695
+"Svay Rieng",KH-18,11.188251,105.895714
+"Takev",KH-19,NULL,NULL
+"Gilbert Islands",KI-01,0.359344,173.186325
+"Line Islands",KI-02,-3.356279,-155.317575
+"Phoenix Islands",KI-03,-3.730257,-172.62754
+"Anjouan",KM-01,-12.223382,44.37088
+"Grande Comore",KM-02,NULL,NULL
+"Moheli",KM-03,-12.315185,43.741028
+"Christ Church Nichola Town",KN-01,NULL,NULL
+"Saint Anne Sandy Point",KN-02,NULL,NULL
+"Saint George Basseterre",KN-03,NULL,NULL
+"Saint George Gingerland",KN-04,NULL,NULL
+"Saint James Windward",KN-05,NULL,NULL
+"Saint John Capisterre",KN-06,NULL,NULL
+"Saint John Figtree",KN-07,NULL,NULL
+"Saint Mary Cayon",KN-08,NULL,NULL
+"Saint Paul Capisterre",KN-09,NULL,NULL
+"Saint Paul Charlestown",KN-10,NULL,NULL
+"Saint Peter Basseterre",KN-11,NULL,NULL
+"Saint Thomas Lowland",KN-12,NULL,NULL
+"Saint Thomas Middle Island",KN-13,NULL,NULL
+"Trinity Palmetto Point",KN-15,NULL,NULL
+"Chagang-do",KP-01,NULL,NULL
+"Hamgyong-bukto",KP-17,NULL,NULL
+"Hamgyong-namdo",KP-03,NULL,NULL
+"Hwanghae-bukto",KP-07,NULL,NULL
+"Hwanghae-namdo",KP-06,NULL,NULL
+"Kaesong-si",KP-08,NULL,NULL
+"Kangwon-do",KP-09,NULL,NULL
+"Najin Sonbong-si",KP-18,NULL,NULL
+"Namp'o-si",KP-14,NULL,NULL
+"P'yongan-bukto",KP-11,NULL,NULL
+"P'yongan-namdo",KP-15,NULL,NULL
+"P'yongyang-si",KP-12,NULL,NULL
+"Yanggang-do",KP-13,NULL,NULL
+"Ch'ungch'ong-bukto",KR-05,NULL,NULL
+"Ch'ungch'ong-namdo",KR-17,NULL,NULL
+"Cheju-do",KR-01,NULL,NULL
+"Cholla-bukto",KR-03,NULL,NULL
+"Cholla-namdo",KR-16,NULL,NULL
+"Inch'on-jikhalsi",KR-12,NULL,NULL
+"Kangwon-do",KR-06,NULL,NULL
+"Kwangju-jikhalsi",KR-18,NULL,NULL
+"Kyonggi-do",KR-13,NULL,NULL
+"Kyongsang-bukto",KR-14,NULL,NULL
+"Kyongsang-namdo",KR-20,NULL,NULL
+"Pusan-jikhalsi",KR-10,NULL,NULL
+"Seoul-t'ukpyolsi",KR-11,NULL,NULL
+"Taegu-jikhalsi",KR-15,NULL,NULL
+"Taejon-jikhalsi",KR-19,NULL,NULL
+"Ulsan-gwangyoksi",KR-21,NULL,NULL
+"Al Ahmadi",KW-01,28.887016,48.005989

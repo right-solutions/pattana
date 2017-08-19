@@ -1,0 +1,1001 @@
+name,iso_code,latitude,longitude
+"Islamabad",PK-08,NULL,NULL
+"North-West Frontier",PK-03,NULL,NULL
+"Northern Areas",PK-07,35.806421,75.190543
+"Punjab",PK-04,NULL,NULL
+"Sindh",PK-05,NULL,NULL
+"Biala Podlaska",PL-23,NULL,NULL
+"Bialystok",PL-24,NULL,NULL
+"Bielsko",PL-25,NULL,NULL
+"Bydgoszcz",PL-26,NULL,NULL
+"Chelm",PL-27,NULL,NULL
+"Ciechanow",PL-28,NULL,NULL
+"Czestochowa",PL-29,NULL,NULL
+"Dolnoslaskie",PL-72,NULL,NULL
+"Elblag",PL-30,NULL,NULL
+"Gdansk",PL-31,NULL,NULL
+"Gorzow",PL-32,NULL,NULL
+"Jelenia Gora",PL-33,NULL,NULL
+"Kalisz",PL-34,NULL,NULL
+"Katowice",PL-35,NULL,NULL
+"Kielce",PL-36,NULL,NULL
+"Konin",PL-37,NULL,NULL
+"Koszalin",PL-38,54.189998,16.18
+"Krakow",PL-39,NULL,NULL
+"Krosno",PL-40,NULL,NULL
+"Kujawsko-Pomorskie",PL-73,NULL,NULL
+"Legnica",PL-41,NULL,NULL
+"Leszno",PL-42,NULL,NULL
+"Lodz",PL-43,NULL,NULL
+"Lodzkie",PL-74,NULL,NULL
+"Lomza",PL-44,NULL,NULL
+"Lubelskie",PL-75,NULL,NULL
+"Lublin",PL-45,NULL,NULL
+"Lubuskie",PL-76,52.242405,15.482204
+"Malopolskie",PL-77,NULL,NULL
+"Mazowieckie",PL-78,52.247862,21.195099
+"Nowy Sacz",PL-46,NULL,NULL
+"Olsztyn",PL-47,NULL,NULL
+"Opole",PL-48,NULL,NULL
+"Opolskie",PL-79,NULL,NULL
+"Ostroleka",PL-49,NULL,NULL
+"Pila",PL-50,NULL,NULL
+"Piotrkow",PL-51,NULL,NULL
+"Plock",PL-52,NULL,NULL
+"Podkarpackie",PL-80,49.907897,22.348303
+"Podlaskie",PL-81,NULL,NULL
+"Pomorskie",PL-82,NULL,NULL
+"Poznan",PL-53,NULL,NULL
+"Przemysl",PL-54,NULL,NULL
+"Radom",PL-55,NULL,NULL
+"Rzeszow",PL-56,NULL,NULL
+"Siedlce",PL-57,NULL,NULL
+"Sieradz",PL-58,NULL,NULL
+"Skierniewice",PL-59,NULL,NULL
+"Slaskie",PL-83,NULL,NULL
+"Slupsk",PL-60,NULL,NULL
+"Suwalki",PL-61,NULL,NULL
+"Swietokrzyskie",PL-84,NULL,NULL
+"Szczecin",PL-62,53.43,14.529999
+"Tarnobrzeg",PL-63,NULL,NULL
+"Tarnow",PL-64,NULL,NULL
+"Torun",PL-65,NULL,NULL
+"Walbrzych",PL-66,NULL,NULL
+"Warminsko-Mazurskie",PL-85,NULL,NULL
+"Warszawa",PL-67,NULL,NULL
+"Wielkopolskie",PL-86,NULL,NULL
+"Wloclawek",PL-68,NULL,NULL
+"Wroclaw",PL-69,NULL,NULL
+"Zachodniopomorskie",PL-87,NULL,NULL
+"Zamosc",PL-70,NULL,NULL
+"Zielona Gora",PL-71,NULL,NULL
+"Aveiro",PT-02,NULL,NULL
+"Azores",PT-23,NULL,NULL
+"Beja",PT-03,NULL,NULL
+"Braga",PT-04,NULL,NULL
+"Braganca",PT-05,NULL,NULL
+"Castelo Branco",PT-06,NULL,NULL
+"Coimbra",PT-07,NULL,NULL
+"Evora",PT-08,NULL,NULL
+"Faro",PT-09,NULL,NULL
+"Guarda",PT-11,NULL,NULL
+"Leiria",PT-13,NULL,NULL
+"Lisboa",PT-14,NULL,NULL
+"Madeira",PT-10,NULL,NULL
+"Portalegre",PT-16,NULL,NULL
+"Porto",PT-17,NULL,NULL
+"Santarem",PT-18,NULL,NULL
+"Setubal",PT-19,NULL,NULL
+"Viana do Castelo",PT-20,NULL,NULL
+"Vila Real",PT-21,NULL,NULL
+"Viseu",PT-22,NULL,NULL
+"Alto Paraguay",PY-23,-20.83925,-59.863866
+"Alto Parana",PY-01,NULL,NULL
+"Amambay",PY-02,-22.95641,-56.159425
+"Boqueron",PY-03,-21.968387,-60.965015
+"Caaguazu",PY-04,-25.46982,-56.01535
+"Caazapa",PY-05,-26.158247,-56.047562
+"Canindeyu",PY-19,-24.160003,-55.21221
+"Central",PY-06,NULL,NULL
+"Chaco",PY-20,-26.046581,-60.895736
+"Concepcion",PY-07,-22.793709,-57.057619
+"Cordillera",PY-08,-25.25101,-56.990919
+"Guaira",PY-10,-24.079426,-54.257415
+"Itapua",PY-11,NULL,NULL
+"Misiones",PY-12,-26.985538,-57.190626
+"Neembucu",PY-13,NULL,NULL
+"Nueva Asuncion",PY-21,-20.70307,-61.92321
+"Paraguari",PY-15,-26.000989,-57.144513
+"Presidente Hayes",PY-16,-23.662047,-58.967518
+"San Pedro",PY-17,-24.158676,-56.636503
+"Ad Dawhah",QA-01,NULL,NULL
+"Al Ghuwariyah",QA-02,NULL,NULL
+"Al Jumaliyah",QA-03,NULL,NULL
+"Al Khawr",QA-04,NULL,NULL
+"Al Wakrah",QA-10,25.1665,51.5961
+"Ar Rayyan",QA-06,25.302711,51.334335
+"Jariyan al Batnah",QA-11,NULL,NULL
+"Madinat ach Shamal",QA-08,NULL,NULL
+"Umm Sa'id",QA-12,NULL,NULL
+"Umm Salal",QA-09,25.52039,51.369194
+"Alba",RO-01,NULL,NULL
+"Arad",RO-02,NULL,NULL
+"Arges",RO-03,NULL,NULL
+"Bacau",RO-04,NULL,NULL
+"Bihor",RO-05,NULL,NULL
+"Bistrita-Nasaud",RO-06,NULL,NULL
+"Botosani",RO-07,NULL,NULL
+"Braila",RO-08,NULL,NULL
+"Brasov",RO-09,NULL,NULL
+"Bucuresti",RO-10,NULL,NULL
+"Buzau",RO-11,NULL,NULL
+"Calarasi",RO-41,NULL,NULL
+"Caras-Severin",RO-12,NULL,NULL
+"Cluj",RO-13,NULL,NULL
+"Constanta",RO-14,NULL,NULL
+"Covasna",RO-15,NULL,NULL
+"Dambovita",RO-16,NULL,NULL
+"Dolj",RO-17,NULL,NULL
+"Galati",RO-18,NULL,NULL
+"Giurgiu",RO-42,NULL,NULL
+"Gorj",RO-19,NULL,NULL
+"Harghita",RO-20,NULL,NULL
+"Hunedoara",RO-21,NULL,NULL
+"Ialomita",RO-22,NULL,NULL
+"Iasi",RO-23,NULL,NULL
+"Ilfov",RO-43,NULL,NULL
+"Maramures",RO-25,NULL,NULL
+"Mehedinti",RO-26,NULL,NULL
+"Mures",RO-27,NULL,NULL
+"Neamt",RO-28,NULL,NULL
+"Olt",RO-29,NULL,NULL
+"Prahova",RO-30,NULL,NULL
+"Salaj",RO-31,NULL,NULL
+"Satu Mare",RO-32,NULL,NULL
+"Sibiu",RO-33,NULL,NULL
+"Suceava",RO-34,NULL,NULL
+"Teleorman",RO-35,NULL,NULL
+"Timis",RO-36,NULL,NULL
+"Tulcea",RO-37,NULL,NULL
+"Valcea",RO-39,NULL,NULL
+"Vaslui",RO-38,NULL,NULL
+"Vrancea",RO-40,NULL,NULL
+"Adygeya, Republic of",RU-01,NULL,NULL
+"Aginsky Buryatsky AO",RU-02,NULL,NULL
+"Altaisky krai",RU-04,NULL,NULL
+"Amur",RU-05,NULL,NULL
+"Arkhangel'sk",RU-06,NULL,NULL
+"Astrakhan'",RU-07,NULL,NULL
+"Bashkortostan",RU-08,NULL,NULL
+"Belgorod",RU-09,NULL,NULL
+"Bryansk",RU-10,NULL,NULL
+"Buryat",RU-11,NULL,NULL
+"Chechnya",RU-12,NULL,NULL
+"Chelyabinsk",RU-13,NULL,NULL
+"Chita",RU-14,NULL,NULL
+"Chukot",RU-15,NULL,NULL
+"Chuvashia",RU-16,NULL,NULL
+"Dagestan",RU-17,NULL,NULL
+"Evenk",RU-18,NULL,NULL
+"Gorno-Altay",RU-03,NULL,NULL
+"Ingush",RU-19,NULL,NULL
+"Irkutsk",RU-20,NULL,NULL
+"Ivanovo",RU-21,NULL,NULL
+"Kabardin-Balkar",RU-22,NULL,NULL
+"Kaliningrad",RU-23,NULL,NULL
+"Kalmyk",RU-24,NULL,NULL
+"Kaluga",RU-25,NULL,NULL
+"Kamchatka",RU-26,NULL,NULL
+"Karachay-Cherkess",RU-27,NULL,NULL
+"Karelia",RU-28,NULL,NULL
+"Kemerovo",RU-29,NULL,NULL
+"Khabarovsk",RU-30,NULL,NULL
+"Khakass",RU-31,NULL,NULL
+"Khanty-Mansiy",RU-32,NULL,NULL
+"Kirov",RU-33,NULL,NULL
+"Komi",RU-34,NULL,NULL
+"Komi-Permyak",RU-35,NULL,NULL
+"Koryak",RU-36,NULL,NULL
+"Kostroma",RU-37,NULL,NULL
+"Krasnodar",RU-38,NULL,NULL
+"Krasnoyarsk",RU-39,NULL,NULL
+"Kurgan",RU-40,NULL,NULL
+"Kursk",RU-41,NULL,NULL
+"Leningrad",RU-42,NULL,NULL
+"Lipetsk",RU-43,NULL,NULL
+"Magadan",RU-44,NULL,NULL
+"Mariy-El",RU-45,NULL,NULL
+"Mordovia",RU-46,NULL,NULL
+"Moscow City",RU-48,NULL,NULL
+"Moskva",RU-47,NULL,NULL
+"Murmansk",RU-49,NULL,NULL
+"Nenets",RU-50,NULL,NULL
+"Nizhegorod",RU-51,NULL,NULL
+"North Ossetia",RU-68,NULL,NULL
+"Novgorod",RU-52,NULL,NULL
+"Novosibirsk",RU-53,NULL,NULL
+"Omsk",RU-54,NULL,NULL
+"Orel",RU-56,NULL,NULL
+"Orenburg",RU-55,NULL,NULL
+"Penza",RU-57,NULL,NULL
+"Perm'",RU-58,NULL,NULL
+"Primor'ye",RU-59,NULL,NULL
+"Pskov",RU-60,NULL,NULL
+"Rostov",RU-61,NULL,NULL
+"Ryazan'",RU-62,NULL,NULL
+"Saint Petersburg City",RU-66,NULL,NULL
+"Sakha",RU-63,NULL,NULL
+"Sakhalin",RU-64,NULL,NULL
+"Samara",RU-65,NULL,NULL
+"Saratov",RU-67,NULL,NULL
+"Smolensk",RU-69,NULL,NULL
+"Stavropol'",RU-70,NULL,NULL
+"Sverdlovsk",RU-71,NULL,NULL
+"Tambovskaya oblast",RU-72,NULL,NULL
+"Tatarstan",RU-73,NULL,NULL
+"Taymyr",RU-74,NULL,NULL
+"Tomsk",RU-75,NULL,NULL
+"Tula",RU-76,NULL,NULL
+"Tuva",RU-79,NULL,NULL
+"Tver'",RU-77,NULL,NULL
+"Tyumen'",RU-78,NULL,NULL
+"Udmurt",RU-80,NULL,NULL
+"Ul'yanovsk",RU-81,NULL,NULL
+"Ust-Orda Buryat",RU-82,NULL,NULL
+"Vladimir",RU-83,NULL,NULL
+"Volgograd",RU-84,NULL,NULL
+"Vologda",RU-85,NULL,NULL
+"Voronezh",RU-86,NULL,NULL
+"Yamal-Nenets",RU-87,NULL,NULL
+"Yaroslavl'",RU-88,NULL,NULL
+"Yevrey",RU-89,NULL,NULL
+"Butare",RW-01,NULL,NULL
+"Byumba",RW-02,-1.622023,30.12122
+"Cyangugu",RW-03,-2.4868,28.903087
+"Gikongoro",RW-04,-2.5075,29.5954
+"Gisenyi",RW-05,-1.69535,29.260534
+"Gitarama",RW-06,-2.079396,29.7552
+"Kibungo",RW-07,-2.178961,30.545739
+"Kibuye",RW-08,-2.053539,29.375439
+"Kigali",RW-09,NULL,NULL
+"Ruhengeri",RW-10,-1.503638,29.628554
+"Al Bahah",SA-02,NULL,NULL
+"Al Hudud ash Shamaliyah",SA-15,29.809083,41.890762
+"Al Jawf",SA-03,29.563376,39.879017
+"Al Madinah",SA-05,NULL,NULL
+"Al Qasim",SA-08,25.974025,43.117052
+"Al Qurayyat",SA-09,NULL,NULL
+"Ar Riyad",SA-10,NULL,NULL
+"Ash Sharqiyah",SA-06,NULL,NULL
+"Ha'il",SA-13,27.091878,41.895261
+"Jizan",SA-17,NULL,NULL
+"Makkah",SA-14,NULL,NULL
+"Najran",SA-16,18.209735,45.682905
+"Tabuk",SA-19,28.150092,37.33449
+"Central",SB-05,NULL,NULL
+"Guadalcanal",SB-06,-9.595812,160.208984
+"Isabel",SB-07,NULL,NULL
+"Makira",SB-08,NULL,NULL
+"Malaita",SB-03,-8.979573,160.9702
+"Temotu",SB-09,NULL,NULL
+"Western",SB-04,NULL,NULL
+"Anse aux Pins",SC-01,NULL,NULL
+"Anse Boileau",SC-02,-4.7137,55.486
+"Anse Etoile",SC-03,NULL,NULL
+"Anse Louis",SC-04,NULL,NULL
+"Anse Royale",SC-05,NULL,NULL
+"Baie Lazare",SC-06,NULL,NULL
+"Baie Sainte Anne",SC-07,NULL,NULL
+"Beau Vallon",SC-08,NULL,NULL
+"Bel Air",SC-09,NULL,NULL
+"Bel Ombre",SC-10,NULL,NULL
+"Cascade",SC-11,NULL,NULL
+"Glacis",SC-12,NULL,NULL
+"Grand' Anse",SC-13,NULL,NULL
+"La Digue",SC-15,-4.353773,55.836973
+"La Riviere Anglaise",SC-16,NULL,NULL
+"Mont Buxton",SC-17,NULL,NULL
+"Mont Fleuri",SC-18,NULL,NULL
+"Plaisance",SC-19,NULL,NULL
+"Pointe La Rue",SC-20,NULL,NULL
+"Port Glaud",SC-21,NULL,NULL
+"Saint Louis",SC-22,NULL,NULL
+"Takamaka",SC-23,NULL,NULL
+"Al Istiwa'iyah",SD-28,NULL,NULL
+"Al Khartum",SD-29,NULL,NULL
+"Al Wusta",SD-27,NULL,NULL
+"Ash Shamaliyah",SD-30,NULL,NULL
+"Ash Sharqiyah",SD-31,NULL,NULL
+"Bahr al Ghazal",SD-32,NULL,NULL
+"Darfur",SD-33,13.4,24
+"Kurdufan",SD-34,NULL,NULL
+"Alvsborgs Lan",SE-01,56.437575,12.889097
+"Blekinge Lan",SE-02,NULL,NULL
+"Dalarnas Lan",SE-10,NULL,NULL
+"Gavleborgs Lan",SE-03,NULL,NULL
+"Goteborgs och Bohus Lan",SE-04,NULL,NULL
+"Gotlands Lan",SE-05,NULL,NULL
+"Hallands Lan",SE-06,NULL,NULL
+"Jamtlands Lan",SE-07,NULL,NULL
+"Jonkopings Lan",SE-08,NULL,NULL
+"Kalmar Lan",SE-09,NULL,NULL
+"Kristianstads Lan",SE-11,56.428945,13.117327
+"Kronobergs Lan",SE-12,NULL,NULL
+"Malmohus Lan",SE-13,55.60223,12.987279
+"Norrbottens Lan",SE-14,NULL,NULL
+"Orebro Lan",SE-15,NULL,NULL
+"Ostergotlands Lan",SE-16,NULL,NULL
+"Skane Lan",SE-27,NULL,NULL
+"Skaraborgs Lan",SE-17,58.384175,13.436919
+"Sodermanlands Lan",SE-18,NULL,NULL
+"Stockholms Lan",SE-26,NULL,NULL
+"Uppsala Lan",SE-21,NULL,NULL
+"Varmlands Lan",SE-22,NULL,NULL
+"Vasterbottens Lan",SE-23,NULL,NULL
+"Vasternorrlands Lan",SE-24,NULL,NULL
+"Vastmanlands Lan",SE-25,NULL,NULL
+"Vastra Gotaland",SE-28,NULL,NULL
+"Ascension",SH-01,-7.940109,-14.358208
+"Saint Helena",SH-02,NULL,NULL
+"Tristan da Cunha",SH-03,-37.113628,-12.283934
+"Ajdovscina",SI-01,45.88885,13.903935
+"Beltinci",SI-02,46.6068,16.2412
+"Bled",SI-03,46.36831,14.11469
+"Bohinj",SI-04,NULL,NULL
+"Borovnica",SI-05,45.92261,14.36275
+"Bovec",SI-06,46.33694,13.55172
+"Brda",SI-07,45.44687,13.762882
+"Brezice",SI-08,45.90252,15.59985
+"Brezovica",SI-09,NULL,NULL
+"Celje",SI-11,46.23955,15.2666
+"Cerklje na Gorenjskem",SI-12,NULL,NULL
+"Cerknica",SI-13,45.79722,14.36063
+"Cerkno",SI-14,46.12619,13.98425
+"Crensovci",SI-15,46.57548,16.28954
+"Crna na Koroskem",SI-16,NULL,NULL
+"Crnomelj",SI-17,45.57516,15.19419
+"Divaca",SI-19,45.68291,13.96974
+"Dobrepolje",SI-20,NULL,NULL
+"Dobrova-Horjul-Polhov Gradec",SI-G4,46.05516,14.41665
+"Dol pri Ljubljani",SI-22,NULL,NULL
+"Domzale",SI-G7,46.13606,14.59767
+"Dornava",SI-24,46.43526,15.95499
+"Dravograd",SI-25,46.59028,15.02837
+"Duplek",SI-26,46.51439,15.71835
+"Gorenja Vas-Poljane",SI-27,46.10573,14.14394
+"Gorisnica",SI-28,NULL,NULL
+"Gornja Radgona",SI-29,46.67893,15.9888
+"Gornji Grad",SI-30,46.29534,14.80781
+"Gornji Petrovci",SI-31,NULL,NULL
+"Grosuplje",SI-32,45.95653,14.66033
+"Hrastnik",SI-34,46.14653,15.0845
+"Hrpelje-Kozina",SI-35,45.60822,13.93432
+"Idrija",SI-36,45.99968,14.01831
+"Ig",SI-37,45.95857,14.52719
+"Ilirska Bistrica",SI-38,45.57012,14.24184
+"Ivancna Gorica",SI-39,NULL,NULL
+"Izola-Isola",SI-40,NULL,NULL
+"Jesenice",SI-H4,46.43431,14.07109
+"Jursinci",SI-42,46.48496,15.97223
+"Kamnik",SI-H6,45.95512,14.40879
+"Kanal",SI-44,46.0853,13.6343
+"Kidricevo",SI-45,NULL,NULL
+"Kobarid",SI-46,46.245005,13.579075
+"Kobilje",SI-47,NULL,NULL
+"Kocevje",SI-H7,45.6431,14.8607
+"Komen",SI-49,45.81752,13.7483
+"Koper-Capodistria",SI-50,NULL,NULL
+"Kozje",SI-51,46.07299,15.56108
+"Kranj",SI-52,46.23668,14.355915
+"Kranjska Gora",SI-53,46.4832,13.78589
+"Krsko",SI-54,45.9563,15.49155
+"Kungota",SI-55,NULL,NULL
+"Kuzma",SI-I2,NULL,NULL
+"Lasko",SI-57,46.15434,15.23581
+"Lenart",SI-I3,46.57702,15.83262
+"Litija",SI-I5,46.05942,14.82245
+"Ljubljana",SI-61,46.05456,14.50443
+"Ljubno",SI-62,46.34217,14.83341
+"Ljutomer",SI-I6,46.51834,16.19556
+"Logatec",SI-64,45.91217,14.22831
+"Loska Dolina",SI-I7,45.62288,14.46245
+"Loski Potok",SI-66,NULL,NULL
+"Luce",SI-I9,46.353843,14.735691
+"Lukovica",SI-68,46.167024,14.686032
+"Majsperk",SI-J1,46.3515,15.735
+"Maribor",SI-J2,46.549225,15.637075
+"Medvode",SI-71,46.14444,14.41181
+"Menges",SI-72,46.15864,14.56965
+"Metlika",SI-73,45.64857,15.31298
+"Mezica",SI-74,NULL,NULL
+"Miren-Kostanjevica",SI-J5,45.89463,13.60842
+"Mislinja",SI-76,46.44171,15.19576
+"Moravce",SI-77,NULL,NULL
+"Moravske Toplice",SI-78,46.69053,16.22297
+"Mozirje",SI-79,46.34033,14.96121
+"Murska Sobota",SI-80,46.662855,16.143385
+"Muta",SI-81,46.60977,15.16304
+"Naklo",SI-82,46.30009,14.297552
+"Nazarje",SI-83,NULL,NULL
+"Nova Gorica",SI-84,45.95578,13.655045
+"Novo Mesto",SI-J7,45.80565,15.175815
+"Odranci",SI-86,NULL,NULL
+"Ormoz",SI-87,46.405859,16.153339
+"Osilnica",SI-88,NULL,NULL
+"Pesnica",SI-89,46.617744,15.673751
+"Piran",SI-J9,45.52217,13.574225
+"Pivka",SI-91,45.6829,14.1973
+"Podcetrtek",SI-92,46.15655,15.59705
+"Postojna",SI-94,45.791316,14.288754
+"Preddvor",SI-K5,46.30168,14.42151
+"Ptuj",SI-K7,46.42563,15.886445
+"Puconci",SI-97,NULL,NULL
+"Racam",SI-98,NULL,NULL
+"Radece",SI-99,46.0667,15.18197
+"Radenci",SI-A1,46.64041,16.04427
+"Radlje ob Dravi",SI-A2,46.61434,15.22557
+"Radovljica",SI-A3,46.34531,14.1713
+"Ribnica",SI-L1,45.7407,14.7289
+"Rogaska Slatina",SI-A7,46.232489,15.499192
+"Rogasovci",SI-A6,NULL,NULL
+"Rogatec",SI-A8,46.22594,15.70001
+"Ruse",SI-L3,46.53986,15.50778
+"Semic",SI-B1,45.65196,15.18209
+"Sencur",SI-B2,46.24234,14.42114
+"Sentilj",SI-B3,46.6748,15.65691
+"Sentjernej",SI-B4,45.84353,15.33806
+"Sentjur pri Celju",SI-L7,46.219165,15.396265
+"Sevnica",SI-B6,46.01058,15.30682
+"Sezana",SI-B7,45.708835,13.87134
+"Skocjan",SI-B8,45.9065,15.29222
+"Skofja Loka",SI-B9,46.167,14.315315
+"Skofljica",SI-C1,45.98451,14.57416
+"Slovenj Gradec",SI-C2,46.481447,15.031987
+"Slovenska Bistrica",SI-L8,46.389915,15.569075
+"Slovenske Konjice",SI-C4,46.33689,15.42299
+"Smarje pri Jelsah",SI-C5,NULL,NULL
+"Smartno ob Paki",SI-C6,46.3292,15.03216
+"Sostanj",SI-C7,46.38086,15.04798
+"Starse",SI-C8,NULL,NULL
+"Store",SI-C9,NULL,NULL
+"Sveti Jurij",SI-D1,NULL,NULL
+"Tolmin",SI-D2,46.184098,13.734267
+"Trbovlje",SI-D3,46.152185,15.045935
+"Trebnje",SI-D4,45.90765,15.00592
+"Trzic",SI-D5,46.367,14.30885
+"Turnisce",SI-D6,46.62843,16.30905
+"Velenje",SI-D7,46.362975,15.11395
+"Velike Lasce",SI-D8,NULL,NULL
+"Videm",SI-N2,46.576224,16.039306
+"Vipava",SI-E1,45.845295,13.955126
+"Vitanje",SI-E2,46.38106,15.29411
+"Vodice",SI-E3,45.48419,14.0524
+"Vojnik",SI-N3,46.29307,15.3024
+"Vrhnika",SI-E5,45.9652,14.29766
+"Vuzenica",SI-E6,46.59925,15.16423
+"Zagorje ob Savi",SI-E7,46.135333,14.99566
+"Zalec",SI-N5,46.25197,15.16514
+"Zavrc",SI-E9,NULL,NULL
+"Zelezniki",SI-F1,NULL,NULL
+"Ziri",SI-F2,46.04701,14.10966
+"Zrece",SI-F3,46.37523,15.38652
+"Banska Bystrica",SK-01,NULL,NULL
+"Bratislava",SK-02,NULL,NULL
+"Kosice",SK-03,NULL,NULL
+"Nitra",SK-04,NULL,NULL
+"Presov",SK-05,NULL,NULL
+"Trencin",SK-06,NULL,NULL
+"Trnava",SK-07,NULL,NULL
+"Zilina",SK-08,NULL,NULL
+"Eastern",SL-01,8.208333,-10.941666
+"Northern",SL-02,9.155364,-11.983333
+"Southern",SL-03,7.725,-12.089071
+"Western Area",SL-04,NULL,NULL
+"Acquaviva",SM-01,43.944991,12.418439
+"Borgo Maggiore",SM-06,43.943274,12.445957
+"Chiesanuova",SM-02,43.904549,12.4204
+"Domagnano",SM-03,43.952856,12.469444
+"Faetano",SM-04,43.925494,12.498368
+"Fiorentino",SM-05,43.911795,12.456732
+"Monte Giardino",SM-08,41.730857,13.336183
+"San Marino",SM-07,43.932156,12.448625
+"Serravalle",SM-09,NULL,NULL
+"Dakar",SN-01,NULL,NULL
+"Diourbel",SN-03,NULL,NULL
+"Fatick",SN-09,14.34066,-16.427
+"Kaolack",SN-10,14.13996,-16.087395
+"Kolda",SN-11,NULL,NULL
+"Louga",SN-08,15.61494,-16.233534
+"Saint-Louis",SN-04,NULL,NULL
+"Tambacounda",SN-05,13.77234,-13.67311
+"Thies",SN-07,NULL,NULL
+"Ziguinchor",SN-12,NULL,NULL
+"Bakool",SO-01,4.223603,43.683333
+"Banaadir",SO-02,NULL,NULL
+"Bari",SO-03,NULL,NULL
+"Bay",SO-04,2.641667,43.5
+"Galguduud",SO-05,4.891667,46.708333
+"Gedo",SO-06,3.216667,42.016666
+"Hiiraan",SO-07,4.361235,45.416667
+"Jubbada Dhexe",SO-08,1.338283,42.158333
+"Jubbada Hoose",SO-09,-0.170939,42
+"Mudug",SO-10,6.241706,47.981551
+"Nugaal",SO-11,NULL,NULL
+"Sanaag",SO-12,10.266605,47.408333
+"Shabeellaha Dhexe",SO-13,3.033333,46.066549
+"Shabeellaha Hoose",SO-14,2,44.22205
+"Togdheer",SO-15,9.120683,45.783333
+"Woqooyi Galbeed",SO-16,NULL,NULL
+"Brokopondo",SR-10,4.690863,-55.123655
+"Commewijne",SR-11,5.744181,-54.891968
+"Coronie",SR-12,5.637872,-56.242824
+"Marowijne",SR-13,5.603088,-54.362373
+"Nickerie",SR-14,NULL,NULL
+"Para",SR-15,5.345529,-55.334812
+"Paramaribo",SR-16,NULL,NULL
+"Saramacca",SR-17,5.692437,-55.638452
+"Sipaliwini",SR-18,3.683723,-56.032028
+"Wanica",SR-19,5.7987,-55.218486
+"Principe",ST-01,1.614602,7.405555
+"Sao Tome",ST-02,0.20618,6.607102
+"Ahuachapan",SV-01,NULL,NULL
+"Cabanas",SV-02,NULL,NULL
+"Chalatenango",SV-03,NULL,NULL
+"Cuscatlan",SV-04,NULL,NULL
+"La Libertad",SV-05,NULL,NULL
+"La Paz",SV-06,NULL,NULL
+"La Union",SV-07,NULL,NULL
+"Morazan",SV-08,NULL,NULL
+"San Miguel",SV-09,13.476998,-88.178441
+"San Salvador",SV-10,NULL,NULL
+"San Vicente",SV-12,13.641905,-88.78577
+"Santa Ana",SV-11,NULL,NULL
+"Sonsonate",SV-13,NULL,NULL
+"Usulutan",SV-14,13.422174,-88.468132
+"Al Hasakah",SY-01,NULL,NULL
+"Al Ladhiqiyah",SY-02,NULL,NULL
+"Al Qunaytirah",SY-03,NULL,NULL
+"Ar Raqqah",SY-04,NULL,NULL
+"As Suwayda'",SY-05,NULL,NULL
+"Dar",SY-06,NULL,NULL
+"Dayr az Zawr",SY-07,NULL,NULL
+"Dimashq",SY-13,NULL,NULL
+"Halab",SY-09,NULL,NULL
+"Hamah",SY-10,NULL,NULL
+"Hims",SY-11,NULL,NULL
+"Idlib",SY-12,NULL,NULL
+"Rif Dimashq",SY-08,NULL,NULL
+"Tartus",SY-14,NULL,NULL
+"Hhohho",SZ-01,NULL,NULL
+"Lubombo",SZ-02,-26.55,31.802285
+"Manzini",SZ-03,NULL,NULL
+"Praslin",SZ-05,NULL,NULL
+"Shiselweni",SZ-04,NULL,NULL
+"Batha",TD-01,13.782158,18.681625
+"Biltine",TD-02,14.5307,20.924815
+"Borkou-Ennedi-Tibesti",TD-03,18.68913,19.855669
+"Chari-Baguirmi",TD-04,NULL,NULL
+"Guera",TD-05,11.387535,18.603342
+"Kanem",TD-06,14.566666,15.63487
+"Lac",TD-07,13.766545,14.729583
+"Logone Occidental",TD-08,NULL,NULL
+"Logone Oriental",TD-09,8.291667,16.291666
+"Mayo-Kebbi",TD-10,NULL,NULL
+"Moyen-Chari",TD-11,9.158334,18.339196
+"Ouaddai",TD-12,12.758333,21.414515
+"Salamat",TD-13,10.81178,20.428268
+"Tandjile",TD-14,9.595649,16.497499
+"Amlame",TG-01,7.4543,0.9019
+"Aneho",TG-02,NULL,NULL
+"Atakpame",TG-03,7.525017,1.125518
+"Badou",TG-15,7.5982,0.6266
+"Bafilo",TG-04,9.343246,1.24226
+"Bassar",TG-05,9.2651,0.7854
+"Dapaong",TG-06,NULL,NULL
+"Kante",TG-07,NULL,NULL
+"Klouto",TG-08,NULL,NULL
+"Kpagouda",TG-14,NULL,NULL
+"Lama-Kara",TG-09,NULL,NULL
+"Lome",TG-10,6.1228,1.2255
+"Mango",TG-11,10.367909,0.466608
+"Niamtougou",TG-12,9.766111,1.113331
+"Notse",TG-13,NULL,NULL
+"Sotouboua",TG-16,8.556385,0.983688
+"Tabligbo",TG-17,6.583,1.4974
+"Tchamba",TG-19,9.015612,1.414918
+"Tchaoudjo",TG-20,NULL,NULL
+"Tsevie",TG-18,6.420987,1.209735
+"Vogan",TG-21,6.333333,1.266667
+"Ang Thong",TH-35,NULL,NULL
+"Buriram",TH-28,NULL,NULL
+"Chachoengsao",TH-44,NULL,NULL
+"Chai Nat",TH-32,NULL,NULL
+"Chaiyaphum",TH-26,NULL,NULL
+"Chanthaburi",TH-48,NULL,NULL
+"Chiang Mai",TH-02,NULL,NULL
+"Chiang Rai",TH-03,NULL,NULL
+"Chon Buri",TH-46,NULL,NULL
+"Chumphon",TH-58,NULL,NULL
+"Kalasin",TH-23,NULL,NULL
+"Kamphaeng Phet",TH-11,NULL,NULL
+"Kanchanaburi",TH-50,NULL,NULL
+"Khon Kaen",TH-22,NULL,NULL
+"Krabi",TH-63,NULL,NULL
+"Krung Thep",TH-40,NULL,NULL
+"Lampang",TH-06,NULL,NULL
+"Lamphun",TH-05,NULL,NULL
+"Loei",TH-18,17.486709,101.494309
+"Lop Buri",TH-34,15.075617,100.947713
+"Mae Hong Son",TH-01,18.725606,97.998701
+"Maha Sarakham",TH-24,NULL,NULL
+"Mukdahan",TH-78,NULL,NULL
+"Nakhon Nayok",TH-43,14.237058,101.209333
+"Nakhon Pathom",TH-53,13.914143,100.083365
+"Nakhon Phanom",TH-21,17.405801,104.395027
+"Nakhon Ratchasima",TH-27,NULL,NULL
+"Nakhon Sawan",TH-16,NULL,NULL
+"Nakhon Si Thammarat",TH-64,NULL,NULL
+"Nan",TH-04,NULL,NULL
+"Narathiwat",TH-31,NULL,NULL
+"Nong Khai",TH-17,17.884109,102.746597
+"Nonthaburi",TH-38,NULL,NULL
+"Pathum Thani",TH-39,NULL,NULL
+"Pattani",TH-69,NULL,NULL
+"Phangnga",TH-61,8.746739,98.169915
+"Phatthalung",TH-66,7.492232,100.080615
+"Phayao",TH-41,NULL,NULL
+"Phetchabun",TH-14,16.248186,101.214188
+"Phetchaburi",TH-56,NULL,NULL
+"Phichit",TH-13,NULL,NULL
+"Phitsanulok",TH-12,NULL,NULL
+"Phra Nakhon Si Ayutthaya",TH-36,NULL,NULL
+"Phrae",TH-07,NULL,NULL
+"Phuket",TH-62,NULL,NULL
+"Prachin Buri",TH-45,14.04907,101.377701
+"Prachuap Khiri Khan",TH-57,NULL,NULL
+"Ranong",TH-59,NULL,NULL
+"Ratchaburi",TH-52,NULL,NULL
+"Rayong",TH-47,NULL,NULL
+"Roi Et",TH-25,NULL,NULL
+"Sakon Nakhon",TH-20,NULL,NULL
+"Samut Prakan",TH-42,NULL,NULL
+"Samut Sakhon",TH-55,NULL,NULL
+"Samut Songkhram",TH-54,13.376162,99.962131
+"Saraburi",TH-37,NULL,NULL
+"Satun",TH-67,NULL,NULL
+"Sing Buri",TH-33,NULL,NULL
+"Sisaket",TH-30,NULL,NULL
+"Songkhla",TH-68,NULL,NULL
+"Sukhothai",TH-09,NULL,NULL
+"Suphan Buri",TH-51,NULL,NULL
+"Surat Thani",TH-60,NULL,NULL
+"Surin",TH-29,NULL,NULL
+"Tak",TH-08,NULL,NULL
+"Trang",TH-65,NULL,NULL
+"Trat",TH-49,NULL,NULL
+"Ubon Ratchathani",TH-75,NULL,NULL
+"Udon Thani",TH-76,NULL,NULL
+"Uthai Thani",TH-15,15.369906,99.544996
+"Uttaradit",TH-10,NULL,NULL
+"Yala",TH-70,NULL,NULL
+"Yasothon",TH-72,NULL,NULL
+"Khatlon",TJ-02,NULL,NULL
+"Kuhistoni Badakhshon",TJ-01,38.071476,72.676879
+"Sughd",TJ-03,39.984178,69.185734
+"Ahal",TM-01,NULL,NULL
+"Balkan",TM-02,39.82634,54.820579
+"Dashoguz",TM-03,41.130877,58.686151
+"Lebap",TM-04,39.071209,63.437088
+"Mary",TM-05,37.327348,62.566437
+"Al Mahdiyah",TN-15,35.30503,10.65756
+"Al Munastir",TN-16,NULL,NULL
+"Al Qasrayn",TN-02,35.241667,8.849488
+"Al Qayrawan",TN-03,NULL,NULL
+"Ariana",TN-38,36.875,9.958333
+"Bajah",TN-17,NULL,NULL
+"Banzart",TN-18,NULL,NULL
+"Bin",TN-27,36.75,8.75
+"Jundubah",TN-06,36.703344,8.625
+"Kef",TN-14,36.1804,8.706
+"Madanin",TN-28,NULL,NULL
+"Manouba",TN-39,36.798,10.1055
+"Nabul",TN-19,NULL,NULL
+"Qabis",TN-29,33.702363,9.983333
+"Qafsah",TN-10,34.493192,8.715203
+"Qibili",TN-31,NULL,NULL
+"Safaqis",TN-32,NULL,NULL
+"Sidi Bu Zayd",TN-33,34.925984,9.575
+"Silyanah",TN-22,NULL,NULL
+"Susah",TN-23,NULL,NULL
+"Tatawin",TN-34,32.094028,10.614583
+"Tawzar",TN-35,NULL,NULL
+"Tunis",TN-36,NULL,NULL
+"Zaghwan",TN-37,36.30436,10
+"Ha",TO-01,52.401714,5.316288
+"Tongatapu",TO-02,-21.167938,-175.195999
+"Vava",TO-03,NULL,NULL
+"Adana",TR-81,38.633333,28.883333
+"Adiyaman",TR-02,37.747799,38.373163
+"Afyon",TR-03,38.76376,30.54034
+"Agri",TR-04,39.686932,43.038892
+"Aksaray",TR-75,38.37105,34.032576
+"Amasya",TR-05,40.651232,35.834431
+"Ankara",TR-68,39.715266,32.36064
+"Antalya",TR-07,36.900297,30.690083
+"Ardahan",TR-86,41.122547,42.896898
+"Artvin",TR-08,41.178585,41.829282
+"Aydin",TR-09,40.163142,32.666805
+"Balikesir",TR-10,39.632856,27.904303
+"Bartin",TR-87,41.636648,32.341384
+"Batman",TR-76,37.879734,41.129295
+"Bayburt",TR-77,40.259182,40.226637
+"Bilecik",TR-11,40.146383,29.981179
+"Bingol",TR-12,39.731966,37.14135
+"Bitlis",TR-13,38.397165,42.1158
+"Bolu",TR-14,40.735938,31.609664
+"Burdur",TR-15,37.724769,30.285341
+"Bursa",TR-16,40.189893,29.068779
+"Canakkale",TR-17,40.146006,26.416786
+"Cankiri",TR-82,40.600244,33.616235
+"Corum",TR-19,40.552224,34.958676
+"Denizli",TR-20,37.814946,29.05015
+"Diyarbakir",TR-21,37.920467,40.216295
+"Duzce",TR-93,40.839799,31.162335
+"Edirne",TR-22,41.673937,26.558576
+"Elazig",TR-23,38.643979,39.253218
+"Erzincan",TR-24,39.730759,39.509387
+"Erzurum",TR-25,39.904959,41.27887
+"Eskisehir",TR-26,39.771125,30.498696
+"Gaziantep",TR-83,37.112605,37.265563
+"Giresun",TR-28,40.902935,38.379531
+"Gumushane",TR-69,40.337675,39.449653
+"Hakkari",TR-70,37.571221,43.743495
+"Hatay",TR-31,36.413806,36.238455
+Icel / Mersin,TR-32,36.797532,34.630194
+"Igdir",TR-88,39.923389,44.046829
+"Isparta",TR-33,37.809832,30.463214
+"Istanbul",TR-34,41.19371,28.964975
+"Izmir",TR-35,38.605073,27.364486
+"Kahramanmaras",TR-46,37.892831,36.956516
+"Karabuk",TR-89,41.19465,32.619084
+"Karaman",TR-78,39.8007,37.9456
+"Kars",TR-84,40.584247,43.098823
+"Kastamonu",TR-37,41.351036,33.786152
+"Kayseri",TR-38,38.526809,35.928311
+"Kilis",TR-90,36.716952,37.117632
+"Kirikkale",TR-79,39.848704,33.504503
+"Kirklareli",TR-39,41.735334,27.212531
+"Kirsehir",TR-40,39.144329,34.165683
+"Kocaeli",TR-41,40.871271,29.84654
+"Konya",TR-71,37.874998,32.487117
+"Kutahya",TR-43,39.419446,29.982799
+"Malatya",TR-44,38.352109,38.314724
+"Manisa",TR-45,38.616931,27.431612
+"Mardin",TR-72,37.269273,40.691722
+"Mugla",TR-48,37.195085,28.371466
+"Mus",TR-49,38.739061,41.575239
+"Nevsehir",TR-50,38.698784,34.62743
+"Nigde",TR-73,37.973197,34.685147
+"Ordu",TR-52,40.962245,37.901365
+"Osmaniye",TR-91,39.8091,37.8407
+"Rize",TR-53,41.028637,40.537121
+"Sakarya",TR-54,40.731412,30.485519
+"Samsun",TR-55,41.295848,36.326346
+"Sanliurfa",TR-63,37.346195,39.035403
+"Siirt",TR-74,37.936014,41.938113
+"Sinop",TR-57,42.024854,35.116535
+"Sirnak",TR-80,37.520339,42.463402
+"Sivas",TR-58,39.748857,37.016708
+"Tekirdag",TR-59,40.967213,27.502946
+"Tokat",TR-60,39.2042,29.1389
+"Trabzon",TR-61,40.991865,39.720844
+"Tunceli",TR-62,39.106991,39.553872
+"Usak",TR-64,38.693067,29.405571
+"Van",TR-65,38.496457,43.402352
+"Yalova",TR-92,40.255025,26.403637
+"Yozgat",TR-66,39.818695,34.814665
+"Zonguldak",TR-85,41.355916,31.613516
+"Arima",TT-01,NULL,NULL
+"Caroni",TT-02,NULL,NULL
+"Mayaro",TT-03,10.231875,-61.008863
+"Nariva",TT-04,10.369171,-61.152327
+"Port-of-Spain",TT-05,NULL,NULL
+"Saint Andrew",TT-06,NULL,NULL
+"Saint David",TT-07,10.799905,-61.03647
+"Saint George",TT-08,NULL,NULL
+"Saint Patrick",TT-09,10.122195,-61.706165
+"San Fernando",TT-10,NULL,NULL
+"Tobago",TT-11,NULL,NULL
+"Victoria",TT-12,NULL,NULL
+"Fu-chien",TW-01,NULL,NULL
+"Kao-hsiung",TW-02,NULL,NULL
+"T'ai-pei",TW-03,NULL,NULL
+"T'ai-wan",TW-04,NULL,NULL
+"Arusha",TZ-01,-2.626139,36.178103
+"Dar es Salaam",TZ-23,NULL,NULL
+"Dodoma",TZ-03,NULL,NULL
+"Iringa",TZ-04,NULL,NULL
+"Kagera",TZ-19,-2.167413,31.726739
+"Kigoma",TZ-05,-4.826173,30.408824
+"Kilimanjaro",TZ-06,NULL,NULL
+"Lindi",TZ-07,-9.388834,38.397111
+"Mara",TZ-08,-1.760268,34.028825
+"Mbeya",TZ-09,-8.308727,33.486285
+"Morogoro",TZ-10,-7.886489,36.905426
+"Mtwara",TZ-11,NULL,NULL
+"Mwanza",TZ-12,NULL,NULL
+"Pemba North",TZ-13,-5.036239,39.745205
+"Pemba South",TZ-20,-5.32951,39.720403
+"Pwani",TZ-02,-7.139507,38.862043
+"Rukwa",TZ-24,-7.129343,31.351351
+"Ruvuma",TZ-14,-10.466072,36.308987
+"Shinyanga",TZ-15,-3.359236,33.205161
+"Singida",TZ-16,-5.685914,34.405224
+"Tabora",TZ-17,-6.923111,32.52961
+"Tanga",TZ-18,NULL,NULL
+"Zanzibar Central",TZ-21,-6.265687,39.424463
+"Zanzibar North",TZ-22,-5.90116,39.29779
+"Zanzibar Urban",TZ-25,NULL,NULL
+"Cherkas'ka Oblast'",UA-01,NULL,NULL
+"Chernihivs'ka Oblast'",UA-02,NULL,NULL
+"Chernivets'ka Oblast'",UA-03,NULL,NULL
+"Dnipropetrovs'ka Oblast'",UA-04,NULL,NULL
+"Donets'ka Oblast'",UA-05,NULL,NULL
+"Ivano-Frankivs'ka Oblast'",UA-06,NULL,NULL
+"Kharkivs'ka Oblast'",UA-07,NULL,NULL
+"Khersons'ka Oblast'",UA-08,NULL,NULL
+"Khmel'nyts'ka Oblast'",UA-09,NULL,NULL
+"Kirovohrads'ka Oblast'",UA-10,NULL,NULL
+"Krym",UA-11,45.373211,36.625011
+"Kyyiv",UA-12,50.453629,30.503828
+"Kyyivs'ka Oblast'",UA-13,NULL,NULL
+"L'vivs'ka Oblast'",UA-15,NULL,NULL
+"Luhans'ka Oblast'",UA-14,NULL,NULL
+"Mykolayivs'ka Oblast'",UA-16,NULL,NULL
+"Odes'ka Oblast'",UA-17,NULL,NULL
+"Poltavs'ka Oblast'",UA-18,NULL,NULL
+"Rivnens'ka Oblast'",UA-19,NULL,NULL
+"Sevastopol'",UA-20,NULL,NULL
+"Sums'ka Oblast'",UA-21,NULL,NULL
+"Ternopil's'ka Oblast'",UA-22,NULL,NULL
+"Vinnyts'ka Oblast'",UA-23,NULL,NULL
+"Volyns'ka Oblast'",UA-24,NULL,NULL
+"Zakarpats'ka Oblast'",UA-25,NULL,NULL
+"Zaporiz'ka Oblast'",UA-26,NULL,NULL
+"Zhytomyrs'ka Oblast'",UA-27,NULL,NULL
+"Adjumani",UG-65,3.229969,31.762338
+"Arua",UG-77,3.02238,30.90199
+"Bugiri",UG-66,1.083333,33.716667
+"Busia",UG-67,0.382226,34.007637
+"Busoga",UG-05,NULL,NULL
+"Central",UG-18,NULL,NULL
+"Eastern",UG-20,NULL,NULL
+"Iganga",UG-78,0.75659,33.550506
+"Kabarole",UG-79,0.598545,30.274556
+"Kaberamaido",UG-80,1.7633,33.1506
+"Kampala",UG-37,NULL,NULL
+"Kamwenge",UG-81,0.189751,30.54713
+"Kanungu",UG-82,-0.726021,29.737105
+"Karamoja",UG-08,NULL,NULL
+"Katakwi",UG-69,2.008881,33.786498
+"Kayunga",UG-83,NULL,NULL
+"Kitgum",UG-84,3.448148,32.954994
+"Kyenjojo",UG-85,0.548241,30.85638
+"Mayuge",UG-86,-0.205515,33.498983
+"Mbale",UG-87,1.078055,34.169515
+"Moroto",UG-88,2.533495,34.648774
+"Mpigi",UG-89,0.200358,32.032738
+"Mukono",UG-90,NULL,NULL
+"Nakapiripirit",UG-91,1.833149,34.632294
+"Nakasongola",UG-73,1.288161,32.38446
+"Nile",UG-21,NULL,NULL
+"North Buganda",UG-22,NULL,NULL
+"Northern",UG-23,NULL,NULL
+"Pader",UG-92,2.903747,33.040111
+"Rukungiri",UG-93,-0.721777,29.893297
+"Sembabule",UG-74,-0.078723,31.320803
+"Sironko",UG-94,1.295758,34.365532
+"Soroti",UG-95,1.711998,33.608196
+"South Buganda",UG-12,NULL,NULL
+"Southern",UG-24,NULL,NULL
+"Wakiso",UG-96,NULL,NULL
+"Western",UG-25,0.528405,34.544897
+"Yumbe",UG-97,3.454796,31.339328
+"Alabama",US-AL,NULL,NULL
+"Alaska",US-AK,NULL,NULL
+"American Samoa",US-AS,NULL,NULL
+"Arizona",US-AZ,NULL,NULL
+"Arkansas",US-AR,NULL,NULL
+"Armed Forces Americas",US-AA,NULL,NULL
+"Armed Forces Europe, Middle East, & Canada",US-AE,NULL,NULL
+"Armed Forces Pacific",US-AP,NULL,NULL
+"California",US-CA,NULL,NULL
+"Colorado",US-CO,NULL,NULL
+"Connecticut",US-CT,NULL,NULL
+"Delaware",US-DE,NULL,NULL
+"District of Columbia",US-DC,NULL,NULL
+"Federated States of Micronesia",US-FM,NULL,NULL
+"Florida",US-FL,NULL,NULL
+"Georgia",US-GA,NULL,NULL
+"Guam",US-GU,36.902148,-89.823875
+"Hawaii",US-HI,NULL,NULL
+"Idaho",US-ID,NULL,NULL
+"Illinois",US-IL,NULL,NULL
+"Indiana",US-IN,NULL,NULL
+"Iowa",US-IA,NULL,NULL
+"Kansas",US-KS,NULL,NULL
+"Kentucky",US-KY,NULL,NULL
+"Louisiana",US-LA,NULL,NULL
+"Maine",US-ME,NULL,NULL
+"Marshall Islands",US-MH,42.380762,-70.989544
+"Maryland",US-MD,NULL,NULL
+"Massachusetts",US-MA,NULL,NULL
+"Michigan",US-MI,NULL,NULL
+"Minnesota",US-MN,NULL,NULL
+"Mississippi",US-MS,NULL,NULL
+"Missouri",US-MO,NULL,NULL
+"Montana",US-MT,NULL,NULL
+"Nebraska",US-NE,NULL,NULL
+"Nevada",US-NV,NULL,NULL
+"New Hampshire",US-NH,NULL,NULL
+"New Jersey",US-NJ,NULL,NULL
+"New Mexico",US-NM,NULL,NULL
+"New York",US-NY,NULL,NULL
+"North Carolina",US-NC,NULL,NULL
+"North Dakota",US-ND,NULL,NULL
+"Northern Mariana Islands",US-MP,NULL,NULL
+"Ohio",US-OH,NULL,NULL
+"Oklahoma",US-OK,NULL,NULL
+"Oregon",US-OR,NULL,NULL
+"Palau",US-PW,NULL,NULL
+"Pennsylvania",US-PA,NULL,NULL
+"Puerto Rico",US-PR,18.199755,-66.583628
+"Rhode Island",US-RI,NULL,NULL
+"South Carolina",US-SC,NULL,NULL
+"South Dakota",US-SD,NULL,NULL
+"Tennessee",US-TN,NULL,NULL
+"Texas",US-TX,NULL,NULL
+"Utah",US-UT,NULL,NULL
+"Vermont",US-VT,NULL,NULL
+"Virgin Islands",US-VI,39.955293,-74.232054
+"Virginia",US-VA,NULL,NULL
+"Washington",US-WA,NULL,NULL
+"West Virginia",US-WV,NULL,NULL
+"Wisconsin",US-WI,NULL,NULL
+"Wyoming",US-WY,NULL,NULL
+"Artigas",UY-01,-30.40996,-56.47282
+"Canelones",UY-02,NULL,NULL
+"Cerro Largo",UY-03,NULL,NULL
+"Colonia",UY-04,NULL,NULL
+"Durazno",UY-05,NULL,NULL
+"Flores",UY-06,-33.546097,-56.878351
+"Florida",UY-07,NULL,NULL
+"Lavalleja",UY-08,NULL,NULL
+"Maldonado",UY-09,NULL,NULL
+"Montevideo",UY-10,NULL,NULL
+"Paysandu",UY-11,-32.317755,-58.076836
+"Rio Negro",UY-12,-32.870603,-57.483908
+"Rivera",UY-13,NULL,NULL
+"Rocha",UY-14,-34.49675,-54.326229
+"Salto",UY-15,NULL,NULL
+"San Jose",UY-16,-34.303564,-56.761739
+"Soriano",UY-17,NULL,NULL
+"Tacuarembo",UY-18,-31.697835,-55.964004
+"Treinta y Tres",UY-19,-33.23148,-54.37455
+"Andijon",UZ-01,NULL,NULL
+"Bukhoro",UZ-02,NULL,NULL
+"Farghona",UZ-03,NULL,NULL
+"Jizzakh",UZ-04,NULL,NULL
+"Khorazm",UZ-05,NULL,NULL
+"Namangan",UZ-06,41.10049,71.262512
+"Nawoiy",UZ-07,NULL,NULL
+"Qashqadaryo",UZ-08,NULL,NULL
+"Qoraqalpoghiston",UZ-09,NULL,NULL
+"Samarqand",UZ-10,NULL,NULL
+"Sirdaryo",UZ-11,40.52603,68.604263
+"Surkhondaryo",UZ-12,NULL,NULL
+"Toshkent",UZ-13,NULL,NULL
+"Charlotte",VC-01,13.32435,-61.148
+"Grenadines",VC-06,NULL,NULL
+"Saint Andrew",VC-02,NULL,NULL
+"Saint David",VC-03,13.27991,-61.23777

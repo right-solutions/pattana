@@ -1,0 +1,55 @@
+<% edit_link = edit_admin_city_path(id: city.id) %>
+<% delete_link = admin_city_path(id: city.id) %>
+
+<tr id="tr_city_<%= city.id %>">
+
+  <td class="city-image">
+    <%= link_to(admin_city_path(city), remote: true) do %>
+      <%= display_image(city, "city_image.image.small.url", width: "32", height: "auto", class: "img-rectangle", alt: city.display_name) %>
+    <% end %>
+  </td>
+
+  <td class="city-name"><%= link_to city.name, admin_city_path(city), remote: true %></td>
+
+  <td>
+    <% if city.unpublished? %>
+      <span class="ml-5 mt-5 label label-default">Un-Published</span>
+    <% elsif city.published? %>
+      <span class="ml-5 mt-5 label label-success">Published</span>
+    <% elsif city.disabled? %>
+      <span class="ml-5 mt-5 label label-danger">Disabled</span>
+    <% end %>
+  </td>
+
+  <td class="action-links" style="width:10%">
+
+    <% case city.status %>
+    <% when "published" %>
+      <!-- Un-Publish -->
+      <%= link_to raw("<i class=\"fa fa-circle mr-5\"></i> Un-Publish"), update_status_admin_city_path(:id =>city.id, :status =>'unpublished'), :method =>'PUT', :remote=>true, role: "menuitem", tabindex: "-1", :class=>"city_status" %>
+      
+      <!-- Disable -->
+      <%= link_to raw("<i class=\"fa fa-edit mr-5\"></i> Disable"), update_status_admin_city_path(:id =>city.id, :status =>'disabled'), :method =>'PUT', :remote=>true, role: "menuitem", tabindex: "-1", :class=>"city_status" %>
+    <% when "unpublished" %>
+      <!-- Approve -->
+      <%= link_to raw("<i class=\"fa fa-circle-o mr-5\"></i> Publish"), update_status_admin_city_path(:id =>city.id, :status =>'published'), :method =>'PUT', :remote=>true, role: "menuitem", tabindex: "-1", :class=>"city_status" %>
+      <!-- Disable -->
+      <%= link_to raw("<i class=\"fa fa-edit mr-5\"></i> Disable"), update_status_admin_city_path(:id =>city.id, :status =>'disabled'), :method =>'PUT', :remote=>true, role: "menuitem", tabindex: "-1", :class=>"city_status" %>
+    <% when "disabled" %>
+      <!-- Un-Publish -->
+      <%= link_to raw("<i class=\"fa fa-circle mr-5\"></i> Un-Publish"), update_status_admin_city_path(:id =>city.id, :status =>'unpublished'), :method =>'PUT', :remote=>true, role: "menuitem", tabindex: "-1", :class=>"city_status" %>
+      <!-- Approve -->
+      <%= link_to raw("<i class=\"fa fa-circle-o mr-5\"></i> Publish"), update_status_admin_city_path(:id =>city.id, :status =>'published'), :method =>'PUT', :remote=>true, role: "menuitem", tabindex: "-1",:class=>"city_status" %>
+    <% end %>
+
+  </td>
+
+  <td class="action-links" style="width:10%">
+
+    <%= link_to raw("<i class=\"linecons-pencil\"></i> Edit City"), edit_link, :remote=>true, class: "edit" %>
+
+    <%= link_to raw("<i class=\"linecons-trash\"></i> Delete"), delete_link, method: :delete, role: "menuitem", tabindex: "-1", data: { confirm: 'Are you sure?' }, :remote=>true, class: "delete" %>
+
+  </td>
+
+</tr>
