@@ -14,23 +14,30 @@ pass verbose=false to avoid printing more details while running these commands.
 
 ### Importing countries
 
+```rails pattana:import:master_data:countries```
+
 This will import countries parsing the excel file 'countries.xlsx' located in db/master_data
-```rails import:master_data:countries```
 
 ### Importing regions
 
-This will import countries parsing the csv file 'regions.csv' located in db/master_data
-```rails import:master_data:regions```
+```rails pattana:import:master_data:regions```
+
+This will import regions parsing the csv file 'regions.csv' located in db/master_data
 
 ### Importing cities
 
-This will import countries parsing the cities folder recursively which has multiple small city files located in db/master_data/cities
-```rails import:master_data:cities```
+```rails pattana:import:master_data:cities```
+
+This will import cities parsing the cities folder recursively which has multiple small city files located in db/master_data/cities
 
 
 ### Importing all together in one line
 
-```rails import:master_data:countries import:master_data:regions import:master_data:cities```
+```rails pattana:import:master_data:countries pattana:import:master_data:regions pattana:import:master_data:cities```
+
+This can also be achieved in a single task
+
+```rails pattana:import:master_data:all```
 
 
 ## Testing the import scripts
@@ -38,7 +45,7 @@ This will import countries parsing the cities folder recursively which has multi
 ### Single .csv File Import
 
 This will import a single file 
-```rails import:test:csv:single_file RAILS_ENV=test```
+```rails pattana:import:test:csv:single_file RAILS_ENV=test```
 
 
 ### Split Files (.csv) Importing
@@ -47,13 +54,13 @@ This will import all the files in a folder recursevely.
 Run split_csv.sh script to split a large file into multiple small csv files keeping the header.
 Make sure that the name of the big file is master.csv
 
-```rails import:test:csv:split_files RAILS_ENV=test```
+```rails pattana:import:test:csv:split_files RAILS_ENV=test```
 
 
 ### Single .xlsx File Import
 
 This will import a single file 
-```rails import:test:xlsx:single_file RAILS_ENV=test```
+```rails pattana:import:test:xlsx:single_file RAILS_ENV=test```
 
 
 ### Split Files (.xlsx) Importing
@@ -63,12 +70,12 @@ Run split_csv.sh script to split a large file into multiple small csv files keep
 Make sure that the name of the big file is master.csv
 
 
-```rails import:test:xlsx:split_files RAILS_ENV=test```
+```rails pattana:import:test:xlsx:split_files RAILS_ENV=test```
 
 ### Single .sql File Import
 
 This will import a single file 
-```rails import:test:sql:file RAILS_ENV=test```
+```rails pattana:import:test:sql:file RAILS_ENV=test```
 
 
 
@@ -80,19 +87,19 @@ However, we might have to update these information periodically at times. The ma
 
 ## Parse countries.xlsx file and save them to coutries
 
-```rails import:master_data:countries```
-```rails import:make_data:countries_lat_lon```
+```rails pattana:import:master_data:countries```
+```rails pattana:import:make_data:countries_lat_lon```
 
 The last command would update the lat and lon for the countries
 
 
 ## Parse regions/*.csv files and save them to coutries
 
-```rails import:master_data:regions```
+```rails pattana:import:master_data:regions```
 
 
 ## Parse cities/*.csv files and save them to coutries
 
-```rails import:master_data:cities```
+```rails pattana:import:master_data:cities```
 
 
