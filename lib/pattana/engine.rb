@@ -1,11 +1,11 @@
 module Pattana
   class Engine < ::Rails::Engine
     
+    # require 'pry'
     require 'kaminari'
     require 'kuppayam'
     require 'colorize'
     require 'colorized_string'
-    # require 'pry'
     
     isolate_namespace Pattana
 

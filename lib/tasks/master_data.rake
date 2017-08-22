@@ -25,7 +25,7 @@ namespace 'pattana' do
         end
         puts " "
       end
-
+      
       # Import from SQL file
       ["Country", "Region", "City"].each do |cls_name|
         name = cls_name.underscore.pluralize
