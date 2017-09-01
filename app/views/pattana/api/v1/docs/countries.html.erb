@@ -1,0 +1,21 @@
+<div class="tabs-vertical-env">
+  
+  <%= render partial: "navigation" %>
+  
+  <div class="tab-content">
+    <div class="tab-pane active" id="countries">
+      
+      <h3>
+        <span class="text-success">Countries API</span><br>
+        <small>POST: /api/v1/countries</small>
+      </h3>
+
+      <div class="panel-group panel-group-joined">
+        <%= render partial: "api/v1/docs/countries/pos_case_1" %>
+        <%= render partial: "api/v1/docs/countries/neg_case_1" %>
+        <%= render partial: "api/v1/docs/countries/neg_case_2" %>
+        <%= render partial: "api/v1/docs/countries/neg_case_3" %>
+      </div>
+    </div>
+  </div>
+</div>

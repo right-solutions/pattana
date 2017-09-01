@@ -42,9 +42,28 @@ RSpec.describe City, type: :model do
       expect(City.show_in_api.all).to match_array [usa]
     end
 
-    context "Import Methods" do
-      it "save_row_data" do
-        skip "To Be Implemented"
+    describe "Import Method - save_row_data" do
+      context "Positive Cases" do
+        it "should parse a valid hash (row) and save the data" do
+          skip "To Be Implemented"
+          # hsh = {name: "City Name"}
+          # city, error_object = City.save_row_data(hsh)
+          # expect(city.is_a?(City))
+          # expect(error_object.is_a?(Kuppayam::Importer::ErrorHash))
+          # expect(error_object.errors?).to be_falsy
+          # expect(error_object.warnings?).to be_falsy
+        end
+      end
+      context "Negative Cases" do
+        it "should return an error object with error messages" do
+          skip "To Be Implemented"
+          # hsh = {name: "City Name"}
+          # city, error_object = City.save_row_data(hsh)
+          # expect(city.is_a?(City))
+          # expect(error_object.is_a?(Kuppayam::Importer::ErrorHash))
+          # expect(error_object.errors?).to be_falsy
+          # expect(error_object.warnings?).to be_falsy
+        end
       end
     end
   end

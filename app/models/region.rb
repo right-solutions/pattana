@@ -1,5 +1,8 @@
 class Region < Pattana::ApplicationRecord
   
+  # Constants
+  EXCLUDED_JSON_ATTRIBUTES = [:created_at, :updated_at, :show_in_api]
+
   # Associations
   belongs_to :country
   has_many :cities
@@ -11,6 +14,15 @@ class Region < Pattana::ApplicationRecord
   # Class Methods
   # ------------------
 
+  # Exclude some attributes info from json output.
+  def as_json(options={})
+    options[:except] ||= EXCLUDED_JSON_ATTRIBUTES
+    #options[:include] ||= []
+    #options[:methods] = []
+    #options[:methods] << :profile_image
+    super(options)
+  end
+  
   # Scopes Methods
 
   # return an active record relation object with the search query in its where clause

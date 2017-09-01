@@ -1,5 +1,8 @@
 class Country < Pattana::ApplicationRecord
   
+  # Constants
+  EXCLUDED_JSON_ATTRIBUTES = [:created_at, :updated_at, :show_in_api]
+
   # Associations
   has_many :regions
   has_many :cities
@@ -10,6 +13,15 @@ class Country < Pattana::ApplicationRecord
   # ------------------
   # Class Methods
   # ------------------
+
+  # Exclude some attributes info from json output.
+  def as_json(options={})
+    options[:except] ||= EXCLUDED_JSON_ATTRIBUTES
+    #options[:include] ||= []
+    #options[:methods] = []
+    #options[:methods] << :profile_image
+    super(options)
+  end
 
   # Scopes Methods
 

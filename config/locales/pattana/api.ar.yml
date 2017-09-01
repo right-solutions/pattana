@@ -1,0 +1,13 @@
+ar:
+  api:
+    regions:
+      country_not_found:
+        heading: "Invalid Country ID"
+        message: "Pass a vaild Country ID to get the regions. Get Countries List along with their IDs from Countries API."
+    cities:
+      country_not_found:
+        heading: "Invalid Country ID"
+        message: "Pass a vaild Country ID to get the regions. Get Countries List along with their IDs from Countries API."
+      region_not_found:
+        heading: "Invalid Region ID"
+        message: "Pass a vaild Region ID to get the regions. Get Regions List along with their IDs from Regions API."
