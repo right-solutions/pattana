@@ -11,7 +11,7 @@ RSpec.describe Pattana::Api::V1::CountriesController, :type => :request do
         FactoryGirl.create(:country, name: "United States")
 
         get "/api/v1/countries"
-      
+        
         expect(response.status).to eq(200)
 
         response_body = JSON.parse(response.body)

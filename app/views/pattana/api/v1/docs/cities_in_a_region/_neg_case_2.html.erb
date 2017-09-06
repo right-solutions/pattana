@@ -1,6 +1,6 @@
 <%
 
-api_title = "Negative Case - 1 - should show errors if a valid country id is not passed"
+api_title = "Negative Case - 2 - should show errors if a valid country id is not passed"
 
 api_input = <<-eos
 {}
@@ -10,8 +10,8 @@ api_output = <<-eos
 {
   "success": false,
   "errors": {
-      "heading": "Invalid Country ID",
-      "message": "Pass a vaild Country ID to get the regions. Get Countries List along with their IDs from Countries API."
+    "heading": "Invalid Region ID",
+    "message": "Pass a vaild Region ID to get the regions. Get Regions List along with their IDs from Regions API"
   }
 }
 eos

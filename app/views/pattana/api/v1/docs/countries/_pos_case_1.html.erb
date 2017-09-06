@@ -1,62 +1,87 @@
 <%
 
-api_title = "Positive Case - 1 - should register and add a new device"
+api_title = "Positive Case - 1 - should return all the countries"
 
 api_input = <<-eos
-{
-  "country_id": "1",
-  "city_id": "2",
-  "dialing_prefix": "+91",
-  "mobile_number": "501370321",
-  "uuid": "jh01u2g01h301h21h232",
-  "device_token": "0182y3b28107b31",
-  "device_name": "Apple iPhone",
-  "device_type": "iPhone 7 Plus",
-  "operating_system": "iOS",
-  "software_version": "iOS 11.2.2"
-}
+{}
 eos
 
 api_output = <<-eos
 {
-  "success": true,
-  "alert": {
-      "heading": "An OTP has been sent to you",
-      "message": "Check your mobile for new message from us."
-  },
-  "data": {
-      "registration": {
-          "id": 5,
-          "user_id": null,
-          "country_id": 1,
-          "city_id": null,
-          "dialing_prefix": "+91",
-          "mobile_number": "501370321"
-      },
-      "device": {
-          "id": 6,
-          "user_id": null,
-          "registration_id": 5,
-          "uuid": "jh01u2g01h301h21h232",
-          "device_token": "0182y3b28107b31",
-          "device_name": "Apple iPhone",
-          "device_type": "iPhone 7 Plus",
-          "operating_system": "iOS",
-          "software_version": "iOS 11.2.2",
-          "otp_verified_at": null
-      }
-  },
-  "errors": {
-      "heading": null,
-      "message": null,
-      "details": {}
-  }
+    "success": true,
+    "data": [
+        {
+            "id": 1,
+            "name": "Afghanistan",
+            "official_name": "Afghanistan",
+            "iso_name": "AFGHANISTAN",
+            "fips": "AF",
+            "iso_alpha_2": "AF",
+            "iso_alpha_3": "AFG",
+            "itu_code": "AFG",
+            "dialing_prefix": "93",
+            "tld": ".af",
+            "latitude": "33.0",
+            "longitude": "65.0",
+            "capital": "Kabul",
+            "continent": "AS",
+            "currency_code": "AFN",
+            "currency_name": "Afghani",
+            "is_independent": "Yes",
+            "languages": "fa-AF,ps,uz-AF,tk",
+            "priority": 1000
+        },
+        {
+            "id": 2,
+            "name": "Albania",
+            "official_name": "Albania",
+            "iso_name": "ALBANIA",
+            "fips": "AL",
+            "iso_alpha_2": "AL",
+            "iso_alpha_3": "ALB",
+            "itu_code": "ALB",
+            "dialing_prefix": "355",
+            "tld": ".al",
+            "latitude": "41.0",
+            "longitude": "20.0",
+            "capital": "Tirana",
+            "continent": "EU",
+            "currency_code": "ALL",
+            "currency_name": "Lek",
+            "is_independent": "Yes",
+            "languages": "sq,el",
+            "priority": 1000
+        },
+        .
+        .
+        .
+        {
+            "id": 246,
+            "name": "Zimbabwe",
+            "official_name": "Zimbabwe",
+            "iso_name": "ZIMBABWE",
+            "fips": "ZI",
+            "iso_alpha_2": "ZW",
+            "iso_alpha_3": "ZWE",
+            "itu_code": "ZWE",
+            "dialing_prefix": "263",
+            "tld": ".zw",
+            "latitude": "-20.0",
+            "longitude": "30.0",
+            "capital": "Harare",
+            "continent": "AF",
+            "currency_code": "ZWL",
+            "currency_name": "Zimbabwe Dollar",
+            "is_independent": "Yes",
+            "languages": "en-ZW,sn,nr,nd",
+            "priority": 1000
+        }]
 }
 eos
 
 %>
 
-<%= render partial: "example", locals: {
+<%= render partial: "kuppayam/api/docs/example", locals: {
                                         negative_case: false,
                                         example_id: "pos_case_1",
                                         api_title: api_title,

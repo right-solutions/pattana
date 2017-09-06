@@ -20,7 +20,8 @@ class City < Pattana::ApplicationRecord
     #options[:include] ||= []
     #options[:methods] = []
     #options[:methods] << :profile_image
-    super(options)
+    json = super(options)
+    Hash[*json.map{|k, v| [k, v || ""]}.flatten]
   end
 
   # Scopes Methods

@@ -4,7 +4,7 @@ module Pattana
       class BaseController < ActionController::API
 
         include ActionController::HttpAuthentication::Token::ControllerMethods
-        include ApiHelper
+        include RenderApiHelper
 
       end
     end

@@ -1,28 +1,51 @@
 <%
 
-api_title = "Positive Case - 1 - should resend the otp for valid inputs"
+api_title = "Positive Case - 1 - should return all the regions in a country"
 
 api_input = <<-eos
-{
-  "uuid": "asd907asdba78sbda",
-  "mobile_number": "292991230",
-  "dialing_prefix": "+91"
-}
+{}
 eos
 
 api_output = <<-eos
 {
   "success": true,
-  "alert": {
-      "heading": "An new OTP has been sent to you",
-      "message": "Check your mobile for new message from us."
-  }
+  "data": [
+    {
+      "id": 8,
+      "name": "Umm Al Quwain",
+      "iso_code": "AE-07",
+      "country_id": 235,
+      "latitude": "",
+      "longitude": "",
+      "priority": 1000
+    },
+    {
+      "id": 9,
+      "name": "Ras Al Khaimah",
+      "iso_code": "AE-05",
+      "country_id": 235,
+      "latitude": "",
+      "longitude": "",
+      "priority": 1000
+    },
+    .
+    .
+    .
+    {
+      "id": 13,
+      "name": "Ajman",
+      "iso_code": "AE-02",
+      "country_id": 235,
+      "latitude": "25.41222",
+      "longitude": "55.434738",
+      "priority": 1000
+    }]
 }
 eos
 
 %>
 
-<%= render partial: "example", locals: {
+<%= render partial: "kuppayam/api/docs/example", locals: {
                                         negative_case: false,
                                         example_id: "pos_case_1",
                                         api_title: api_title,

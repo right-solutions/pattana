@@ -1,0 +1,63 @@
+<%
+
+api_title = "Positive Case - 1 - should return all the cities in a country"
+
+api_input = <<-eos
+{}
+eos
+
+api_output = <<-eos
+{
+  "success": true,
+  "data": [
+    {
+      "id": 21,
+      "name": "Abu Dhabi",
+      "alternative_names": "A-pu-that-pi,AEbu Saby,AUH,Aboe Dhabi,Abou Dabi,Abu Dabi,Abu Dabis,Abu Daby,Abu Daibi,Abu Dhabi,Abu Dhabi emiraat,Abu Zabi,Abu Zaby,Abu Zabye,Abu Zabyo,Abu á¸\u008cabi,Abu á¸\u0090abi,Abu-Dabi,Abu-Dabi khot,Abu-Dabio,Abu-Dzabi,AbÃº DabÃ\u00ad,AbÃº DaibÃ\u00ad,AbÃº ZabÃ\u00ad,AbÃ» ",
+      "iso_code": "",
+      "country_id": 235,
+      "region_id": 14,
+      "latitude": "24.46667",
+      "longitude": "54.36667",
+      "population": 603492,
+      "priority": 1000
+    },
+    {
+      "id": 20,
+      "name": "Adh Dhayd",
+      "alternative_names": "Adh Dhaid,Adh Dhayd,Al Daid,Al-Dhayd,Dayd,Dhaid,Dhayd,Duhayd,Ihaid,aldhyd,Ø§Ù\u0084Ø°Ù\u008aØ¯,á¸\u0090ayd",
+      "iso_code": "",
+      "country_id": 235,
+      "region_id": 11,
+      "latitude": "25.28812",
+      "longitude": "55.88157",
+      "population": 24716,
+      "priority": 1000
+    },
+    .
+    .
+    .
+    {
+      "id": 8,
+      "name": "Umm al Qaywayn",
+      "alternative_names": "Oumm al Qaiwain,Oumm al QaÃ¯waÃ¯n,Um al Kawain,Um al Quweim,Umm al Qaiwain,Umm al Qawain,Umm al Qaywayn,Umm al-Quwain,Umm-ehl'-Kajvajn,Yumul al Quwain,am alqywyn,Ð£Ð¼Ð¼-Ñ\u008dÐ»Ñ\u008c-Ð\u009aÐ°Ð¹Ð²Ð°Ð¹Ð½,Ø£Ù\u0085 Ø§Ù\u0084Ù\u0082Ù\u008aÙ\u0088Ù\u008aÙ\u0086",
+      "iso_code": "",
+      "country_id": 235,
+      "region_id": 8,
+      "latitude": "25.56473",
+      "longitude": "55.55517",
+      "population": 44411,
+      "priority": 1000
+    }]
+}
+eos
+
+%>
+
+<%= render partial: "kuppayam/api/docs/example", locals: {
+                                        negative_case: false,
+                                        example_id: "pos_case_1",
+                                        api_title: api_title,
+                                        api_input: api_input,
+                                        api_output: api_output 
+                                      } %>

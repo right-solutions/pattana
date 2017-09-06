@@ -5,7 +5,7 @@ module Pattana
 
         def index
           proc_code = Proc.new do
-            @countries = Country.where("show_in_api is true").all
+            @countries = Country.where("show_in_api is true").order("name ASC").all
             @success = true
             @data = @countries
           end

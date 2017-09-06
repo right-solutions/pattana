@@ -4,7 +4,7 @@ RSpec.describe Pattana::Api::V1::RegionsController, :type => :request do
 
   describe "countries" do
     context "Positive Case" do
-      it "should return all the regions" do
+      it "should return all the regions in a country" do
         india = FactoryGirl.create(:country, name: "India", show_in_api: true)
         uae = FactoryGirl.create(:country, name: "United Arab Emirates", show_in_api: true)
         FactoryGirl.create(:region, name: "Kerala", show_in_api: true, country: india)
@@ -45,7 +45,7 @@ RSpec.describe Pattana::Api::V1::RegionsController, :type => :request do
         response_body = JSON.parse(response.body)
         expect(response_body["success"]).to eq(false)
         expect(response_body["errors"]["heading"]).to eq("Invalid Country ID")
-        expect(response_body["errors"]["message"]).to eq("Pass a vaild Country ID to get the regions. Get Countries List along with their IDs from Countries API.")
+        expect(response_body["errors"]["message"]).to eq("Pass a vaild Country ID to get the regions. Get Countries List along with their IDs from Countries API")
       end
     end
   end

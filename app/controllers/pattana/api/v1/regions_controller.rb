@@ -7,7 +7,7 @@ module Pattana
           proc_code = Proc.new do
             @country = Country.find_by_id(params[:country_id])
             if @country
-              @regions = @country.regions.where("show_in_api is true").all
+              @regions = @country.regions.where("show_in_api is true").order("name ASC").all
               @success = true
               @data = @regions
             else

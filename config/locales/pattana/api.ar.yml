@@ -1,13 +1,16 @@
-ar:
+en:
   api:
     regions:
       country_not_found:
         heading: "Invalid Country ID"
-        message: "Pass a vaild Country ID to get the regions. Get Countries List along with their IDs from Countries API."
+        message: "Pass a vaild Country ID to get the regions. Get Countries List along with their IDs from Countries API"
     cities:
       country_not_found:
         heading: "Invalid Country ID"
-        message: "Pass a vaild Country ID to get the regions. Get Countries List along with their IDs from Countries API."
+        message: "Pass a vaild Country ID to get the regions. Get Countries List along with their IDs from Countries API"
       region_not_found:
         heading: "Invalid Region ID"
-        message: "Pass a vaild Region ID to get the regions. Get Regions List along with their IDs from Regions API."
+        message: "Pass a vaild Region ID to get the regions. Get Regions List along with their IDs from Regions API"
+      region_id_not_matching:
+        heading: "Region ID and the Country ID doesn't match"
+        message: "Make sure that you pass the region id which belongs the right country id. This error is likely to be encountered when the region id belongs to a different country id than the one you have passed"

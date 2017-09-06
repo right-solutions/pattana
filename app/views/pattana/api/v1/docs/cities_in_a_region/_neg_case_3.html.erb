@@ -1,31 +1,24 @@
 <%
 
-api_title = "Negative Case - 1 - should set proper errors if no input is given"
+api_title = "Negative Case - 3 - should show errors if a valid country id is not passed"
 
 api_input = <<-eos
-{
-  "uuid": "asd907asdba78sbda",
-  "mobile_number": "292991230",
-  "dialing_prefix": "+91"
-}
+{}
 eos
 
 api_output = <<-eos
 {
   "success": false,
   "errors": {
-      "heading": "OTP verification was failed",
-      "message": "Make sure that you enter the OTP correctly.",
-      "details": {
-          "otp": "doesn't match with our database"
-      }
+    "heading": "Region ID and the Country ID doesn't match",
+    "message": "Make sure that you pass the region id which belongs the right country id. This error is likely to be encountered when the region id belongs to a different country id than the one you have passed"
   }
 }
 eos
 
 %>
 
-<%= render partial: "example", locals: {
+<%= render partial: "kuppayam/api/docs/example", locals: {
                                         negative_case: true,
                                         example_id: "neg_case_1",
                                         api_title: api_title,
