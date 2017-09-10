@@ -52,7 +52,7 @@ class City < Pattana::ApplicationRecord
       details = "Stack trace: #{e.backtrace.map {|l| "  #{l}\n"}.join}"
       error_object.errors << { summary: summary, details: details }
     end
-    return city, error_object
+    return error_object
   end
 
   def self.parse_row_data(row_data)
