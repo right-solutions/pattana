@@ -12,6 +12,18 @@
 
       <%= theme_panel_sub_heading(@region.country.name, "#") if @region.country %><br>
 
+      <% if @region.show_in_api? %>
+        <div class="label label-success">Show In API</div>
+      <% else %>
+        <div class="label label-danger">Hide In API</div>
+      <% end %>
+
+      <% if @region.operational? %>
+        <div class="label label-success">Operational</div>
+      <% else %>
+        <div class="label label-danger">Non Operational</div>
+      <% end %>
+
       <%= clear_tag(10) %>
       
     </div>
@@ -30,11 +42,12 @@
     </li>
 
     <li class="">
-      <a href="#technical_details" data-toggle="tab" aria-expanded="false">
+      <a href="#cities" data-toggle="tab" aria-expanded="false">
         <span class="visible-xs"><i class="fa-database"></i></span>
-        <span class="hidden-xs">Technical Details</span>
+        <span class="hidden-xs">Cities</span>
       </a>
     </li>
+    
   </ul>
 
   <div class="tab-content">
@@ -51,36 +64,106 @@
               <th>ID</th><td><%= @region.id %></td>
               <th>Name</th><td><%= @region.name %></td>
             </tr>
+
             <tr>
               <th>ISO Code</th><td><%= @region.iso_code if @region.iso_code %></td>
               <th>Country</th><td><%= @region.country.name if @region.country %></td>
             </tr>
-          </tbody>
-        </table>
-      </div>
-      
-    </div>
 
-    <div class="tab-pane" id="technical_details">
-      
-      <%= clear_tag(20) %>
-
-      <div class="table-responsive"> 
-        <table class="table table-striped table-condensed table-bordered mb-30"> 
-          <tbody>
-            
             <tr>
-              <th>ID</th><td><%= @region.id %></td>
-              <th></th><td></td>
+              <th>Latitude</th><td><%= @region.latitude %></td>
+              <th>Longitude</th><td><%= @region.longitude %></td>
             </tr>
 
             <tr>
               <th>Created At</th><td><%= @region.created_at.strftime("%m/%d/%Y - %H:%M:%S") if @region.created_at %></td>
               <th>Updated At</th><td><%= @region.updated_at.strftime("%m/%d/%Y - %H:%M:%S") if @region.updated_at %></td>
             </tr>
-
           </tbody>
         </table>
+      </div>
+    </div>
+
+    <div class="tab-pane" id="cities" style="border: 1px solid #000;min-height:200px;padding:20px;margin-bottom:20px;max-height: 400px;overflow-y: auto;">
+      <%= clear_tag(20) %>
+
+      <div id="div_city_action_buttons">
+        <div class="row">
+          <div class="col-md-6">
+
+            <%= theme_button('Refresh', 'refresh', cities_region_path(@region), classes: "pull-left", btn_type: "white") %>
+            
+          </div>
+          <div class="col-md-6">
+            <%= search_form_kuppayam(City, cities_region_path(@region), text: "") %>
+          </div>
+        </div>
+      </div>
+      <%= clear_tag(10) %>
+
+      <div id="div_city_counts">
+        <div class="row">
+
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          
+            <div style="border: 1px solid #ddd; margin-bottom: 20px;">
+            
+              <div class="xe-widget xe-counter xe-counter-info" 
+                  data-count=".num" 
+                  data-from="0" 
+                  data-to="99.9" 
+                  data-suffix="%" 
+                  data-duration="2"
+                  style="margin-bottom: 0px; 
+                  padding: 0px; 
+                  width: 15%;
+                  margin: 0px auto;">
+                <div class="xe-icon">
+                  <i class="linecons-database"></i>
+                </div>
+                <div class="xe-label">
+                  <strong class="num"><%= @region.cities.count %></strong>
+                  <span>Total</span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          
+            <div style="border: 1px solid #ddd; margin-bottom: 20px;">
+            
+              <div class="xe-widget xe-counter" 
+                  data-count=".num" 
+                  data-from="0" 
+                  data-to="99.9" 
+                  data-suffix="%" 
+                  data-duration="2"
+                  style="margin-bottom: 0px; 
+                  padding: 0px; 
+                  width: 15%;
+                  margin: 0px auto;">
+                <div class="xe-icon">
+                  <i class="linecons-cloud"></i>
+                </div>
+                <div class="xe-label">
+                  <strong class="num"><%= @region.cities.show_in_api.count %></strong>
+                  <span>Show in API</span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          
+          
+        </div>
+      </div>
+      <div id="div_city_index">
+        <%= link_to 'Refresh', cities_region_path(@region), remote: true %>
+        <%#= render :partial=>"master_data/admin_cities/index" %>
       </div>
     </div>
 

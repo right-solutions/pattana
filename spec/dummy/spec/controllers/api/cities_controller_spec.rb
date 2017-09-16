@@ -33,10 +33,10 @@ RSpec.describe Pattana::Api::V1::CitiesController, :type => :request do
         uae = FactoryGirl.create(:country, name: "United Arab Emirates", show_in_api: true)
         abu_dhabhi = FactoryGirl.create(:region, name: "Abu Dhabi", show_in_api: true, country: uae)
         dubai = FactoryGirl.create(:region, name: "Dubai", show_in_api: true, country: uae)
-        
-        FactoryGirl.create(:city, name: "Dubai", show_in_api: true, country: uae)
-        FactoryGirl.create(:city, name: "Abu Dhabhi", show_in_api: true, country: uae)
-        FactoryGirl.create(:city, name: "Al Ain", show_in_api: false, country: uae)
+
+        FactoryGirl.create(:city, name: "Dubai", show_in_api: true, region: dubai)
+        FactoryGirl.create(:city, name: "Abu Dhabhi", show_in_api: true, region: dubai)
+        FactoryGirl.create(:city, name: "Al Ain", show_in_api: false, region: dubai)
 
         # Get Cities of U.A.E
         get "/api/v1/#{uae.id}/cities"

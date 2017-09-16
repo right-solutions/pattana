@@ -10,6 +10,9 @@ class City < Pattana::ApplicationRecord
 	# Validations
 	validates :name, presence: true, length: {minimum: 3, maximum: 128}
 	
+  # Callbacks
+  before_validation :set_country, on: :create
+
   # ------------------
   # Class Methods
   # ------------------
@@ -124,15 +127,23 @@ class City < Pattana::ApplicationRecord
   # Instance Methods
   # ------------------
 
+  # Callback Methods
+  # ------------------
+
+  def set_country
+    self.country = self.region.country if self.region && self.region.country
+  end
+
   # Permission Methods
   # ------------------
 
   def can_be_edited?
-    false
+    true
   end
 
   def can_be_deleted?
-    false
+    return false if operational?
+    true
   end
 
   # Other Methods

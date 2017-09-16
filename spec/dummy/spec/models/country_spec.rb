@@ -60,10 +60,17 @@ RSpec.describe Country, type: :model do
 
     context "Permission Methods" do
       it "can_be_edited?" do
-        expect(country.can_be_edited?).to be_falsy
+        expect(country.can_be_edited?).to be_truthy
       end
 
       it "can_be_deleted?" do
+        expect(country.can_be_deleted?).to be_truthy
+
+        country.operational = true
+        country.save
+        expect(country.can_be_deleted?).to be_falsy
+
+        region = FactoryGirl.create(:region, name: "Some", country: country)
         expect(country.can_be_deleted?).to be_falsy
       end
     end
@@ -78,6 +85,13 @@ RSpec.describe Country, type: :model do
         expect(c.display_show_in_api).to match("No")
         c.show_in_api = true
         expect(c.display_show_in_api).to match("Yes")
+      end
+
+      it "display_operational" do
+        c = FactoryGirl.build(:country, operational: false)
+        expect(c.display_operational).to match("No")
+        c.operational = true
+        expect(c.display_operational).to match("Yes")
       end
 
       # it "default_image_url" do

@@ -9,6 +9,18 @@
       <%= theme_panel_heading(@city.name) %>
 
       <%= theme_panel_sub_heading(@city.country.name, "#") if @city.country %><br>
+
+      <% if @city.show_in_api? %>
+        <div class="label label-success">Show In API</div>
+      <% else %>
+        <div class="label label-danger">Hide In API</div>
+      <% end %>
+
+      <% if @city.operational? %>
+        <div class="label label-success">Operational</div>
+      <% else %>
+        <div class="label label-danger">Non Operational</div>
+      <% end %>
       
       <%= clear_tag(10) %>
       
@@ -24,13 +36,6 @@
       <a href="#city_details" data-toggle="tab" aria-expanded="false">
         <span class="visible-xs"><i class="fa-database"></i></span>
         <span class="hidden-xs">City Details</span>
-      </a>
-    </li>
-
-    <li class="">
-      <a href="#technical_details" data-toggle="tab" aria-expanded="false">
-        <span class="visible-xs"><i class="fa-database"></i></span>
-        <span class="hidden-xs">Technical Details</span>
       </a>
     </li>
   </ul>
@@ -49,10 +54,22 @@
               <th>ID</th><td><%= @city.id %></td>
               <th>Name</th><td><%= @city.name %></td>
             </tr>
+
             <tr>
+              <th>Region</th><td><%= @city.region.name if @city.region %></td>
               <th>Country</th><td><%= @city.country.name if @city.country %></td>
-              <th></th><td></td>
             </tr>
+
+            <tr>
+              <th>Latitude</th><td><%= @city.latitude %></td>
+              <th>Longitude</th><td><%= @city.longitude %></td>
+            </tr>
+
+            <tr>
+              <th>Created At</th><td><%= @city.created_at.strftime("%m/%d/%Y - %H:%M:%S") if @city.created_at %></td>
+              <th>Updated At</th><td><%= @city.updated_at.strftime("%m/%d/%Y - %H:%M:%S") if @city.updated_at %></td>
+            </tr>
+
           </tbody>
         </table>
       </div>
@@ -72,10 +89,7 @@
               <th></th><td></td>
             </tr>
 
-            <tr>
-              <th>Created At</th><td><%= @city.created_at.strftime("%m/%d/%Y - %H:%M:%S") if @city.created_at %></td>
-              <th>Updated At</th><td><%= @city.updated_at.strftime("%m/%d/%Y - %H:%M:%S") if @city.updated_at %></td>
-            </tr>
+            
 
           </tbody>
         </table>

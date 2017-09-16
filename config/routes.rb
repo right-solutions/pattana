@@ -6,11 +6,32 @@ Pattana::Engine.routes.draw do
     resources :countries,  as: :countries do
       member do
         get :regions
+        get :cities
+        get :show_in_api
+        get :hide_in_api
+        get :mark_as_operational
+        get :remove_operational
       end
     end
 
-    resources :regions,  as: :regions
-    resources :cities,  as: :cities
+    resources :regions,  as: :regions do
+      member do
+        get :cities
+        get :show_in_api
+        get :hide_in_api
+        get :mark_as_operational
+        get :remove_operational
+      end
+    end
+
+    resources :cities,  as: :cities do
+      member do
+        get :show_in_api
+        get :hide_in_api
+        get :mark_as_operational
+        get :remove_operational
+      end
+    end
   end
 
   namespace :api do

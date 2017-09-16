@@ -57,7 +57,7 @@ module Pattana
     end
 
     def permitted_params
-      params.require(:city).permit(:name)
+      params.require(:city).permit(:name, :alternative_names, :iso_code, :population, :latitude, :longitude, :country_id, :region_id)
     end
 
     def set_navs

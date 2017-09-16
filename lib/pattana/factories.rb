@@ -4,4 +4,4 @@
 # Read More: https://stackoverflow.com/questions/31700345/how-can-i-share-the-factories-that-i-have-in-a-gem-and-use-it-in-other-project
 
 GEM_PATTANA_ROOT = File.dirname(File.dirname(File.dirname(__FILE__)))
-Dir[File.join(GEM_PATTANA_ROOT, 'spec', 'dummy', 'spec', 'factories', '*.rb')].each { |file| require(file) }
+Dir[File.join(GEM_PATTANA_ROOT, 'spec', 'dummy', 'spec', 'factories', '**','*.rb')].each { |file| require(file) }

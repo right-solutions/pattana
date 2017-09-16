@@ -1,0 +1,49 @@
+<%= form_for(@country, :html => {:id=>"form_country", :class=>"mb-0 form-horizontal", :role => "form", :method => (@country.new_record? ? :post : :put), :remote=>true}) do |f| %>
+
+      <div id="country_form_error">
+        <%= @country.errors[:base].to_sentence %>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <div class="form-inputs mb-30 mt-30">
+            
+            <%= theme_form_field(@country, :name) %>
+
+            <%= theme_form_field(@country, :official_name, required: false) %>
+            <%= theme_form_field(@country, :iso_name, required: false) %>
+            <%= theme_form_field(@country, :fips, required: false) %>
+            <%= theme_form_field(@country, :iso_alpha_2, required: false) %>
+            <%= theme_form_field(@country, :iso_alpha_3, required: false) %>
+            <%= theme_form_field(@country, :itu_code, required: false) %>
+            <%= theme_form_field(@country, :dialing_prefix, required: false) %>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="form-inputs mb-30 mt-30">
+            
+            <%= theme_form_field(@country, :tld, required: false) %>
+
+            <%= theme_form_field(@country, :latitude, required: false) %>
+            <%= theme_form_field(@country, :longitude, required: false) %>
+
+            <%= theme_form_field(@country, :capital, required: false) %>
+
+            <%= theme_form_field(@country, :priority, required: false, html_options: {type: :number, style: "width:70px;"}) %>
+
+            <%= theme_form_field(@country, :languages, required: false, html_options: {type: :textarea}) %>
+            
+          </div>
+        </div>
+      <div>
+        
+        <%= submit_tag("Save", :class=>"btn btn-primary pull-right ml-10") %>
+        
+        <%= link_to raw("<i class='fa fa-close mr-5'></i><span>Cancel</span>"), "#", onclick: "closeLargeModal();", class: "pull-right ml-10 btn btn-white" %>
+
+      </div>
+      <%= clear_tag(10) %>
+  </div>
+
+<% end %>
+

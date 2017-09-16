@@ -1,0 +1,33 @@
+<%= form_for(@city, :html => {:id=>"form_city", :class=>"mb-0 form-horizontal", :role => "form", :method => (@city.new_record? ? :post : :put), :remote=>true}) do |f| %>
+
+      <div id="city_form_error">
+        <%= @city.errors[:base].to_sentence %>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <div class="form-inputs mb-30 mt-30">
+            
+            <%= theme_form_field(@city, :name) %>
+            <%= theme_form_field(@city, :alternative_names) %>
+
+            <%= theme_form_field(@city, :iso_code, required: false) %>
+            <%= theme_form_field(@city, :population, required: false) %>
+
+            <%= theme_form_field(@city, :latitude, required: false) %>
+            <%= theme_form_field(@city, :longitude, required: false) %>
+            
+          </div>
+        </div>
+      <div>
+        
+        <%= submit_tag("Save", :class=>"btn btn-primary pull-right ml-10") %>
+        
+        <%= link_to raw("<i class='fa fa-close mr-5'></i><span>Cancel</span>"), "#", onclick: "closeLargeModal();", class: "pull-right ml-10 btn btn-white" %>
+
+      </div>
+      <%= clear_tag(10) %>
+  </div>
+
+<% end %>
+

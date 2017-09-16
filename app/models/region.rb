@@ -86,11 +86,13 @@ class Region < Pattana::ApplicationRecord
   # ------------------
 
   def can_be_edited?
-    false
+    true
   end
 
   def can_be_deleted?
-    false
+    return false if self.cities.any?
+    return false if operational?
+    true
   end
 
   # Other Methods
@@ -107,9 +109,17 @@ class Region < Pattana::ApplicationRecord
   # * Return Yes or No
   # == Examples
   #   >>> region.display_show_in_api
-  #   => "India"
+  #   => "No"
   def display_show_in_api
     self.show_in_api ? "Yes" : "No"
+  end
+
+  # * Return Yes or No
+  # == Examples
+  #   >>> region.display_operational
+  #   => "Yes"
+  def display_operational
+    self.operational ? "Yes" : "No"
   end
 	
 end

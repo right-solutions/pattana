@@ -1,0 +1,40 @@
+ar:
+  countries:
+    show_in_api:
+      heading: "Show in API"
+      message: "Country will now show in API from now"
+    hide_in_api:
+      heading: "Hide in API"
+      message: "Country will now not show in API from now"
+    marked_as_operational:
+      heading: "Marked as Operational"
+      message: "Country was marked as operational successfully"
+    removed_operational:
+      heading: "Removed Operational"
+      message: "Country was removed from operation successfully"
+  regions:
+    show_in_api:
+      heading: "Show in API"
+      message: "Region will now show in API from now"
+    hide_in_api:
+      heading: "Hide in API"
+      message: "Region will now not show in API from now"
+    marked_as_operational:
+      heading: "Marked as Operational"
+      message: "Region was marked as operational successfully"
+    removed_operational:
+      heading: "Removed Operational"
+      message: "Region was removed from operation successfully"
+  cities:
+    show_in_api:
+      heading: "Show in API"
+      message: "City will now show in API from now"
+    hide_in_api:
+      heading: "Hide in API"
+      message: "City will now not show in API from now"
+    marked_as_operational:
+      heading: "Marked as Operational"
+      message: "City was marked as operational successfully"
+    removed_operational:
+      heading: "Removed Operational"
+      message: "City was removed from operation successfully"

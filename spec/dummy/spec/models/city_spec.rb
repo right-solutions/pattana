@@ -25,6 +25,25 @@ RSpec.describe City, type: :model do
     it { should belong_to(:country) }
   end
 
+  context "Callbacks" do
+    it "set_country" do
+      # It should set the country if it has region and country is nil
+      country = FactoryGirl.create(:country)
+      region = FactoryGirl.create(:region, country: country)
+      city = FactoryGirl.build(:city, region: region)
+      city.save
+      expect(city.region_id).to eq(region.id)
+      expect(city.country_id).to eq(country.id)
+
+      # It should not set the country if it has it already
+      country = FactoryGirl.create(:country)
+      city = FactoryGirl.build(:city, region: nil, country: country)
+      city.valid?
+      expect(city.region_id).to eq(nil)
+      expect(city.country_id).to eq(country.id)
+    end
+  end
+
   context "Class Methods" do
     it "search" do
       arr = [usa, uae, uk]
@@ -72,10 +91,14 @@ RSpec.describe City, type: :model do
 
     context "Permission Methods" do
       it "can_be_edited?" do
-        expect(city.can_be_edited?).to be_falsy
+        expect(city.can_be_edited?).to be_truthy
       end
 
       it "can_be_deleted?" do
+        expect(city.can_be_deleted?).to be_truthy
+
+        city.operational = true
+        city.save
         expect(city.can_be_deleted?).to be_falsy
       end
     end

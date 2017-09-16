@@ -5,19 +5,17 @@
 				<th style="text-align:center;width:10%;">#</th> 
 				<th style="text-align:left;width:30%;">Name</th>
 				<th style="text-align:left;width:15%;">Country</th>
-				<th style="text-align:center;width:15%;">ISO Code</th>
 				<th style="text-align:center;width:10%;">Priority</th>
 				<th style="text-align:center;width:15%;">Show In API</th>
-				<th style="text-align:center;width:10%;">Actions</th>
+				<th style="text-align:center;width:15%;">Operational</th>
+				<th style="text-align:center;width:10%;" colspan="2">Actions</th>
 			</tr>
 		</thead>
 	  <tbody>
 	  	<% @regions.each_with_index do |region, i| %>
 	  		
-	  		<%# edit_link = edit_region_path(id: region.id) %>
-				<%# delete_link = region_path(id: region.id) %>
-				<% edit_link = "#" %>
-				<% delete_link = "#" %>
+	  		<% edit_link = edit_region_path(id: region.id) %>
+				<% delete_link = region_path(id: region.id) %>
 				
 		    <tr id="tr_region_<%= region.id %>">
 		      
@@ -25,19 +23,32 @@
 		      
 		      <td class="region-name text-align-left"><%= link_to region.name, pattana.region_path(region), remote: true %></td>
 		      
-		      <td class="country-name text-align-left"><%= link_to region.country.name, pattana.country_path(region.country), remote: true %></td>
-
-		      <td class="region-name text-align-center"><%= link_to region.iso_code, pattana.region_path(region), remote: true %></td>
+		      <td class="region-name text-align-left"><%= link_to region.country.name, "#" %></td>
 
 		      <td class="region-name text-align-center"><%= region.priority %></td>
+		      
 		      <td class="region-name text-align-center"><%= region.display_show_in_api %></td>
 
-		      <td class="action-links text-align-right" style="width:10%">
+		      <td class="region-name text-align-center"><%= region.display_operational %></td>
 
-		      	<%= link_to raw("<i class=\"linecons-pencil\"></i> Edit Region"), edit_link, :remote=>true, class: "edit" %>
+		      <td class="action-links text-align-center" style="width:10%">
+						<% if region.show_in_api? %>
+		      		<%= link_to raw("<i class=\"fa fa-square mr-5\"></i> Hide in API"), hide_in_api_region_path(:id =>region.id), :remote=>true, role: "menuitem", tabindex: "-1", style: "text-align:left;", class: "delete" %>
+		      	<% else %>
+		      		<%= link_to raw("<i class=\"fa fa-square mr-5\"></i> Show in API"), show_in_api_region_path(:id =>region.id), :remote=>true, role: "menuitem", tabindex: "-1", style: "text-align:left;", class: "edit" %>
+		      	<% end %>
 
-		        <%= link_to raw("<i class=\"linecons-trash\"></i> Delete"), delete_link, method: :delete, role: "menuitem", tabindex: "-1", data: { confirm: 'Are you sure?' }, :remote=>true, class: "delete" %>
+		      	<% if region.operational? %>
+		      		<%= link_to raw("<i class=\"fa fa-square mr-5\"></i> Remove Operational"), remove_operational_region_path(:id =>region.id), :remote=>true, role: "menuitem", tabindex: "-1", style: "text-align:left;", class: "delete" %>
+		      	<% else %>
+		      		<%= link_to raw("<i class=\"fa fa-square mr-5\"></i> Mark as Operational"), mark_as_operational_region_path(:id =>region.id), :remote=>true, role: "menuitem", tabindex: "-1", style: "text-align:left;", class: "edit" %>
+		      	<% end %>
+		      </td>
 
+		      <td class="action-links text-align-center" style="width:10%">
+		      	<%= link_to raw("<i class=\"linecons-pencil\"></i> Edit"), edit_link, :remote=>true, style: "text-align:left;", class: "edit" if region.can_be_edited? %>
+
+		        <%= link_to raw("<i class=\"linecons-trash\"></i> Delete"), delete_link, method: :delete, role: "menuitem", tabindex: "-1", data: { confirm: 'Are you sure?' }, :remote=>true, class: "delete mt-10", style: "text-align:left;" if region.can_be_deleted? %>
 		      </td>
 
 		    </tr>

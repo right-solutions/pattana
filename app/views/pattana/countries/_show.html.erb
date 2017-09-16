@@ -9,6 +9,18 @@
       <%= theme_panel_heading(@country.name) %>
 
       <%= theme_panel_sub_heading("ID: #{@country.id}", "#") %><br>
+      
+      <% if @country.show_in_api? %>
+        <div class="label label-success">Show In API</div>
+      <% else %>
+        <div class="label label-danger">Hide In API</div>
+      <% end %>
+
+      <% if @country.operational? %>
+        <div class="label label-success">Operational</div>
+      <% else %>
+        <div class="label label-danger">Non Operational</div>
+      <% end %>
 
     </div>
 
@@ -108,17 +120,17 @@
             </tr>
 
             <tr>
+              <th>Latitude</th>
+              <th>Longitude</th>
               <th>Created At</th>
               <th>Updated At</th>
-              <th></th>
-              <th></th>
             </tr>
 
             <tr>
+              <td class="word-break"><%= @country.latitude %></td>
+              <td class="word-break"><%= @country.longitude %></td>
               <td class="word-break"><%= @country.created_at %></td>
               <td class="word-break"><%= @country.updated_at %></td>
-              <td></td>
-              <td></td>
             </tr>
 
           </tbody>
@@ -204,18 +216,98 @@
         </div>
       </div>
       <div id="div_region_index">
-        <%= link_to 'Refresh', regions_country_path(@country), remote: true %>
         <%#= render :partial=>"master_data/admin_regions/index" %>
       </div>
     </div>
 
     <div class="tab-pane" id="cities" style="border: 1px solid #000;min-height:200px;padding:20px;margin-bottom:20px;max-height: 400px;overflow-y: auto;">
       <%= clear_tag(20) %>
+
+      <div id="div_city_action_buttons">
+        <div class="row">
+          <div class="col-md-6">
+
+            <%= theme_button('Refresh', 'refresh', cities_country_path(@country), classes: "pull-left", btn_type: "white") %>
+            
+          </div>
+          <div class="col-md-6">
+            <%= search_form_kuppayam(City, cities_country_path(@country), text: "") %>
+          </div>
+        </div>
+      </div>
+      <%= clear_tag(10) %>
+
+      <div id="div_city_counts">
+        <div class="row">
+
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          
+            <div style="border: 1px solid #ddd; margin-bottom: 20px;">
+            
+              <div class="xe-widget xe-counter xe-counter-info" 
+                  data-count=".num" 
+                  data-from="0" 
+                  data-to="99.9" 
+                  data-suffix="%" 
+                  data-duration="2"
+                  style="margin-bottom: 0px; 
+                  padding: 0px; 
+                  width: 15%;
+                  margin: 0px auto;">
+                <div class="xe-icon">
+                  <i class="linecons-database"></i>
+                </div>
+                <div class="xe-label">
+                  <strong class="num"><%= @country.cities.count %></strong>
+                  <span>Total</span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          
+            <div style="border: 1px solid #ddd; margin-bottom: 20px;">
+            
+              <div class="xe-widget xe-counter" 
+                  data-count=".num" 
+                  data-from="0" 
+                  data-to="99.9" 
+                  data-suffix="%" 
+                  data-duration="2"
+                  style="margin-bottom: 0px; 
+                  padding: 0px; 
+                  width: 15%;
+                  margin: 0px auto;">
+                <div class="xe-icon">
+                  <i class="linecons-cloud"></i>
+                </div>
+                <div class="xe-label">
+                  <strong class="num"><%= @country.cities.show_in_api.count %></strong>
+                  <span>Show in API</span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          
+          
+        </div>
+      </div>
+      <div id="div_city_index">
+        <%#= render :partial=>"master_data/admin_cities/index" %>
+      </div>
     </div>
 
   </div>
 
   <%= link_to "Close", "#", onclick: "closeLargeModal();", class: "btn btn-primary pull-right" %>
+
+  <% edit_link = edit_country_path(id: @country.id) %>
+  <%= link_to raw("<i class='fa fa-pencil mr-5'></i><span>Edit</span>"), edit_link, remote: true, class: "pull-right mr-10 btn btn-white" %>
 
   <%= clear_tag %>
 </div>

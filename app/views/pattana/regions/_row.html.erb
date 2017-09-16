@@ -1,55 +1,38 @@
-<% edit_link = edit_admin_region_path(id: region.id) %>
-<% delete_link = admin_region_path(id: region.id) %>
+<% edit_link = edit_region_path(id: region.id) %>
+<% delete_link = region_path(id: region.id) %>
 
 <tr id="tr_region_<%= region.id %>">
+  
+  <td class="region-id text-align-center"><%= region.id %></td>
+  
+  <td class="region-name text-align-left"><%= link_to region.name, pattana.region_path(region), remote: true %></td>
+  
+  <td class="region-name text-align-left"><%= link_to region.country.name, "#" %></td>
 
-  <td class="region-image">
-    <%= link_to(admin_region_path(region), remote: true) do %>
-      <%= display_image(region, "region_image.image.small.url", width: "32", height: "auto", class: "img-rectangle", alt: region.display_name) %>
+  <td class="region-name text-align-center"><%= region.priority %></td>
+  
+  <td class="region-name text-align-center"><%= region.display_show_in_api %></td>
+
+  <td class="region-name text-align-center"><%= region.display_operational %></td>
+
+  <td class="action-links text-align-center" style="width:10%">
+    <% if region.show_in_api? %>
+      <%= link_to raw("<i class=\"fa fa-square mr-5\"></i> Hide in API"), hide_in_api_region_path(:id =>region.id), :remote=>true, role: "menuitem", tabindex: "-1", style: "text-align:left;", class: "delete" %>
+    <% else %>
+      <%= link_to raw("<i class=\"fa fa-square mr-5\"></i> Show in API"), show_in_api_region_path(:id =>region.id), :remote=>true, role: "menuitem", tabindex: "-1", style: "text-align:left;", class: "edit" %>
+    <% end %>
+
+    <% if region.operational? %>
+      <%= link_to raw("<i class=\"fa fa-square mr-5\"></i> Remove Operational"), remove_operational_region_path(:id =>region.id), :remote=>true, role: "menuitem", tabindex: "-1", style: "text-align:left;", class: "delete" %>
+    <% else %>
+      <%= link_to raw("<i class=\"fa fa-square mr-5\"></i> Mark as Operational"), mark_as_operational_region_path(:id =>region.id), :remote=>true, role: "menuitem", tabindex: "-1", style: "text-align:left;", class: "edit" %>
     <% end %>
   </td>
 
-  <td class="region-name"><%= link_to region.name, admin_region_path(region), remote: true %></td>
+  <td class="action-links text-align-center" style="width:10%">
+    <%= link_to raw("<i class=\"linecons-pencil\"></i> Edit"), edit_link, :remote=>true, style: "text-align:left;", class: "edit" if region.can_be_edited? %>
 
-  <td>
-    <% if region.unpublished? %>
-      <span class="ml-5 mt-5 label label-default">Un-Published</span>
-    <% elsif region.published? %>
-      <span class="ml-5 mt-5 label label-success">Published</span>
-    <% elsif region.disabled? %>
-      <span class="ml-5 mt-5 label label-danger">Disabled</span>
-    <% end %>
-  </td>
-
-  <td class="action-links" style="width:10%">
-
-    <% case region.status %>
-    <% when "published" %>
-      <!-- Un-Publish -->
-      <%= link_to raw("<i class=\"fa fa-circle mr-5\"></i> Un-Publish"), update_status_admin_region_path(:id =>region.id, :status =>'unpublished'), :method =>'PUT', :remote=>true, role: "menuitem", tabindex: "-1", :class=>"region_status" %>
-      
-      <!-- Disable -->
-      <%= link_to raw("<i class=\"fa fa-edit mr-5\"></i> Disable"), update_status_admin_region_path(:id =>region.id, :status =>'disabled'), :method =>'PUT', :remote=>true, role: "menuitem", tabindex: "-1", :class=>"region_status" %>
-    <% when "unpublished" %>
-      <!-- Approve -->
-      <%= link_to raw("<i class=\"fa fa-circle-o mr-5\"></i> Publish"), update_status_admin_region_path(:id =>region.id, :status =>'published'), :method =>'PUT', :remote=>true, role: "menuitem", tabindex: "-1", :class=>"region_status" %>
-      <!-- Disable -->
-      <%= link_to raw("<i class=\"fa fa-edit mr-5\"></i> Disable"), update_status_admin_region_path(:id =>region.id, :status =>'disabled'), :method =>'PUT', :remote=>true, role: "menuitem", tabindex: "-1", :class=>"region_status" %>
-    <% when "disabled" %>
-      <!-- Un-Publish -->
-      <%= link_to raw("<i class=\"fa fa-circle mr-5\"></i> Un-Publish"), update_status_admin_region_path(:id =>region.id, :status =>'unpublished'), :method =>'PUT', :remote=>true, role: "menuitem", tabindex: "-1", :class=>"region_status" %>
-      <!-- Approve -->
-      <%= link_to raw("<i class=\"fa fa-circle-o mr-5\"></i> Publish"), update_status_admin_region_path(:id =>region.id, :status =>'published'), :method =>'PUT', :remote=>true, role: "menuitem", tabindex: "-1",:class=>"region_status" %>
-    <% end %>
-
-  </td>
-
-  <td class="action-links" style="width:10%">
-
-    <%= link_to raw("<i class=\"linecons-pencil\"></i> Edit Region"), edit_link, :remote=>true, class: "edit" %>
-
-    <%= link_to raw("<i class=\"linecons-trash\"></i> Delete"), delete_link, method: :delete, role: "menuitem", tabindex: "-1", data: { confirm: 'Are you sure?' }, :remote=>true, class: "delete" %>
-
+    <%= link_to raw("<i class=\"linecons-trash\"></i> Delete"), delete_link, method: :delete, role: "menuitem", tabindex: "-1", data: { confirm: 'Are you sure?' }, :remote=>true, class: "delete mt-10", style: "text-align:left;" if region.can_be_deleted? %>
   </td>
 
 </tr>

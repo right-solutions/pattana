@@ -1,0 +1,19 @@
+<tr id="tr_city_<%= city.id %>">
+          
+  <th scope="row" style="text-align:center;width:5%;">
+    <% if i < 0 %>
+      <i class="fa fa-check text-success"></i>
+    <% else %>
+      <%= i + 1 + (@per_page.to_i * (@current_page.to_i - 1)) %>
+    <% end %>
+  </th>
+
+  <td class="city-name" style="text-align:center;width:50%;"><%= city.display_name %></td>
+
+  <td class="city-name" style="text-align:center;width:15%;"><%= city.iso_code %></td>
+
+  <td class="city-name" style="text-align:center;width:15%;"><%= city.priority %></td>
+
+  <td class="city-name" style="text-align:center;width:15%;"><%= city.display_show_in_api %></td>
+
+</tr>

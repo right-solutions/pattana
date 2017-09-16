@@ -1,6 +1,80 @@
 module Pattana
   class RegionsController < ResourceController
 
+    def cities
+      @region = Region.find_by_id(params[:id])
+      @relation = @region.cities.limit(50)
+
+      parse_filters
+      apply_filters
+
+      @cities = @relation.page(@current_page).per(@per_page)
+    end
+
+    def show_in_api
+      @region = @r_object = Region.find(params[:id])
+      if @region
+        @region.show_in_api = true
+        if @region.valid?
+          @region.save
+          set_notification(true, I18n.t('regions.show_in_api.heading'), I18n.t('regions.show_in_api.message'))
+        else
+          set_notification(false, I18n.t('status.error'), I18n.translate("error"), @region.errors.full_messages.join("<br>"))
+        end
+      else
+        set_notification(false, I18n.t('status.error'), I18n.t('status.error', item: default_item_name.titleize))
+      end
+      render_row
+    end
+
+    def hide_in_api
+      @region = @r_object = Region.find(params[:id])
+      if @region
+        @region.show_in_api = false
+        if @region.valid?
+          @region.save
+          set_notification(true, I18n.t('regions.hide_in_api.heading'), I18n.t('regions.hide_in_api.message'))
+        else
+          set_notification(false, I18n.t('status.error'), I18n.translate("error"), @region.errors.full_messages.join("<br>"))
+        end
+      else
+        set_notification(false, I18n.t('status.error'), I18n.t('status.error', item: default_item_name.titleize))
+      end
+      render_row
+    end
+
+    def mark_as_operational
+      @region = @r_object = Region.find(params[:id])
+      if @region
+        @region.operational = true
+        if @region.valid?
+          @region.save
+          set_notification(true, I18n.t('regions.marked_as_operational.heading'), I18n.t('regions.marked_as_operational.message'))
+        else
+          set_notification(false, I18n.t('status.error'), I18n.translate("error"), @region.errors.full_messages.join("<br>"))
+        end
+      else
+        set_notification(false, I18n.t('status.error'), I18n.t('status.error', item: default_item_name.titleize))
+      end
+      render_row
+    end
+
+    def remove_operational
+      @region = @r_object = Region.find(params[:id])
+      if @region
+        @region.operational = false
+        if @region.valid?
+          @region.save
+          set_notification(true, I18n.t('regions.removed_operational.heading'), I18n.t('regions.removed_operational.message'))
+        else
+          set_notification(false, I18n.t('status.error'), I18n.translate("error"), @region.errors.full_messages.join("<br>"))
+        end
+      else
+        set_notification(false, I18n.t('status.error'), I18n.t('status.error', item: default_item_name.titleize))
+      end
+      render_row
+    end
+
     private
 
     def get_collections
@@ -55,7 +129,7 @@ module Pattana
     end
 
     def permitted_params
-      params.require(:region).permit(:name)
+      params.require(:region).permit(:name, :iso_code, :latitude, :longitude, :country_id)
     end
 
     def set_navs
