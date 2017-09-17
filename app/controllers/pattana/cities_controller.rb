@@ -1,10 +1,74 @@
 module Pattana
   class CitiesController < ResourceController
 
+    def show_in_api
+      @city = @r_object = City.find(params[:id])
+      if @city
+        @city.show_in_api = true
+        if @city.valid?
+          @city.save
+          set_notification(true, I18n.t('cities.show_in_api.heading'), I18n.t('cities.show_in_api.message'))
+        else
+          set_notification(false, I18n.t('status.error'), I18n.translate("error"), @city.errors.full_messages.join("<br>"))
+        end
+      else
+        set_notification(false, I18n.t('status.error'), I18n.t('status.error', item: default_item_name.titleize))
+      end
+      render_row
+    end
+
+    def hide_in_api
+      @city = @r_object = City.find(params[:id])
+      if @city
+        @city.show_in_api = false
+        if @city.valid?
+          @city.save
+          set_notification(true, I18n.t('cities.hide_in_api.heading'), I18n.t('cities.hide_in_api.message'))
+        else
+          set_notification(false, I18n.t('status.error'), I18n.translate("error"), @city.errors.full_messages.join("<br>"))
+        end
+      else
+        set_notification(false, I18n.t('status.error'), I18n.t('status.error', item: default_item_name.titleize))
+      end
+      render_row
+    end
+
+    def mark_as_operational
+      @city = @r_object = City.find(params[:id])
+      if @city
+        @city.operational = true
+        if @city.valid?
+          @city.save
+          set_notification(true, I18n.t('cities.marked_as_operational.heading'), I18n.t('cities.marked_as_operational.message'))
+        else
+          set_notification(false, I18n.t('status.error'), I18n.translate("error"), @city.errors.full_messages.join("<br>"))
+        end
+      else
+        set_notification(false, I18n.t('status.error'), I18n.t('status.error', item: default_item_name.titleize))
+      end
+      render_row
+    end
+
+    def remove_operational
+      @city = @r_object = City.find(params[:id])
+      if @city
+        @city.operational = false
+        if @city.valid?
+          @city.save
+          set_notification(true, I18n.t('cities.removed_operational.heading'), I18n.t('cities.removed_operational.message'))
+        else
+          set_notification(false, I18n.t('status.error'), I18n.translate("error"), @city.errors.full_messages.join("<br>"))
+        end
+      else
+        set_notification(false, I18n.t('status.error'), I18n.t('status.error', item: default_item_name.titleize))
+      end
+      render_row
+    end
+
     private
 
     def get_collections
-      @relation = City.where("")
+      @relation = City.includes(:country, :region).where("")
 
       parse_filters
       apply_filters

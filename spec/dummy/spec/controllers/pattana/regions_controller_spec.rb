@@ -37,6 +37,54 @@ describe Pattana::RegionsController, :type => :controller do
     end
   end
 
+  describe "show_in_api" do
+    context "Positive Case" do
+      it "should be mark show_in_api true" do
+        region.update_attribute(:show_in_api, false)
+        get :show_in_api, params: { use_route: 'pattana', id: region.id }, xhr: true
+        region.reload
+        expect(response.status).to eq(200)
+        expect(region.show_in_api).to be_truthy
+      end
+    end
+  end
+
+  describe "hide_in_api" do
+    context "Positive Case" do
+      it "should be mark show_in_api true" do
+        region.update_attribute(:show_in_api, true)
+        get :hide_in_api, params: { use_route: 'pattana', id: region.id }, xhr: true
+        region.reload
+        expect(response.status).to eq(200)
+        expect(region.show_in_api).to be_falsy
+      end
+    end
+  end
+
+  describe "mark_as_operational" do
+    context "Positive Case" do
+      it "should be mark operational true" do
+        region.update_attribute(:operational, false)
+        get :mark_as_operational, params: { use_route: 'pattana', id: region.id }, xhr: true
+        region.reload
+        expect(response.status).to eq(200)
+        expect(region.operational).to be_truthy
+      end
+    end
+  end
+
+  describe "remove_operational" do
+    context "Positive Case" do
+      it "should be mark operational true" do
+        region.update_attribute(:operational, true)
+        get :remove_operational, params: { use_route: 'pattana', id: region.id }, xhr: true
+        region.reload
+        expect(response.status).to eq(200)
+        expect(region.operational).to be_falsy
+      end
+    end
+  end
+
   describe "new" do
     context "Positive Case" do
       it "should display the new form for site admin" do

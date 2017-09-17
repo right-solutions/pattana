@@ -35,6 +35,7 @@ FactoryGirl.define do
 
     priority 1000
     show_in_api false
+    operational false
   end
 
   

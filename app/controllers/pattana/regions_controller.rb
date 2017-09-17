@@ -78,7 +78,7 @@ module Pattana
     private
 
     def get_collections
-      @relation = Region.where("")
+      @relation = Region.includes(:country).where("")
 
       parse_filters
       apply_filters
