@@ -56,8 +56,8 @@
             </tr>
 
             <tr>
-              <th>Region</th><td><%= @city.region.name if @city.region %></td>
-              <th>Country</th><td><%= @city.country.name if @city.country %></td>
+              <th>Region</th><td><%= @city.region.name if @city.region %> (<%= @city.region.try(:id) %>)</td>
+              <th>Country</th><td><%= @city.country.name if @city.country %> (<%= @city.country.try(:id) %>)</td>
             </tr>
 
             <tr>

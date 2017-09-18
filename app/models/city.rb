@@ -164,5 +164,13 @@ class City < Pattana::ApplicationRecord
   def display_show_in_api
     self.show_in_api ? "Yes" : "No"
   end
+
+  # * Return Yes or No
+  # == Examples
+  #   >>> city.display_operational
+  #   => "Yes"
+  def display_operational
+    self.operational ? "Yes" : "No"
+  end
 	
 end

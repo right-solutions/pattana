@@ -67,7 +67,7 @@
 
             <tr>
               <th>ISO Code</th><td><%= @region.iso_code if @region.iso_code %></td>
-              <th>Country</th><td><%= @region.country.name if @region.country %></td>
+              <th>Country</th><td><%= @region.country.name if @region.country %> (<%= @region.country.try(:id) %>)</td>
             </tr>
 
             <tr>

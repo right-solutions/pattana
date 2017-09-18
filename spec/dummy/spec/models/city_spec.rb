@@ -115,6 +115,13 @@ RSpec.describe City, type: :model do
         expect(c.display_show_in_api).to match("Yes")
       end
 
+      it "display_operational" do
+        c = FactoryGirl.build(:city, operational: false)
+        expect(c.display_operational).to match("No")
+        c.operational = true
+        expect(c.display_operational).to match("Yes")
+      end
+
       it "default_image_url" do
         #u = FactoryGirl.build(:pending_user)
         #expect(u.default_image_url).to match("/assets/kuppayam/defaults/user-small.png")
