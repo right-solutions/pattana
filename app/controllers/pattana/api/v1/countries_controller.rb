@@ -5,9 +5,11 @@ module Pattana
 
         def index
           proc_code = Proc.new do
-            @countries = Country.where("show_in_api is true").order("name ASC").all
+            @relation = Country.where("countries.show_in_api is true").order("countries.name ASC")
+            @relation = @relation.search(params[:q]) if params[:q]
+            @countries = @relation.all
+            @data = ActiveModelSerializers::SerializableResource.new(@countries, each_serializer: CountryPreviewSerializer)
             @success = true
-            @data = @countries
           end
           render_json_response(proc_code)
         end

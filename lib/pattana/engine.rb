@@ -6,6 +6,7 @@ module Pattana
     require 'kuppayam'
     require 'colorize'
     require 'colorized_string'
+    require 'active_model_serializers'
     
     isolate_namespace Pattana
 

@@ -7,9 +7,11 @@ module Pattana
           proc_code = Proc.new do
             @country = Country.find_by_id(params[:country_id])
             if @country
-              @regions = @country.regions.where("show_in_api is true").order("name ASC").all
+              @relation = @country.regions.includes(:country).where("regions.show_in_api is true").order("regions.name ASC")
+              @relation = @relation.search(params[:q]) if params[:q]
+              @regions = @relation.all
+              @data = ActiveModelSerializers::SerializableResource.new(@regions, each_serializer: RegionPreviewSerializer)
               @success = true
-              @data = @regions
             else
               @success = false
               @errors = {

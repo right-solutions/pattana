@@ -2,7 +2,7 @@ require "spec_helper"
 
 RSpec.describe Pattana::Api::V1::CitiesController, :type => :request do  
 
-  describe "countries" do
+  describe "cities" do
     context "Positive Case" do
       it "should return all the cities in a country / region" do
         india = FactoryGirl.create(:country, name: "India", show_in_api: true)
@@ -45,6 +45,48 @@ RSpec.describe Pattana::Api::V1::CitiesController, :type => :request do
         expect(response_body["success"]).to eq(true)
         data = response_body['data']
         expect(data.map{|x| x["name"]}).to match_array(["Dubai", "Abu Dhabhi"])
+      end
+      it "should return search for a city" do
+        india = FactoryGirl.create(:country, name: "India", show_in_api: true)
+        kerala = FactoryGirl.create(:region, name: "Kerala", show_in_api: true, country: india)
+        karnataka = FactoryGirl.create(:region, name: "Karnataka", show_in_api: true, country: india)
+
+        FactoryGirl.create(:city, name: "Kozhikode", show_in_api: true, region: kerala, country: india)
+        FactoryGirl.create(:city, name: "Areekode", show_in_api: true, region: kerala, country: india)
+        FactoryGirl.create(:city, name: "Some kode in karnataka", show_in_api: true, region: karnataka, country: india)
+        FactoryGirl.create(:city, name: "Thiruvananthapuram", show_in_api: true, region: kerala, country: india)
+        FactoryGirl.create(:city, name: "Mangalapuram", show_in_api: true, region: karnataka, country: india)
+
+        # Get Cities in India
+        get "/api/v1/#{india.id}/cities?q=kode"
+        expect(response.status).to eq(200)
+        response_body = JSON.parse(response.body)
+        expect(response_body["success"]).to eq(true)
+        data = response_body['data']
+        expect(data.map{|x| x["name"]}).to match_array(["Kozhikode", "Areekode", "Some kode in karnataka"])
+
+        get "/api/v1/#{india.id}/cities?q=puram"
+        expect(response.status).to eq(200)
+        response_body = JSON.parse(response.body)
+        expect(response_body["success"]).to eq(true)
+        data = response_body['data']
+        expect(data.map{|x| x["name"]}).to match_array(["Thiruvananthapuram", "Mangalapuram"])
+
+        # Get Cities in Kerala
+        get "/api/v1/#{india.id}/#{kerala.id}/cities?q=kode"
+        expect(response.status).to eq(200)
+        response_body = JSON.parse(response.body)
+        expect(response_body["success"]).to eq(true)
+        data = response_body['data']
+        expect(data.map{|x| x["name"]}).to match_array(["Kozhikode", "Areekode"])
+
+        # Get Cities in Karnataka
+        get "/api/v1/#{india.id}/#{karnataka.id}/cities?q=kode"
+        expect(response.status).to eq(200)
+        response_body = JSON.parse(response.body)
+        expect(response_body["success"]).to eq(true)
+        data = response_body['data']
+        expect(data.map{|x| x["name"]}).to match_array(["Some kode in karnataka"])
       end
     end
     context 'Negative Cases' do

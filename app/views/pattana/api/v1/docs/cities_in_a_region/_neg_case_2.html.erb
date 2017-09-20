@@ -1,6 +1,6 @@
 <%
 
-api_title = "Negative Case - 2 - should show errors if a valid country id is not passed"
+api_title = "Negative Case - 2 - should show errors if a valid region id is not passed"
 
 api_input = <<-eos
 {}
@@ -20,7 +20,7 @@ eos
 
 <%= render partial: "kuppayam/api/docs/example", locals: {
                                         negative_case: true,
-                                        example_id: "neg_case_1",
+                                        example_id: "neg_case_2",
                                         api_title: api_title,
                                         api_input: api_input,
                                         api_output: api_output 

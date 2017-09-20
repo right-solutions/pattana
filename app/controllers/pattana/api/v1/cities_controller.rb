@@ -7,9 +7,11 @@ module Pattana
           proc_code = Proc.new do
             @country = Country.find_by_id(params[:country_id])
             if @country
-              @cities = @country.cities.where("show_in_api is true").order("name ASC").all
+              @relation = @country.cities.includes(:region, :country).where("cities.show_in_api is true").order("cities.name ASC")
+              @relation = @relation.search(params[:q]) if params[:q]
+              @cities = @relation.all
+              @data = ActiveModelSerializers::SerializableResource.new(@cities, each_serializer: CityPreviewSerializer)
               @success = true
-              @data = @cities
             else
               @success = false
               @errors = {
@@ -28,9 +30,11 @@ module Pattana
               @country = Country.find_by_id(params[:country_id])
               if @country
                 if @region.country_id == @country.id
-                  @cities = @region.cities.where("show_in_api is true").order("name ASC").all
+                  @relation = @region.cities.includes(:region, :country).where("cities.show_in_api is true").order("cities.name ASC")
+                  @relation = @relation.search(params[:q]) if params[:q]
+                  @cities = @relation.all
+                  @data = ActiveModelSerializers::SerializableResource.new(@cities, each_serializer: CityPreviewSerializer)
                   @success = true
-                  @data = @cities
                 else
                   @success = false
                   @errors = {
