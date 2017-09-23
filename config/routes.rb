@@ -38,8 +38,8 @@ Pattana::Engine.routes.draw do
     namespace :v1 do
       get 'countries', :controller => "countries", action: :index
       get ':country_id/regions', :controller => "regions", action: :index
-      get ':country_id/cities', :controller => "cities", action: :cities_in_a_country
-      get ':country_id/:region_id/cities', :controller => "cities", action: :cities_in_a_region
+      get 'countries/:country_id/cities', :controller => "cities", action: :cities_in_a_country
+      get 'regions/:region_id/cities', :controller => "cities", action: :cities_in_a_region
     end
   end
   

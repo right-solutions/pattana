@@ -3,7 +3,10 @@
 api_title = "Positive Case - 1 - should return all the cities in a country"
 
 api_input = <<-eos
-{}
+Example:
+
+GET #{request.base_url}/api/v1/countries/235/cities
+This will return all the cities in the country with id 235
 eos
 
 api_output = <<-eos

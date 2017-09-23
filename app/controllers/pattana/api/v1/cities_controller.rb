@@ -27,28 +27,11 @@ module Pattana
           proc_code = Proc.new do
             @region = Region.find_by_id(params[:region_id])
             if @region
-              @country = Country.find_by_id(params[:country_id])
-              if @country
-                if @region.country_id == @country.id
-                  @relation = @region.cities.includes(:region, :country).where("cities.show_in_api is true").order("cities.name ASC")
-                  @relation = @relation.search(params[:q]) if params[:q]
-                  @cities = @relation.all
-                  @data = ActiveModelSerializers::SerializableResource.new(@cities, each_serializer: CityPreviewSerializer)
-                  @success = true
-                else
-                  @success = false
-                  @errors = {
-                    heading: I18n.translate("api.cities.region_id_not_matching.heading"),
-                    message: I18n.translate("api.cities.region_id_not_matching.message")
-                  }
-                end
-              else
-                @success = false
-                @errors = {
-                  heading: I18n.translate("api.cities.country_not_found.heading"),
-                  message: I18n.translate("api.cities.country_not_found.message")
-                }
-              end
+              @relation = @region.cities.includes(:region, :country).where("cities.show_in_api is true").order("cities.name ASC")
+              @relation = @relation.search(params[:q]) if params[:q]
+              @cities = @relation.all
+              @data = ActiveModelSerializers::SerializableResource.new(@cities, each_serializer: CityPreviewSerializer)
+              @success = true
             else
               @success = false
               @errors = {
