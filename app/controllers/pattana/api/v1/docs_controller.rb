@@ -9,7 +9,10 @@ module Pattana
           set_title("Countries API")
           @request_type = "GET"
           @end_point = "/api/v1/countries"
-          @description = "This API will return all the countries with other details like dialing prefix and ISO codes."
+          @description = <<-eos
+          This API will return all the countries with other details like dialing prefix and ISO codes. <br>
+          This API can also be used to search countries by passing a query parameter 'q'.<br>
+          eos
 
           @info = "It will return only those countries who has show_in_api set true"
 
@@ -29,7 +32,11 @@ module Pattana
           set_title("Regions API")
           @request_type = "GET"
           @end_point = "/api/v1/:country_id/regions"
-          @description = "This API will return all the regions in a particular country. The Country ID has to be passed."
+          @description = <<-eos
+          This API will return all the regions in a particular country. <br>
+          The Country ID has to be passed. <br>
+          This API can also be used to search regions by passing a query parameter 'q'.
+          eos
 
           @info = "It will return only those regions who has show_in_api set true"
 
@@ -52,8 +59,13 @@ module Pattana
         def cities_in_a_country
           set_title("Cities API (in a country)")
           @request_type = "GET"
-          @end_point = "/api/v1/:country_id/cities"
-          @description = "This API will return all the cities in a particular country. The Country ID has to be passed"
+          @end_point = "/api/v1/countries/:country_id/cities"
+          @description = ""
+          @description = <<-eos
+          This API will return all the cities in a particular country. <br>
+          The Country ID has to be passed. <br>
+          This API can also be used to search cities in a country by passing a query parameter 'q'.
+          eos
 
           @info = "It will return only those cities who has show_in_api set true"
 
@@ -76,11 +88,14 @@ module Pattana
         def cities_in_a_region
           set_title("Cities API (in a region)")
           @request_type = "GET"
-          @end_point = "/api/v1/:country_id/:region_id/cities"
-          @description = "This API will return all the cities in a particular region. The Country ID & Region ID has to be passed"
+          @end_point = "/api/v1/regions/:region_id/cities"
+          @description = <<-eos
+          This API will return all the cities in a particular region. <br>
+          The Region ID has to be passed. <br>
+          This API can also be used to search cities in a region by passing a query parameter 'q'.
+          eos
 
           @info = "It will return only those cities who has show_in_api set true"
-          @warning = "Make sure that the region (id) belongs to the country (id). Use the countries and regions API to get real id"
           
           @input_headers = {
             "Content-Type" => { value: "application/json", description: "The MIME media type for JSON text is application/json. This is to make sure that a valid json is returned. The default encoding is UTF-8. " }
@@ -92,7 +107,7 @@ module Pattana
           }
 
           @example_path = "pattana/api/v1/docs/"
-          @examples = ["pos_case_1", "pos_case_2", "neg_case_1", "neg_case_2", "neg_case_3"]
+          @examples = ["pos_case_1", "pos_case_2", "neg_case_1"]
 
           set_nav("docs/cities_in_a_region")
 

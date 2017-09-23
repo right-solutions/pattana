@@ -3,7 +3,9 @@
 api_title = "Negative Case - 1 - should show errors if a valid country id is not passed"
 
 api_input = <<-eos
-{}
+Example:
+
+GET #{request.base_url}/api/v1/<INVALID_COUNTRY_ID>/regions
 eos
 
 api_output = <<-eos

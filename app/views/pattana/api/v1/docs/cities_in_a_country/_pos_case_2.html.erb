@@ -3,9 +3,10 @@
 api_title = "Positive Case - 2 - should search cities in a country"
 
 api_input = <<-eos
-{
-  "q": "<Search Query>"
-}
+Example:
+
+GET #{request.base_url}/api/v1/countries/235?q=ode
+This will search for cities in the country with id 235 for the keyword 'ode' and will return matching results
 eos
 
 api_output = <<-eos
