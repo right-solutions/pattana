@@ -34,6 +34,7 @@ class Region < Pattana::ApplicationRecord
   scope :search, lambda {|query| joins("INNER JOIN countries co on co.id = regions.country_id").where("LOWER(regions.name) LIKE LOWER('%#{query}%') || LOWER(regions.iso_code) LIKE LOWER('%#{query}%') || LOWER(co.name) LIKE LOWER('%#{query}%')")}
 
   scope :show_in_api, -> { where(show_in_api: true) }
+  scope :operational, -> { where(operational: true) }
 
   # Import Methods
 

@@ -1,0 +1,51 @@
+<%
+
+api_title = "Positive Case - 4 - should search operational countries"
+
+api_input = <<-eos
+Example:
+
+GET #{request.base_url}/api/v1/countries?operationa=true&q=Ind
+This will search for operational countries for the keyword 'Ind' and will return matching results
+eos
+
+api_output = <<-eos
+{
+    "success": true,
+    "data": [
+        {
+            "id": 100,
+            "name": "India",
+            "iso_name": "INDIA",
+            "dialing_prefix": "91",
+            "priority": 1000
+        },
+        {
+            "id": 2,
+            "name": "Albania",
+            "iso_name": "ALBANIA",
+            "dialing_prefix": "355",
+            "priority": 1000
+        },
+        .
+        .
+        .
+        {
+            "id": 246,
+            "name": "Zimbabwe",
+            "iso_name": "ZIMBABWE",
+            "dialing_prefix": "263",
+            "priority": 1000
+        }]
+}
+eos
+
+%>
+
+<%= render partial: "kuppayam/api/docs/example", locals: {
+                                        negative_case: false,
+                                        example_id: "pos_case_2",
+                                        api_title: api_title,
+                                        api_input: api_input,
+                                        api_output: api_output 
+                                      } %>

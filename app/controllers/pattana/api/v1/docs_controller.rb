@@ -21,7 +21,7 @@ module Pattana
           }
 
           @example_path = "pattana/api/v1/docs/"
-          @examples = ["pos_case_1", "pos_case_2"]
+          @examples = ["pos_case_1", "pos_case_2", "pos_case_3", "pos_case_4"]
 
           set_nav("docs/countries")
 
@@ -49,7 +49,7 @@ module Pattana
           }
 
           @example_path = "pattana/api/v1/docs/"
-          @examples = ["pos_case_1", "pos_case_2", "neg_case_1"]
+          @examples = ["pos_case_1", "pos_case_2", "pos_case_3", "pos_case_4", "neg_case_1"]
 
           set_nav("docs/regions")
 
@@ -78,7 +78,7 @@ module Pattana
           }
 
           @example_path = "pattana/api/v1/docs/"
-          @examples = ["pos_case_1", "pos_case_2", "neg_case_1"]
+          @examples = ["pos_case_1", "pos_case_2", "pos_case_3", "pos_case_4", "neg_case_1"]
 
           set_nav("docs/cities_in_a_country")
 
@@ -107,7 +107,7 @@ module Pattana
           }
 
           @example_path = "pattana/api/v1/docs/"
-          @examples = ["pos_case_1", "pos_case_2", "neg_case_1"]
+          @examples = ["pos_case_1", "pos_case_2", "pos_case_3", "pos_case_4", "neg_case_1"]
 
           set_nav("docs/cities_in_a_region")
 

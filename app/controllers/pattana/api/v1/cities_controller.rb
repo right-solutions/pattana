@@ -9,6 +9,7 @@ module Pattana
             if @country
               @relation = @country.cities.includes(:region, :country).where("cities.show_in_api is true").order("cities.name ASC")
               @relation = @relation.search(params[:q]) if params[:q]
+              @relation = @relation.operational if params[:operational] && ["y","t","yes","true",1].include?(params[:operational].downcase)
               @cities = @relation.all
               @data = ActiveModelSerializers::SerializableResource.new(@cities, each_serializer: CityPreviewSerializer)
               @success = true
@@ -29,6 +30,7 @@ module Pattana
             if @region
               @relation = @region.cities.includes(:region, :country).where("cities.show_in_api is true").order("cities.name ASC")
               @relation = @relation.search(params[:q]) if params[:q]
+              @relation = @relation.operational if params[:operational] && ["y","t","yes","true",1].include?(params[:operational].downcase)
               @cities = @relation.all
               @data = ActiveModelSerializers::SerializableResource.new(@cities, each_serializer: CityPreviewSerializer)
               @success = true
