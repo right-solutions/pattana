@@ -1,12 +1,12 @@
 <%
 
-api_title = "Positive Case - 2 - should return search regions in a country"
+api_title = "Positive Case - 3 - should return search regions in a country"
 
 api_input = <<-eos
 Example:
 
-GET #{request.base_url}/api/v1/235/regions?q=Dub
-This will search for regions in the country with id 235 for the keyword 'Dub' and will return matching results
+GET #{request.base_url}/api/v1/235/regions?operational=true
+This will return only the operational regions
 eos
 
 api_output = <<-eos
@@ -59,7 +59,7 @@ eos
 
 <%= render partial: "kuppayam/api/docs/example", locals: {
                                         negative_case: false,
-                                        example_id: "pos_case_2",
+                                        example_id: "pos_case_3",
                                         api_title: api_title,
                                         api_input: api_input,
                                         api_output: api_output 

@@ -46,6 +46,7 @@ class City < Pattana::ApplicationRecord
                                          LOWER(cities.iso_code) LIKE LOWER('%#{query}%')")}
 
   scope :show_in_api, -> { where(show_in_api: true) }
+  scope :operational, -> { where(operational: true) }
 
   # Import Methods
   

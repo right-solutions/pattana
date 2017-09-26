@@ -88,6 +88,46 @@ RSpec.describe Pattana::Api::V1::CitiesController, :type => :request do
         data = response_body['data']
         expect(data.map{|x| x["name"]}).to match_array(["Some kode in karnataka"])
       end
+
+      it "should return only operational cities if operational filter is true" do
+        india = FactoryGirl.create(:country, name: "India", show_in_api: true)
+        kerala = FactoryGirl.create(:region, name: "Kerala", show_in_api: true, country: india)
+        karnataka = FactoryGirl.create(:region, name: "Karnataka", show_in_api: true, country: india)
+        
+        FactoryGirl.create(:city, name: "Kozhikode", show_in_api: true, region: kerala, country: india, operational: true)
+        FactoryGirl.create(:city, name: "Kannur", show_in_api: true, region: kerala, country: india, operational: false)
+        FactoryGirl.create(:city, name: "Kochi", show_in_api: true, region: kerala, country: india, operational: true)
+        FactoryGirl.create(:city, name: "Thiruvananthapuram", show_in_api: true, region: kerala, country: india, operational: false)
+        FactoryGirl.create(:city, name: "Thrissur", show_in_api: false, region: kerala, country: india, operational: true)
+
+        FactoryGirl.create(:city, name: "Bangalore", show_in_api: true, region: karnataka, country: india, operational: true)
+        FactoryGirl.create(:city, name: "Mysore", show_in_api: true, region: karnataka, country: india, operational: true)
+        FactoryGirl.create(:city, name: "Mangalapuram", show_in_api: true, region: karnataka, country: india, operational: false)
+
+        # Get Operational Cities in India
+        get "/api/v1/countries/#{india.id}/cities?operational=true"
+        expect(response.status).to eq(200)
+        response_body = JSON.parse(response.body)
+        expect(response_body["success"]).to eq(true)
+        data = response_body['data']
+        expect(data.map{|x| x["name"]}).to match_array(["Kozhikode", "Kochi", "Bangalore", "Mysore"])
+
+        # Get Operational Cities in Kerala
+        get "/api/v1/regions/#{kerala.id}/cities?operational=true"
+        expect(response.status).to eq(200)
+        response_body = JSON.parse(response.body)
+        expect(response_body["success"]).to eq(true)
+        data = response_body['data']
+        expect(data.map{|x| x["name"]}).to match_array(["Kozhikode", "Kochi"])
+
+        # Get Operational Cities in Karnataka
+        get "/api/v1/regions/#{karnataka.id}/cities?operational=true"
+        expect(response.status).to eq(200)
+        response_body = JSON.parse(response.body)
+        expect(response_body["success"]).to eq(true)
+        data = response_body['data']
+        expect(data.map{|x| x["name"]}).to match_array(["Bangalore", "Mysore"])
+      end
     end
     context 'Negative Cases' do
       it "should show errors if a valid country id is not passed" do

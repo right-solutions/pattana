@@ -40,6 +40,7 @@ class Country < Pattana::ApplicationRecord
                                         LOWER(iso_alpha_3) LIKE LOWER('%#{query}%')")}
 
   scope :show_in_api, -> { where(show_in_api: true) }
+  scope :operational, -> { where(operational: true) }
 
   # Import Methods
 

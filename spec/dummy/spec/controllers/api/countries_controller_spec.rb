@@ -42,6 +42,20 @@ RSpec.describe Pattana::Api::V1::CountriesController, :type => :request do
         data = response_body['data']
         expect(data.map{|x| x["name"]}).to match_array(["Mango Tree", "Mango Flower"])
       end
+
+      it "should filter operational countries" do
+        FactoryGirl.create(:country, name: "Mango Tree", show_in_api: true, operational: true)
+        FactoryGirl.create(:country, name: "Jack Tree", show_in_api: false, operational: true)
+        FactoryGirl.create(:country, name: "Banyan Tree", show_in_api: true, operational: false)
+        FactoryGirl.create(:country, name: "Mango Flower", show_in_api: true, operational: false)
+
+        get "/api/v1/countries?operational=true"
+        expect(response.status).to eq(200)
+        response_body = JSON.parse(response.body)
+        expect(response_body["success"]).to eq(true)
+        data = response_body['data']
+        expect(data.map{|x| x["name"]}).to match_array(["Mango Tree"])
+      end
     end
   end
 
