@@ -8,6 +8,11 @@ module Pattana
       parse_filters
       apply_filters
 
+      @filter_ui_settings[:operational][:drop_down_options] = {remote: true}
+      @filter_ui_settings[:operational][:url_method_name] = "cities_region_url"
+      @filter_ui_settings[:show_in_api][:drop_down_options] = {remote: true}
+      @filter_ui_settings[:show_in_api][:url_method_name] = "cities_region_url"
+
       @cities = @relation.page(@current_page).per(@per_page)
     end
 
@@ -89,7 +94,12 @@ module Pattana
     end
 
     def apply_filters
+
       @relation = @relation.search(@query) if @query
+
+      @relation = @relation.operational(@operational) unless @operational.nil?
+      @relation = @relation.show_in_api(@show_in_api) unless @show_in_api.nil?
+
       @order_by = "name ASC" unless @order_by
       @relation = @relation.order(@order_by)
     end
@@ -100,14 +110,56 @@ module Pattana
           { filter_name: :query },
           { filter_name: :status }
         ],
-        boolean_filters: [],
+        boolean_filters: [
+          { filter_name: :show_in_api },
+          { filter_name: :operational }
+        ],
         reference_filters: [],
         variable_filters: [],
       }
     end
 
     def configure_filter_ui_settings
-      @filter_ui_settings = {}
+      @filter_ui_settings = {
+        operational: {
+          object_filter: false,
+          select_label: "Operation Filter",
+          display_hash: { 
+            true => "Operational", 
+            false => "Non Operational"
+          },
+          current_value: @operational,
+          values: {
+            "Operational" => true,
+            "Non Operational" => false
+          },
+          current_filters: @filters,
+          filters_to_remove: [],
+          filters_to_add: { query: @query, show_in_api: @show_in_api },
+          url_method_name: 'regions_url',
+          show_all_filter_on_top: true,
+          show_null_filter_on_top: false
+        },
+        show_in_api: {
+          object_filter: false,
+          select_label: "Show in API Filter",
+          display_hash: { 
+            true => "Show in API", 
+            false => "Hide in API"
+          },
+          current_value: @show_in_api,
+          values: {
+            "Show in API" => true,
+            "Hide in API" => false
+          },
+          current_filters: @filters,
+          filters_to_remove: [],
+          filters_to_add: { query: @query, operational: @operational },
+          url_method_name: 'regions_url',
+          show_all_filter_on_top: true,
+          show_null_filter_on_top: false
+        }
+      }
     end
 
     def resource_controller_configuration
@@ -123,7 +175,7 @@ module Pattana
         heading: "Manage Regions",
         icon: "fa-globe",
         description: "Listing all Regions",
-        links: [{name: "Dashboard", link: pattana.dashboard_path, icon: 'fa-dashboard'}, 
+        links: [{name: "Home", link: breadcrumb_home_path, icon: 'fa-home'}, 
                   {name: "Manage Regions", link: pattana.regions_path, icon: 'fa-globe', active: true}]
       }
     end

@@ -7,9 +7,9 @@ module Pattana
           proc_code = Proc.new do
             @country = Country.find_by_id(params[:country_id])
             if @country
-              @relation = @country.cities.includes(:region, :country).where("cities.show_in_api is true").order("cities.name ASC")
+              @relation = @country.cities.includes(:region, :country).show_in_api(true).order("cities.name ASC")
               @relation = @relation.search(params[:q]) if params[:q]
-              @relation = @relation.operational if params[:operational] && ["y","t","yes","true",1].include?(params[:operational].downcase)
+              @relation = @relation.operational(true) if params[:operational] && ["y","t","yes","true",1].include?(params[:operational].downcase)
               @cities = @relation.all
               @data = ActiveModelSerializers::SerializableResource.new(@cities, each_serializer: CityPreviewSerializer)
               @success = true
@@ -28,9 +28,9 @@ module Pattana
           proc_code = Proc.new do
             @region = Region.find_by_id(params[:region_id])
             if @region
-              @relation = @region.cities.includes(:region, :country).where("cities.show_in_api is true").order("cities.name ASC")
+              @relation = @region.cities.includes(:region, :country).show_in_api(true).order("cities.name ASC")
               @relation = @relation.search(params[:q]) if params[:q]
-              @relation = @relation.operational if params[:operational] && ["y","t","yes","true",1].include?(params[:operational].downcase)
+              @relation = @relation.operational(true) if params[:operational] && ["y","t","yes","true",1].include?(params[:operational].downcase)
               @cities = @relation.all
               @data = ActiveModelSerializers::SerializableResource.new(@cities, each_serializer: CityPreviewSerializer)
               @success = true

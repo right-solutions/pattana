@@ -3,7 +3,7 @@ require 'spec_helper'
 RSpec.describe Country, type: :model do
 
   let(:country) {FactoryGirl.build(:country)}
-  let(:usa) {FactoryGirl.create(:country, name: "United States of America", official_name: "USA", dialing_prefix: "+1", show_in_api: true)}
+  let(:usa) {FactoryGirl.create(:country, name: "United States of America", official_name: "USA", dialing_prefix: "+1", show_in_api: true, operational: true)}
   let(:uae) {FactoryGirl.create(:country, name: "United Arab Emirates", iso_name: "UAE ISO", currency_code: "Dirham")}
   let(:uk) {FactoryGirl.create(:country, name: "United Kingdom", official_name: "UK Official", iso_alpha_2: "A2", iso_alpha_3: "A3")}
   
@@ -26,7 +26,7 @@ RSpec.describe Country, type: :model do
   end
 
   context "Class Methods" do
-    it "search" do
+    it "scope search" do
       arr = [usa, uae, uk]
       
       expect(Country.search("Arab")).to match_array([uae])
@@ -46,7 +46,13 @@ RSpec.describe Country, type: :model do
     end
 
     it "scope show_in_api" do
-      expect(Country.show_in_api.all).to match_array [usa]
+      expect(Country.show_in_api(true).all).to match_array [usa]
+      expect(Country.show_in_api(false).all).to match_array [uae, uk]
+    end
+
+    it "scope operational" do
+      expect(Country.operational(true).all).to match_array [usa]
+      expect(Country.operational(false).all).to match_array [uae, uk]
     end
 
     context "Import Methods" do

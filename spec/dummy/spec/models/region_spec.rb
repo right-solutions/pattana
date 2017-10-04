@@ -4,7 +4,7 @@ RSpec.describe Region, type: :model do
 
   let(:country) {FactoryGirl.build(:country, name: "India")}
   let(:region) {FactoryGirl.build(:region)}
-  let(:mp) {FactoryGirl.create(:region, name: "Madhya Pradesh", show_in_api: true, country: country)}
+  let(:mp) {FactoryGirl.create(:region, name: "Madhya Pradesh", country: country, show_in_api: true, operational: true)}
   let(:up) {FactoryGirl.create(:region, name: "Uttar Pradesh", country: country)}
   let(:hp) {FactoryGirl.create(:region, name: "Himachal Pradesh", country: country)}
   
@@ -38,7 +38,13 @@ RSpec.describe Region, type: :model do
     end
 
     it "scope show_in_api" do
-      expect(Region.show_in_api.all).to match_array [mp]
+      expect(Region.show_in_api(true).all).to match_array [mp]
+      expect(Region.show_in_api(false).all).to match_array [up, hp]
+    end
+
+    it "scope operational" do
+      expect(Region.operational(true).all).to match_array [mp]
+      expect(Region.operational(false).all).to match_array [up, hp]
     end
 
     context "Import Methods" do

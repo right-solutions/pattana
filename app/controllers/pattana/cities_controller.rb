@@ -115,7 +115,7 @@ module Pattana
         heading: "Manage Cities",
         icon: "fa-map-marker",
         description: "Listing all Cities",
-        links: [{name: "Dashboard", link: pattana.dashboard_path, icon: 'fa-dashboard'}, 
+        links: [{name: "Home", link: breadcrumb_home_path, icon: 'fa-home'}, 
                   {name: "Manage Cities", link: pattana.cities_path, icon: 'fa-map-marker', active: true}]
       }
     end

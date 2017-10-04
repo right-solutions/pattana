@@ -2,7 +2,7 @@
   
   <div class="row">
 
-    <div class="col-md-9 col-sm-12 col-xs-12" style="border-right:1px solid #f1f1f1;">
+    <div class="col-md-9 col-sm-6 col-xs-12" style="border-right:1px solid #f1f1f1;">
 
       <div class="visible-sm visible-xs mt-50"></div>
 
@@ -21,6 +21,37 @@
       <% else %>
         <div class="label label-danger">Non Operational</div>
       <% end %>
+
+    </div>
+
+    <div class="col-md-3 col-sm-6 col-xs-12">
+
+      <% edit_link = edit_country_path(id: @country.id) %>
+      <% delete_link = country_path(id: @country.id) %>
+
+      <% if @country.show_in_api? %>
+        <!-- Hide in API -->
+        <%= link_to raw("<i class=\"fa fa-cloud mr-5\"></i> Hide in API"), hide_in_api_country_path(:id => @country.id), :remote=>true, class: "btn btn-block btn-danger btn-only-hover" %>
+      <% else %>
+        <!-- Show in API -->
+        <%= link_to raw("<i class=\"fa fa-cloud-download mr-5\"></i> Show in API"), show_in_api_country_path(:id => @country.id), :remote=>true, class: "btn btn-block btn-success btn-only-hover" %>
+      <% end %>
+
+      <% if @country.operational? %>
+        <!-- Hide in API -->
+        <%= link_to raw("<i class=\"fa fa-toggle-off mr-5\"></i> Hide in API"), remove_operational_country_path(:id => @country.id), :remote=>true, class: "btn btn-block btn-danger btn-only-hover" %>
+      <% else %>
+        <!-- Show in API -->
+        <%= link_to raw("<i class=\"fa fa-toggle-on mr-5\"></i> Show in API"), mark_as_operational_country_path(:id => @country.id), :remote=>true, class: "btn btn-block btn-success btn-only-hover" %>
+      <% end %>
+
+      <!-- Edit -->
+      <%= link_to raw("<i class=\"fa fa-edit mr-5\"></i> Edit"), edit_link, :remote=>true, class: "btn btn-block btn-white btn-only-hover" %>
+
+      <!-- Delete -->
+      <%= link_to raw("<i class=\"linecons-trash mr-5\"></i> Delete"), delete_link, method: :delete, :remote=>true, data: { confirm: 'Are you sure?' }, class: "btn btn-block btn-danger btn-only-hover" %>
+      
+      <div class="visible-sm visible-xs mb-50"></div>
 
     </div>
 
@@ -141,24 +172,10 @@
     <div class="tab-pane" id="regions" style="border: 1px solid #000;min-height:200px;padding:20px;margin-bottom:20px;max-height: 400px;overflow-y: auto;">
       <%= clear_tag(20) %>
 
-      <div id="div_region_action_buttons">
-        <div class="row">
-          <div class="col-md-6">
-
-            <%= theme_button('Refresh', 'refresh', regions_country_path(@country), classes: "pull-left", btn_type: "white") %>
-            
-          </div>
-          <div class="col-md-6">
-            <%= search_form_kuppayam(Region, regions_country_path(@country), text: "") %>
-          </div>
-        </div>
-      </div>
-      <%= clear_tag(10) %>
-
       <div id="div_region_counts">
         <div class="row">
 
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
           
             <div style="border: 1px solid #ddd; margin-bottom: 20px;">
             
@@ -182,10 +199,9 @@
               </div>
 
             </div>
-
           </div>
 
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
           
             <div style="border: 1px solid #ddd; margin-bottom: 20px;">
             
@@ -203,44 +219,61 @@
                   <i class="linecons-cloud"></i>
                 </div>
                 <div class="xe-label">
-                  <strong class="num"><%= @country.regions.show_in_api.count %></strong>
+                  <strong class="num"><%= @country.regions.show_in_api(true).count %></strong>
                   <span>Show in API</span>
                 </div>
               </div>
 
             </div>
-
           </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
           
+            <div style="border: 1px solid #ddd; margin-bottom: 20px;">
+            
+              <div class="xe-widget xe-counter" 
+                  data-count=".num" 
+                  data-from="0" 
+                  data-to="99.9" 
+                  data-suffix="%" 
+                  data-duration="2"
+                  style="margin-bottom: 0px; 
+                  padding: 0px; 
+                  width: 15%;
+                  margin: 0px auto;">
+                <div class="xe-icon">
+                  <i class="fa-toggle-on"></i>
+                </div>
+                <div class="xe-label">
+                  <strong class="num"><%= @country.regions.operational(true).count %></strong>
+                  <span>Operational</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
           
         </div>
       </div>
+
+      <div id="div_region_action_buttons">
+      </div>
+
       <div id="div_region_index">
-        <%#= render :partial=>"master_data/admin_regions/index" %>
+        <div class="text-center">
+          <p>Click the below button to see the list of regions in <%= @country.name %></p>
+          <%= link_to('Show Regions', regions_country_path(@country), class: "mt-10 btn btn-success", remote: true) %>
+        </div>
       </div>
     </div>
 
     <div class="tab-pane" id="cities" style="border: 1px solid #000;min-height:200px;padding:20px;margin-bottom:20px;max-height: 400px;overflow-y: auto;">
       <%= clear_tag(20) %>
 
-      <div id="div_city_action_buttons">
-        <div class="row">
-          <div class="col-md-6">
-
-            <%= theme_button('Refresh', 'refresh', cities_country_path(@country), classes: "pull-left", btn_type: "white") %>
-            
-          </div>
-          <div class="col-md-6">
-            <%= search_form_kuppayam(City, cities_country_path(@country), text: "") %>
-          </div>
-        </div>
-      </div>
-      <%= clear_tag(10) %>
-
       <div id="div_city_counts">
         <div class="row">
 
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
           
             <div style="border: 1px solid #ddd; margin-bottom: 20px;">
             
@@ -267,7 +300,7 @@
 
           </div>
 
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
           
             <div style="border: 1px solid #ddd; margin-bottom: 20px;">
             
@@ -285,8 +318,35 @@
                   <i class="linecons-cloud"></i>
                 </div>
                 <div class="xe-label">
-                  <strong class="num"><%= @country.cities.show_in_api.count %></strong>
+                  <strong class="num"><%= @country.cities.show_in_api(true).count %></strong>
                   <span>Show in API</span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+          
+            <div style="border: 1px solid #ddd; margin-bottom: 20px;">
+            
+              <div class="xe-widget xe-counter" 
+                  data-count=".num" 
+                  data-from="0" 
+                  data-to="99.9" 
+                  data-suffix="%" 
+                  data-duration="2"
+                  style="margin-bottom: 0px; 
+                  padding: 0px; 
+                  width: 15%;
+                  margin: 0px auto;">
+                <div class="xe-icon">
+                  <i class="fa-toggle-on"></i>
+                </div>
+                <div class="xe-label">
+                  <strong class="num"><%= @country.cities.operational(true).count %></strong>
+                  <span>Operational</span>
                 </div>
               </div>
 
@@ -297,8 +357,15 @@
           
         </div>
       </div>
+
+      <div id="div_city_action_buttons">
+      </div>
+
       <div id="div_city_index">
-        <%#= render :partial=>"master_data/admin_cities/index" %>
+        <div class="text-center">
+          <p>Click the below button to see the list of cities in <%= @country.name %></p>
+          <%= link_to('Show Cities', cities_country_path(@country), class: "mt-10 btn btn-success", remote: true) %>
+        </div>
       </div>
     </div>
 

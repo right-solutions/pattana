@@ -45,8 +45,8 @@ class City < Pattana::ApplicationRecord
                                          LOWER(cities.alternative_names) LIKE LOWER('%#{query}%') OR
                                          LOWER(cities.iso_code) LIKE LOWER('%#{query}%')")}
 
-  scope :show_in_api, -> { where(show_in_api: true) }
-  scope :operational, -> { where(operational: true) }
+  scope :show_in_api, lambda {|val| where("cities.show_in_api is #{val.to_s.upcase}")}
+  scope :operational, lambda {|val| where("cities.operational is #{val.to_s.upcase}")}
 
   # Import Methods
   

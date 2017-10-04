@@ -1,0 +1,17 @@
+<div class="row">
+  <div class="col-md-6">
+    <%= theme_button('Refresh', 'refresh', regions_country_path(@country), classes: "pull-left mr-10", btn_type: "success") %>
+    
+    <% @filter_ui_settings.each do |filter_name, options| %>
+        <% if options[:object_filter] == true %>
+          <%= report_object_filter(filter_name, options) %>
+        <% else %>
+          <%= report_filter(filter_name, options) %>
+        <% end %>
+      <% end %>
+  </div>
+  <div class="col-md-6">
+    <%= search_form_kuppayam(Region, regions_country_path(@country), text: @query) %>
+  </div>
+</div>
+<%= clear_tag(10) %>

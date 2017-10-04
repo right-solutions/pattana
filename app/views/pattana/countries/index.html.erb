@@ -11,8 +11,16 @@
           <div class="row">
             <div class="col-md-6">
 
-              <%= theme_button('Refresh', 'refresh', pattana.countries_path(), classes: "pull-left", btn_type: "white") %>
-
+              <%= theme_button('Refresh', 'refresh', pattana.countries_path(), classes: "pull-left mr-10", btn_type: "white") %>
+              
+              <% @filter_ui_settings.each do |filter_name, options| %>
+                <% if options[:object_filter] == true %>
+                  <%= report_object_filter(filter_name, options) %>
+                <% else %>
+                  <%= report_filter(filter_name, options) %>
+                <% end %>
+              <% end %>
+            
             </div>
             <div class="col-md-6">
               <%= search_form_kuppayam(Country, pattana.countries_path, text: @filters[:query]) %>

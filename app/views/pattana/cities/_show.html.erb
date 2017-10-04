@@ -26,6 +26,37 @@
       
     </div>
 
+    <div class="col-md-3 col-sm-6 col-xs-12">
+
+      <% edit_link = edit_city_path(id: @city.id) %>
+      <% delete_link = city_path(id: @city.id) %>
+
+      <% if @city.show_in_api? %>
+        <!-- Hide in API -->
+        <%= link_to raw("<i class=\"fa fa-cloud mr-5\"></i> Hide in API"), hide_in_api_city_path(:id => @city.id), :remote=>true, class: "btn btn-block btn-danger btn-only-hover" %>
+      <% else %>
+        <!-- Show in API -->
+        <%= link_to raw("<i class=\"fa fa-cloud-download mr-5\"></i> Show in API"), show_in_api_city_path(:id => @city.id), :remote=>true, class: "btn btn-block btn-success btn-only-hover" %>
+      <% end %>
+
+      <% if @city.operational? %>
+        <!-- Hide in API -->
+        <%= link_to raw("<i class=\"fa fa-toggle-off mr-5\"></i> Hide in API"), remove_operational_city_path(:id => @city.id), :remote=>true, class: "btn btn-block btn-danger btn-only-hover" %>
+      <% else %>
+        <!-- Show in API -->
+        <%= link_to raw("<i class=\"fa fa-toggle-on mr-5\"></i> Show in API"), mark_as_operational_city_path(:id => @city.id), :remote=>true, class: "btn btn-block btn-success btn-only-hover" %>
+      <% end %>
+
+      <!-- Edit -->
+      <%= link_to raw("<i class=\"fa fa-edit mr-5\"></i> Edit"), edit_link, :remote=>true, class: "btn btn-block btn-white btn-only-hover" %>
+
+      <!-- Delete -->
+      <%= link_to raw("<i class=\"linecons-trash mr-5\"></i> Delete"), delete_link, method: :delete, :remote=>true, data: { confirm: 'Are you sure?' }, class: "btn btn-block btn-danger btn-only-hover" %>
+      
+      <div class="visible-sm visible-xs mb-50"></div>
+
+    </div>
+
   </div>
 
   <%= clear_tag(50) %>

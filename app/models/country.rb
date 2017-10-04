@@ -39,8 +39,8 @@ class Country < Pattana::ApplicationRecord
                                         LOWER(iso_alpha_2) LIKE LOWER('%#{query}%') OR 
                                         LOWER(iso_alpha_3) LIKE LOWER('%#{query}%')")}
 
-  scope :show_in_api, -> { where(show_in_api: true) }
-  scope :operational, -> { where(operational: true) }
+  scope :show_in_api, lambda {|val| where("countries.show_in_api is #{val.to_s.upcase}")}
+  scope :operational, lambda {|val| where("countries.operational is #{val.to_s.upcase}")}
 
   # Import Methods
 

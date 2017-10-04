@@ -3,7 +3,7 @@
 		countries: {
 			counts: {
 				total: Country.count,
-				show_in_api: Country.show_in_api.count
+				show_in_api: Country.show_in_api(true).count
 			},
 			text: "Countries",
 			icon_class: "fa-flag-checkered",
@@ -12,7 +12,7 @@
 		regions: {
 			counts: {
 				total: Region.count,
-				show_in_api: Region.show_in_api.count
+				show_in_api: Region.show_in_api(true).count
 			},
 			text: "Regions",
 			icon_class: "fa-globe",
@@ -21,7 +21,7 @@
 		cities: {
 			counts: {
 				total: City.count,
-				show_in_api: City.show_in_api.count
+				show_in_api: City.show_in_api(true).count
 			},
 			text: "Cities",
 			icon_class: "fa-map-marker",

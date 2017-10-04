@@ -3,7 +3,7 @@ require 'spec_helper'
 RSpec.describe City, type: :model do
 
   let(:city) {FactoryGirl.build(:city)}
-  let(:usa) {FactoryGirl.create(:city, name: "United States of America", alternative_names: "US, USA", show_in_api: true)}
+  let(:usa) {FactoryGirl.create(:city, name: "United States of America", alternative_names: "US, USA", show_in_api: true, operational: true)}
   let(:uae) {FactoryGirl.create(:city, name: "United Arab Emirates", alternative_names: "UAE")}
   let(:uk) {FactoryGirl.create(:city, name: "United Kingdom", alternative_names: "UK")}
   
@@ -58,7 +58,13 @@ RSpec.describe City, type: :model do
     end
 
     it "scope show_in_api" do
-      expect(City.show_in_api.all).to match_array [usa]
+      expect(City.show_in_api(true).all).to match_array [usa]
+      expect(City.show_in_api(false).all).to match_array [uae, uk]
+    end
+
+    it "scope operational" do
+      expect(City.operational(true).all).to match_array [usa]
+      expect(City.operational(false).all).to match_array [uae, uk]
     end
 
     describe "Import Method - save_row_data" do

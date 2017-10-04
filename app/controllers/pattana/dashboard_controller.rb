@@ -11,7 +11,7 @@ module Pattana
       {
         heading: "Dashboard - Pattana",
         description: "A Quick view of Countries, Regions & Cities",
-        links: [{name: "Dashboard - Pattana", link: pattana.dashboard_path, icon: 'fa-dashboard'}]
+        links: [{name: "Dashboard - Pattana", link: breadcrumb_home_path, icon: 'fa-dashboard'}]
       }
     end
 

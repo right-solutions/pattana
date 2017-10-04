@@ -1,11 +1,14 @@
 <% if @regions.any? %>
   
   // Refresh the list
+  $('#div_region_action_buttons').html("<%= escape_javascript(render(:partial=>"pattana/country_regions/action_buttons")) %>");
   $('#div_region_index').html("<%= escape_javascript(render(:partial=>"pattana/country_regions/index")) %>");
 
 <% else %>
-
+	
+	$('#div_region_action_buttons').html("<%= escape_javascript(render(:partial=>"pattana/country_regions/action_buttons")) %>");
+	
   var noResultsText = "<%= escape_javascript(theme_panel_message(I18n.translate('success.no_results_found')))%>";
-  $('#div_region_index').html(noResultsText);
+  $('#div_region_index .table-responsive').html(noResultsText);
 
 <% end %>
