@@ -5,8 +5,8 @@ api_title = "Positive Case - 2 - should return search regions in a country"
 api_input = <<-eos
 Example:
 
-GET #{request.base_url}/api/v1/235/regions?q=Dub
-This will search for regions in the country with id 235 for the keyword 'Dub' and will return matching results
+GET #{request.base_url}/api/v1/235/regions?q=Ind
+This will search for regions in the country with id 235 for the keyword 'Ind' and will return matching results
 eos
 
 api_output = <<-eos
@@ -17,24 +17,30 @@ api_output = <<-eos
       "id": 1329,
       "name": "Andaman and Nicobar Islands",
       "priority": 1000,
+      "operational": true,
       "country": {
         "id": 100,
         "name": "India",
         "iso_name": "INDIA",
+        "iso_alpha_2": "IN",
         "dialing_prefix": "91",
-        "priority": 1000
+        "priority": 1000,
+        "operational": true
       }
     },
     {
       "id": 1328,
       "name": "Andhra Pradesh",
       "priority": 1000,
+      "operational": true,
       "country": {
         "id": 100,
         "name": "India",
         "iso_name": "INDIA",
+        "iso_alpha_2": "IN",
         "dialing_prefix": "91",
-        "priority": 1000
+        "priority": 1000,
+        "operational": true
       }
     },
     .
@@ -44,12 +50,15 @@ api_output = <<-eos
       "id": 1332,
       "name": "Uttaranchal",
       "priority": 1000,
+      "operational": true,
       "country": {
         "id": 100,
         "name": "India",
         "iso_name": "INDIA",
+        "iso_alpha_2": "IN",
         "dialing_prefix": "91",
-        "priority": 1000
+        "priority": 1000,
+        "operational": true
       }
     }]
 }
