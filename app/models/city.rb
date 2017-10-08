@@ -2,9 +2,6 @@ class City < Pattana::ApplicationRecord
   
   include ActiveModel::Serializers::JSON
     
-  # Constants
-  EXCLUDED_JSON_ATTRIBUTES = [:created_at, :updated_at, :show_in_api]
-
   # Associations
   belongs_to :country
   belongs_to :region, optional: true
@@ -18,17 +15,6 @@ class City < Pattana::ApplicationRecord
   # ------------------
   # Class Methods
   # ------------------
-
-  # BACKUP - TODO - REMOVE - TBR
-  # Exclude some attributes info from json output.
-  # def as_json(options={})
-  #   options[:except] ||= EXCLUDED_JSON_ATTRIBUTES
-  #   #options[:include] ||= []
-  #   #options[:methods] = []
-  #   #options[:methods] << :profile_image
-  #   json = super(options)
-  #   Hash[*json.map{|k, v| [k, v || ""]}.flatten]
-  # end
 
   # Scopes Methods
 
