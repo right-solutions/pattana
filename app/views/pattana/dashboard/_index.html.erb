@@ -1,0 +1,31 @@
+<%
+	items = {
+		countries: {
+			text: "Countries",
+			icon_class: "fa-flag-checkered",
+			url: pattana.countries_url,
+			has_permission: @current_user.has_read_permission?(Country)
+		},
+		regions: {
+			text: "Regions",
+			icon_class: "fa-globe",
+			url: pattana.regions_url,
+			has_permission: @current_user.has_read_permission?(Region)
+		},
+		cities: {
+			text: "Cities",
+			icon_class: "fa-map-marker",
+			url: pattana.cities_url,
+			has_permission: @current_user.has_read_permission?(City)
+		},
+		
+	}
+%>
+
+<h3 class="text-gray mt-50 mb-10">
+	Manage Locations <br>
+	<small class="text-muted">Configure Countries, Regions, Cities & Locality</small>
+</h3>
+<hr class="mb-30" style="border-top:1px solid #ddd;">
+
+<%= render partial: "/layouts/dashboard/items", locals: { items: items } %>
