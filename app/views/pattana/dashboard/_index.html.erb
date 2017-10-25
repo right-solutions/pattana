@@ -1,26 +1,28 @@
 <%
-	items = {
+	pattana_items = {
 		countries: {
 			text: "Countries",
 			icon_class: "fa-flag-checkered",
 			url: pattana.countries_url,
-			has_permission: @current_user.has_read_permission?(Country)
+			has_permission: true
 		},
 		regions: {
 			text: "Regions",
 			icon_class: "fa-globe",
 			url: pattana.regions_url,
-			has_permission: @current_user.has_read_permission?(Region)
+			has_permission: true
 		},
 		cities: {
 			text: "Cities",
 			icon_class: "fa-map-marker",
 			url: pattana.cities_url,
-			has_permission: @current_user.has_read_permission?(City)
+			has_permission: true
 		},
 		
 	}
 %>
+
+<% if (pattana_items.map{|x, y| y[:has_permission] }).compact.uniq.any? %>
 
 <h3 class="text-gray mt-50 mb-10">
 	Manage Locations <br>
@@ -28,4 +30,6 @@
 </h3>
 <hr class="mb-30" style="border-top:1px solid #ddd;">
 
-<%= render partial: "/layouts/dashboard/items", locals: { items: items } %>
+<%= render partial: "/layouts/dashboard/items", locals: { items: pattana_items } %>
+
+<% end %>

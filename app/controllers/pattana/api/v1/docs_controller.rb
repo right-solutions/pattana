@@ -1,9 +1,12 @@
 module Pattana
   module Api
     module V1
-      class DocsController < Pattana::Api::V1::DocsBaseController
+      class DocsController < Pattana::ApplicationController
 
         layout 'kuppayam/docs'
+
+        before_action :set_nav_items, :set_tab_items
+        helper_method :breadcrumb_home_path
 
         def countries
           set_title("Countries API")
@@ -23,7 +26,7 @@ module Pattana
           @example_path = "pattana/api/v1/docs/"
           @examples = ["pos_case_1", "pos_case_2", "pos_case_3", "pos_case_4"]
 
-          set_nav("docs/countries")
+          set_nav("docs/pattana/countries")
 
           render 'kuppayam/api/docs/show'
         end
@@ -51,7 +54,7 @@ module Pattana
           @example_path = "pattana/api/v1/docs/"
           @examples = ["pos_case_1", "pos_case_2", "pos_case_3", "pos_case_4", "neg_case_1"]
 
-          set_nav("docs/regions")
+          set_nav("docs/pattana/regions")
 
           render 'kuppayam/api/docs/show'
         end
@@ -80,7 +83,7 @@ module Pattana
           @example_path = "pattana/api/v1/docs/"
           @examples = ["pos_case_1", "pos_case_2", "pos_case_3", "pos_case_4", "neg_case_1"]
 
-          set_nav("docs/cities_in_a_country")
+          set_nav("docs/pattana/cities_in_a_country")
 
           render 'kuppayam/api/docs/show'
         end
@@ -109,9 +112,38 @@ module Pattana
           @example_path = "pattana/api/v1/docs/"
           @examples = ["pos_case_1", "pos_case_2", "pos_case_3", "pos_case_4", "neg_case_1"]
 
-          set_nav("docs/cities_in_a_region")
+          set_nav("docs/pattana/cities_in_a_region")
 
           render 'kuppayam/api/docs/show'
+        end
+
+        private
+
+        def set_nav_items
+          @nav_items = {
+            countries: { nav_class: "docs/pattana/countries", icon_class: "fa-flag-checkered", url: pattana.docs_api_v1_countries_path, text: "Countries API"},
+            regions: { nav_class: "docs/pattana/regions", icon_class: "fa-globe", url: pattana.docs_api_v1_regions_path, text: "Countries API"},
+            cities_in_a_country: { nav_class: "docs/pattana/cities_in_a_country", icon_class: "fa-map-marker", url: pattana.docs_api_v1_cities_in_a_country_path, text: "Cities (in a Country)"},
+            cities_in_a_region: { nav_class: "docs/pattana/cities_in_a_region", icon_class: "fa-map-marker", url: pattana.docs_api_v1_cities_in_a_region_path, text: "Cities (in a Region)"}
+          }
+        end
+
+        def set_tab_items
+          @tab_items = {
+            pattana: { nav_class: "docs/pattana", icon_class: "fa-globe", url: pattana.docs_api_v1_countries_path, text: "Location APIs"}
+          }
+        end
+
+        def breadcrumb_home_path
+          pattana.dashboard_path
+        end
+
+        def breadcrumbs_configuration
+          {
+            heading: "Pattana - API Documentation",
+            description: "A brief documentation of all APIs implemented in the gem Pattana with input and output details and examples",
+            links: []
+          }
         end
 
       end

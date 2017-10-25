@@ -36,14 +36,14 @@ Pattana::Engine.routes.draw do
 
   namespace :api do
     namespace :v1 do
-      get 'countries', :controller => "countries", action: :index
-      get ':country_id/regions', :controller => "regions", action: :index
-      get 'countries/:country_id/cities', :controller => "cities", action: :cities_in_a_country
-      get 'regions/:region_id/cities', :controller => "cities", action: :cities_in_a_region
+      get 'countries', :controller => "countries", action: :index, as: :countries
+      get ':country_id/regions', :controller => "regions", action: :index, as: :regions
+      get 'countries/:country_id/cities', :controller => "cities", action: :cities_in_a_country, as: :cities_in_a_country
+      get 'regions/:region_id/cities', :controller => "cities", action: :cities_in_a_region, as: :cities_in_a_region
     end
   end
   
-  scope :docs do
+  scope :docs, as: 'docs' do
     namespace :api do
       namespace :v1 do
         get 'countries', :controller => "docs"

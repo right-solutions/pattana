@@ -3,6 +3,8 @@ module Pattana
 
     layout 'kuppayam/admin'
 
+    helper_method :breadcrumb_home_path
+
     private
 
     def set_default_title

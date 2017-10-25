@@ -2,13 +2,15 @@
 	<table class="table table-hover members-table middle-align">
 	  <thead> 
 			<tr> 
-				<th style="text-align:center;width:15%;">#</th> 
-				<th style="text-align:left;width:30%;">Name</th>
+				<th style="text-align:center;width:5%;">#</th> 
+				<th style="text-align:left;width:20%;">Name</th>
 				<th style="text-align:center;width:15%;">Region</th>
-				<th style="text-align:center;width:15%;">Country</th>
+				<th style="text-align:center;width:10%;">Country</th>
 				<th style="text-align:center;width:10%;">Priority</th>
-				<th style="text-align:center;width:15%;">Show in API</th>
-				<th style="text-align:center;width:10%;" colspan="2">Actions</th>
+				<th style="text-align:center;width:12%;">Show in API</th>
+				<% if display_manage_links? %>
+				<th style="text-align:center;" colspan="2">Actions</th>
+				<% end %>
 			</tr> 
 		</thead>
 	  <tbody>
@@ -27,24 +29,29 @@
 		      <td  class="text-align-center"><%= city.priority %></td>
 		      <td  class="text-align-center"><%= city.display_show_in_api %></td>
 		      
+		      <% if display_manage_links? %>
+
 					<td class="action-links text-align-center" style="width:10%">
 						<% if city.show_in_api? %>
-		      		<%= link_to raw("<i class=\"fa fa-square mr-5\"></i> Hide in API"), hide_in_api_city_path(:id =>city.id), :remote=>true, role: "menuitem", tabindex: "-1", style: "text-align:left;", class: "delete" %>
+		      		<%= link_to raw("<i class=\"fa fa-square mr-5\"></i> Hide in API"), hide_in_api_city_path(:id =>city.id), :remote=>true, role: "menuitem", tabindex: "-1", style: "text-align:left;", class: "delete" if display_edit_links? %>
 		      	<% else %>
-		      		<%= link_to raw("<i class=\"fa fa-square mr-5\"></i> Show in API"), show_in_api_city_path(:id =>city.id), :remote=>true, role: "menuitem", tabindex: "-1", style: "text-align:left;", class: "edit" %>
+		      		<%= link_to raw("<i class=\"fa fa-square mr-5\"></i> Show in API"), show_in_api_city_path(:id =>city.id), :remote=>true, role: "menuitem", tabindex: "-1", style: "text-align:left;", class: "edit" if display_edit_links? %>
 		      	<% end %>
 
 		      	<% if city.operational? %>
-		      		<%= link_to raw("<i class=\"fa fa-square mr-5\"></i> Remove Operational"), remove_operational_city_path(:id =>city.id), :remote=>true, role: "menuitem", tabindex: "-1", style: "text-align:left;", class: "delete" %>
+		      		<%= link_to raw("<i class=\"fa fa-square mr-5\"></i> Remove Operational"), remove_operational_city_path(:id =>city.id), :remote=>true, role: "menuitem", tabindex: "-1", style: "text-align:left;", class: "delete" if display_edit_links? %>
 		      	<% else %>
-		      		<%= link_to raw("<i class=\"fa fa-square mr-5\"></i> Mark as Operational"), mark_as_operational_city_path(:id =>city.id), :remote=>true, role: "menuitem", tabindex: "-1", style: "text-align:left;", class: "edit" %>
+		      		<%= link_to raw("<i class=\"fa fa-square mr-5\"></i> Mark as Operational"), mark_as_operational_city_path(:id =>city.id), :remote=>true, role: "menuitem", tabindex: "-1", style: "text-align:left;", class: "edit" if display_edit_links? %>
 		      	<% end %>
 		      </td>
 
 		      <td class="action-links text-align-center" style="width:10%">
-		      	<%= link_to raw("<i class=\"linecons-pencil\"></i> Edit City"), edit_link, :remote=>true, class: "edit" %>
+		      	<%= link_to raw("<i class=\"linecons-pencil\"></i> Edit City"), edit_link, :remote=>true, class: "edit" if display_edit_links? %>
 
-		        <%= link_to raw("<i class=\"linecons-trash\"></i> Delete"), delete_link, method: :delete, role: "menuitem", tabindex: "-1", data: { confirm: 'Are you sure?' }, :remote=>true, class: "delete" %>
+		        <%= link_to raw("<i class=\"linecons-trash\"></i> Delete"), delete_link, method: :delete, role: "menuitem", tabindex: "-1", data: { confirm: 'Are you sure?' }, :remote=>true, class: "delete" if display_delete_links? %>
+		      </td>
+
+		      <% end %>
 		    </tr>
 		  <% end %>
 	  </tbody>
