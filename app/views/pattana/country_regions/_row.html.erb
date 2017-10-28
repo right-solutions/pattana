@@ -1,3 +1,6 @@
+<% edit_link = edit_region_path(id: region.id) %>
+<% delete_link = region_path(id: region.id) %>
+
 <tr id="tr_region_<%= region.id %>">
           
   <th scope="row" class="text-align-center">
@@ -13,5 +16,25 @@
   <td class="text-align-center"><%= region.priority %></td>
   <td class="text-align-center"><%= region.display_show_in_api %></td>
   <td class="text-align-center"><%= region.display_operational %></td>
+
+  <td class="action-links text-align-center" style="width:10%">
+    <% if region.show_in_api? %>
+      <%= link_to raw("<i class=\"fa fa-square mr-5\"></i> Hide in API"), hide_in_api_region_path(:id =>region.id), :remote=>true, role: "menuitem", tabindex: "-1", style: "text-align:left;", class: "delete" %>
+    <% else %>
+      <%= link_to raw("<i class=\"fa fa-square mr-5\"></i> Show in API"), show_in_api_region_path(:id =>region.id), :remote=>true, role: "menuitem", tabindex: "-1", style: "text-align:left;", class: "edit" %>
+    <% end %>
+
+    <% if region.operational? %>
+      <%= link_to raw("<i class=\"fa fa-square mr-5\"></i> Remove Operational"), remove_operational_region_path(:id =>region.id), :remote=>true, role: "menuitem", tabindex: "-1", style: "text-align:left;", class: "delete" %>
+    <% else %>
+      <%= link_to raw("<i class=\"fa fa-square mr-5\"></i> Mark as Operational"), mark_as_operational_region_path(:id =>region.id), :remote=>true, role: "menuitem", tabindex: "-1", style: "text-align:left;", class: "edit" %>
+    <% end %>
+  </td>
+
+  <td class="action-links text-align-center" style="width:10%">
+    <%= link_to raw("<i class=\"linecons-pencil\"></i> Edit"), edit_link, :remote=>true, style: "text-align:left;", class: "edit" %>
+
+    <%= link_to raw("<i class=\"linecons-trash\"></i> Delete"), delete_link, method: :delete, role: "menuitem", tabindex: "-1", data: { confirm: 'Are you sure?' }, :remote=>true, class: "delete mt-10", style: "text-align:left;" %>
+  </td>
 
 </tr>

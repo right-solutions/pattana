@@ -28,6 +28,7 @@
 
 		      <td class="text-align-center"><%= country.priority %></td>
 		      
+		      
 		      <td class="action-links text-align-center" style="width:10%">
 						<% if country.show_in_api? %>
 		      		<%= link_to raw("<i class=\"fa fa-square mr-5\"></i> Hide in API"), hide_in_api_country_path(:id =>country.id), :remote=>true, role: "menuitem", tabindex: "-1", style: "text-align:left;", class: "delete" %>
@@ -49,6 +50,7 @@
 		      </td>
 
 		    </tr>
+		  
 		  <% end %>
 	  </tbody>
 	</table>

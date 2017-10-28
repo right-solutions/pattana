@@ -1,36 +1,37 @@
 <% edit_link = edit_country_path(id: country.id) %>
-  <% delete_link = country_path(id: country.id) %>
+<% delete_link = country_path(id: country.id) %>
+
+<tr id="tr_country_<%= country.id %>">
   
-  <tr id="tr_country_<%= country.id %>">
-    
-    <td class="text-align-center"><%= country.id %></td>
-    
-    <td class="text-align-left"><%= link_to country.name, pattana.country_path(country), remote: true %></td>
+  <td class="text-align-center"><%= country.id %></td>
+  
+  <td class="text-align-left"><%= link_to country.name, pattana.country_path(country), remote: true %></td>
 
-    <td class="text-align-center"><%= country.display_operational %></td>
+  <td class="text-align-center"><%= country.display_operational %></td>
 
-    <td class="text-align-center"><%= country.display_operational %></td>
+  <td class="text-align-center"><%= country.display_operational %></td>
 
-    <td class="text-align-center"><%= country.priority %></td>
-    
-    <td class="action-links text-align-center" style="width:10%">
-      <% if country.show_in_api? %>
-        <%= link_to raw("<i class=\"fa fa-square mr-5\"></i> Hide in API"), hide_in_api_country_path(:id =>country.id), :remote=>true, role: "menuitem", tabindex: "-1", style: "text-align:left;", class: "delete" %>
-      <% else %>
-        <%= link_to raw("<i class=\"fa fa-square mr-5\"></i> Show in API"), show_in_api_country_path(:id =>country.id), :remote=>true, role: "menuitem", tabindex: "-1", style: "text-align:left;", class: "edit" %>
-      <% end %>
+  <td class="text-align-center"><%= country.priority %></td>
+  
+  
+  <td class="action-links text-align-center" style="width:10%">
+    <% if country.show_in_api? %>
+      <%= link_to raw("<i class=\"fa fa-square mr-5\"></i> Hide in API"), hide_in_api_country_path(:id =>country.id), :remote=>true, role: "menuitem", tabindex: "-1", style: "text-align:left;", class: "delete" %>
+    <% else %>
+      <%= link_to raw("<i class=\"fa fa-square mr-5\"></i> Show in API"), show_in_api_country_path(:id =>country.id), :remote=>true, role: "menuitem", tabindex: "-1", style: "text-align:left;", class: "edit" %>
+    <% end %>
 
-      <% if country.operational? %>
-        <%= link_to raw("<i class=\"fa fa-square mr-5\"></i> Remove Operational"), remove_operational_country_path(:id =>country.id), :remote=>true, role: "menuitem", tabindex: "-1", style: "text-align:left;", class: "delete" %>
-      <% else %>
-        <%= link_to raw("<i class=\"fa fa-square mr-5\"></i> Mark as Operational"), mark_as_operational_country_path(:id =>country.id), :remote=>true, role: "menuitem", tabindex: "-1", style: "text-align:left;", class: "edit" %>
-      <% end %>
-    </td>
+    <% if country.operational? %>
+      <%= link_to raw("<i class=\"fa fa-square mr-5\"></i> Remove Operational"), remove_operational_country_path(:id =>country.id), :remote=>true, role: "menuitem", tabindex: "-1", style: "text-align:left;", class: "delete" %>
+    <% else %>
+      <%= link_to raw("<i class=\"fa fa-square mr-5\"></i> Mark as Operational"), mark_as_operational_country_path(:id =>country.id), :remote=>true, role: "menuitem", tabindex: "-1", style: "text-align:left;", class: "edit" %>
+    <% end %>
+  </td>
 
-    <td class="action-links text-align-center" style="width:10%">
-      <%= link_to raw("<i class=\"linecons-pencil\"></i> Edit"), edit_link, :remote=>true, style: "text-align:left;", class: "edit" %>
+  <td class="action-links text-align-center" style="width:10%">
+    <%= link_to raw("<i class=\"linecons-pencil\"></i> Edit"), edit_link, :remote=>true, style: "text-align:left;", class: "edit" %>
 
-      <%= link_to raw("<i class=\"linecons-trash\"></i> Delete"), delete_link, method: :delete, role: "menuitem", tabindex: "-1", data: { confirm: 'Are you sure?' }, :remote=>true, class: "delete mt-10", style: "text-align:left;" %>
-    </td>
+    <%= link_to raw("<i class=\"linecons-trash\"></i> Delete"), delete_link, method: :delete, role: "menuitem", tabindex: "-1", data: { confirm: 'Are you sure?' }, :remote=>true, class: "delete mt-10", style: "text-align:left;" %>
+  </td>
 
-  </tr>
+</tr>
