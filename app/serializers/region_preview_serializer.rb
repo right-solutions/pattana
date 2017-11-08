@@ -2,5 +2,11 @@ class RegionPreviewSerializer < ActiveModel::Serializer
   include NullAttributeReplacer
   attributes :id, :name, :priority, :operational
   
-  belongs_to :country, serializer: CountryPreviewSerializer
+  has_one :country, serializer: CountryPreviewSerializer do
+  	if object.country
+      object.country
+    else
+      object.build_country
+    end
+  end
 end

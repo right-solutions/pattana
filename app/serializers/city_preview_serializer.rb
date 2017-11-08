@@ -3,6 +3,19 @@ class CityPreviewSerializer < ActiveModel::Serializer
   
   attributes :id, :name, :priority, :operational
   
-  belongs_to :country, serializer: CountryPreviewSerializer
-  belongs_to :region, serializer: RegionPreviewSerializer
+  has_one :country, serializer: CountryPreviewSerializer do
+  	if object.country
+      object.country
+    else
+      object.build_country
+    end
+  end
+
+  has_one :region, serializer: RegionPreviewSerializer do
+  	if object.region
+      object.region
+    else
+      object.build_region
+    end
+  end
 end
