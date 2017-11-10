@@ -1,4 +1,3 @@
-<% binding.pry %>
 <div id="div_country_show">
   
   <div class="row">
@@ -12,7 +11,7 @@
           remove_image_link(@country, :flag_image, nil ),
           image_options: {assoc_name: :flag_image}) %>
       <%# else %>
-        <%= display_image(@country, "flag_image.image.large.url", class: "img-inline", alt: @country.display_name) %>
+        <%#= display_image(@country, "flag_image.image.large.url", class: "img-inline", alt: @country.display_name) %>
       <%# end %>
       </div>
     </div>

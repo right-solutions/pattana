@@ -123,25 +123,5 @@ class Country < Pattana::ApplicationRecord
   def display_operational
     self.operational ? "Yes" : "No"
   end
-
-  # Image Configuration
-  # -------------------
-  def image_configuration
-    {
-      "Image::FlagImage" => {
-        max_upload_limit: 1048576,
-        min_upload_limit: 512,
-        resolutions: [550, 275],
-        form_upload_image_label: "Upload a new Image",
-        form_title: "Upload an Image (Flag)",
-        form_sub_title: "Please read the instructions below:",
-        form_instructions: [
-          "the filename should be in .jpg / .jpeg or .png format",
-          "the image resolutions should be <strong>550 x 275 Pixels</strong>",
-          "the file size should be lesser than <strong>1 MB</strong>"
-        ]
-      }
-    }
-  end
 	
 end
