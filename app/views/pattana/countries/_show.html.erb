@@ -1,33 +1,42 @@
+<% binding.pry %>
 <div id="div_country_show">
   
   <div class="row">
 
-    <div class="col-md-9 col-sm-6 col-xs-12" style="border-right:1px solid #f1f1f1;">
-
-      <div class="visible-sm visible-xs mt-50"></div>
-
-      <%= theme_panel_heading(@country.name) %>
-
-      <%= theme_panel_sub_heading("ID: #{@country.id}", "#") %><br>
-      
-      <% if @country.show_in_api? %>
-        <div class="label label-success">Show In API</div>
-      <% else %>
-        <div class="label label-danger">Hide In API</div>
-      <% end %>
-
-      <% if @country.operational? %>
-        <div class="label label-success">Operational</div>
-      <% else %>
-        <div class="label label-danger">Non Operational</div>
-      <% end %>
-
+    <div class="col-md-3 col-sm-12 col-xs-12" style="border-right:1px solid #f1f1f1;">
+      <div class="m-10">
+      <%# if display_edit_links? %>
+      <%= edit_image(@country, 
+          "flag_image.image.large.url",
+          upload_image_link(@country, :flag_image, nil ),
+          remove_image_link(@country, :flag_image, nil ),
+          image_options: {assoc_name: :flag_image}) %>
+      <%# else %>
+        <%= display_image(@country, "flag_image.image.large.url", class: "img-inline", alt: @country.display_name) %>
+      <%# end %>
+      </div>
     </div>
 
-    <div class="col-md-3 col-sm-6 col-xs-12">
+    <div class="col-md-6 col-sm-12 col-xs-12" style="border-right:1px solid #f1f1f1;">
+        <%= theme_panel_heading(@country.name) %>
+        <%= theme_panel_sub_heading(@country.id, "#") %>
+        
+        <%= clear_tag(10) %>
+        <% if @country.show_in_api? %>
+          <div class="label label-success">Show In API</div>
+        <% else %>
+          <div class="label label-danger">Hide In API</div>
+        <% end %>
 
-      <% edit_link = edit_country_path(id: @country.id) %>
-      <% delete_link = country_path(id: @country.id) %>
+        <% if @country.operational? %>
+          <div class="label label-success">Operational</div>
+        <% else %>
+          <div class="label label-danger">Non Operational</div>
+        <% end %>
+        <%= clear_tag(10) %>
+    </div>
+
+    <div class="col-md-3 col-sm-12 col-xs-12">
 
       <% if @country.show_in_api? %>
         <!-- Hide in API -->
@@ -45,6 +54,9 @@
         <%= link_to raw("<i class=\"fa fa-toggle-on mr-5\"></i> Show in API"), mark_as_operational_country_path(:id => @country.id), :remote=>true, class: "btn btn-block btn-success btn-only-hover" %>
       <% end %>
 
+      <% edit_link = edit_country_path(id: @country.id) %>
+      <% delete_link = country_path(id: @country.id) %>
+
       <!-- Edit -->
       <%= link_to raw("<i class=\"fa fa-edit mr-5\"></i> Edit"), edit_link, :remote=>true, class: "btn btn-block btn-white btn-only-hover" %>
 
@@ -52,7 +64,6 @@
       <%= link_to raw("<i class=\"linecons-trash mr-5\"></i> Delete"), delete_link, method: :delete, :remote=>true, data: { confirm: 'Are you sure?' }, class: "btn btn-block btn-danger btn-only-hover" %>
       
       <div class="visible-sm visible-xs mb-50"></div>
-
     </div>
 
   </div>
