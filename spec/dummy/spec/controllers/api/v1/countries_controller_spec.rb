@@ -5,10 +5,10 @@ RSpec.describe Pattana::Api::V1::CountriesController, :type => :request do
   describe "countries" do
     context "Positive Case" do
       it "should return all the countries" do
-        FactoryGirl.create(:country, name: "India", show_in_api: true)
-        FactoryGirl.create(:country, name: "Pakistan", show_in_api: true)
-        FactoryGirl.create(:country, name: "Bangladesh", show_in_api: true)
-        FactoryGirl.create(:country, name: "United States")
+        FactoryBot.create(:country, name: "India", show_in_api: true)
+        FactoryBot.create(:country, name: "Pakistan", show_in_api: true)
+        FactoryBot.create(:country, name: "Bangladesh", show_in_api: true)
+        FactoryBot.create(:country, name: "United States")
 
         get "/api/v1/countries"
         
@@ -23,10 +23,10 @@ RSpec.describe Pattana::Api::V1::CountriesController, :type => :request do
         expect(data.map{|x| x["name"]}).to match_array(["India", "Pakistan", "Bangladesh"])
       end
       it "should search countries" do
-        FactoryGirl.create(:country, name: "Mango Tree", show_in_api: true)
-        FactoryGirl.create(:country, name: "Jack Tree", show_in_api: false)
-        FactoryGirl.create(:country, name: "Banyan Tree", show_in_api: true)
-        FactoryGirl.create(:country, name: "Mango Flower", show_in_api: true)
+        FactoryBot.create(:country, name: "Mango Tree", show_in_api: true)
+        FactoryBot.create(:country, name: "Jack Tree", show_in_api: false)
+        FactoryBot.create(:country, name: "Banyan Tree", show_in_api: true)
+        FactoryBot.create(:country, name: "Mango Flower", show_in_api: true)
 
         get "/api/v1/countries?q=tree"
         expect(response.status).to eq(200)
@@ -44,10 +44,10 @@ RSpec.describe Pattana::Api::V1::CountriesController, :type => :request do
       end
 
       it "should filter operational countries" do
-        FactoryGirl.create(:country, name: "Mango Tree", show_in_api: true, operational: true)
-        FactoryGirl.create(:country, name: "Jack Tree", show_in_api: false, operational: true)
-        FactoryGirl.create(:country, name: "Banyan Tree", show_in_api: true, operational: false)
-        FactoryGirl.create(:country, name: "Mango Flower", show_in_api: true, operational: false)
+        FactoryBot.create(:country, name: "Mango Tree", show_in_api: true, operational: true)
+        FactoryBot.create(:country, name: "Jack Tree", show_in_api: false, operational: true)
+        FactoryBot.create(:country, name: "Banyan Tree", show_in_api: true, operational: false)
+        FactoryBot.create(:country, name: "Mango Flower", show_in_api: true, operational: false)
 
         get "/api/v1/countries?operational=true"
         expect(response.status).to eq(200)

@@ -3,7 +3,7 @@ require 'spec_helper'
 RSpec.describe FlagImageSerializer, type: :serializer do
   describe "attributes" do
     it "should include image attributes" do
-      flag_image = FactoryGirl.create(:flag_image)
+      flag_image = FactoryBot.create(:flag_image)
       
       json_data = ActiveModelSerializers::SerializableResource.new(flag_image, serializer: FlagImageSerializer).to_json
       data = JSON.parse(json_data)

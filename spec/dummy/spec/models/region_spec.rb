@@ -2,15 +2,15 @@ require 'spec_helper'
 
 RSpec.describe Region, type: :model do
 
-  let(:country) {FactoryGirl.build(:country, name: "India")}
-  let(:region) {FactoryGirl.build(:region)}
-  let(:mp) {FactoryGirl.create(:region, name: "Madhya Pradesh", country: country, show_in_api: true, operational: true)}
-  let(:up) {FactoryGirl.create(:region, name: "Uttar Pradesh", country: country)}
-  let(:hp) {FactoryGirl.create(:region, name: "Himachal Pradesh", country: country)}
+  let(:country) {FactoryBot.build(:country, name: "India")}
+  let(:region) {FactoryBot.build(:region)}
+  let(:mp) {FactoryBot.create(:region, name: "Madhya Pradesh", country: country, show_in_api: true, operational: true)}
+  let(:up) {FactoryBot.create(:region, name: "Uttar Pradesh", country: country)}
+  let(:hp) {FactoryBot.create(:region, name: "Himachal Pradesh", country: country)}
   
   context "Factory" do
     it "should validate all the factories" do
-      expect(FactoryGirl.build(:region).valid?).to be true
+      expect(FactoryBot.build(:region).valid?).to be true
     end
   end
 
@@ -68,7 +68,7 @@ RSpec.describe Region, type: :model do
         region.save
         expect(region.can_be_deleted?).to be_falsy
 
-        city = FactoryGirl.create(:city, name: "Some", region: region, country: region.country)
+        city = FactoryBot.create(:city, name: "Some", region: region, country: region.country)
         expect(region.can_be_deleted?).to be_falsy
       end
     end
@@ -79,21 +79,21 @@ RSpec.describe Region, type: :model do
       end
 
       it "display_show_in_api" do
-        r = FactoryGirl.build(:region, show_in_api: false)
+        r = FactoryBot.build(:region, show_in_api: false)
         expect(r.display_show_in_api).to match("No")
         r.show_in_api = true
         expect(r.display_show_in_api).to match("Yes")
       end
 
       it "display_operational" do
-        r = FactoryGirl.build(:region, operational: false)
+        r = FactoryBot.build(:region, operational: false)
         expect(r.display_operational).to match("No")
         r.operational = true
         expect(r.display_operational).to match("Yes")
       end
 
       it "default_image_url" do
-        #u = FactoryGirl.build(:pending_user)
+        #u = FactoryBot.build(:pending_user)
         #expect(u.default_image_url).to match("/assets/kuppayam/defaults/user-small.png")
         #expect(u.default_image_url("large")).to match("/assets/kuppayam/defaults/user-large.png")
       end

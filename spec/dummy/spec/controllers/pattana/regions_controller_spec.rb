@@ -2,10 +2,10 @@ require 'spec_helper'
 
 describe Pattana::RegionsController, :type => :controller do
 
-  let(:region) {FactoryGirl.create(:region)}
+  let(:region) {FactoryBot.create(:region)}
   
   describe "index" do
-    3.times { FactoryGirl.create(:region) }
+    3.times { FactoryBot.create(:region) }
     context "Positive Case" do
       it "should be able to view the list of regions" do
         get :index, params: { use_route: 'pattana',}
@@ -106,7 +106,7 @@ describe Pattana::RegionsController, :type => :controller do
   describe "create" do
     context "Positive Case" do
       it "site admin should be able to create a region" do
-        region_params = FactoryGirl.build(:region, name: "Some Name").attributes
+        region_params = FactoryBot.build(:region, name: "Some Name").attributes
         expect do
           post :create, params: { use_route: 'pattana', region: region_params }, xhr: true
         end.to change(Region, :count).by(1)
@@ -118,7 +118,7 @@ describe Pattana::RegionsController, :type => :controller do
   describe "update" do
     context "Positive Case" do
       it "site admin should be able to update a region" do
-        region = FactoryGirl.create(:region, name: "Some Name")
+        region = FactoryBot.create(:region, name: "Some Name")
         region_params = region.attributes.clone
         region_params["name"] = "Changed Name"
         expect do

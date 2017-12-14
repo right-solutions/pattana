@@ -2,10 +2,10 @@ require 'spec_helper'
 
 describe Pattana::CountriesController, :type => :controller do
 
-  let(:country) {FactoryGirl.create(:country)}
+  let(:country) {FactoryBot.create(:country)}
   
   describe "index" do
-    3.times { FactoryGirl.create(:country) }
+    3.times { FactoryBot.create(:country) }
     context "Positive Case" do
       it "should be able to view the list of countries" do
         get :index, params: { use_route: 'pattana',}
@@ -115,7 +115,7 @@ describe Pattana::CountriesController, :type => :controller do
   describe "create" do
     context "Positive Case" do
       it "site admin should be able to create a country" do
-        country_params = FactoryGirl.build(:country, name: "Some Name").attributes
+        country_params = FactoryBot.build(:country, name: "Some Name").attributes
         expect do
           post :create, params: { use_route: 'pattana', country: country_params }, xhr: true
         end.to change(Country, :count).by(1)
@@ -127,7 +127,7 @@ describe Pattana::CountriesController, :type => :controller do
   describe "update" do
     context "Positive Case" do
       it "site admin should be able to update a country" do
-        country = FactoryGirl.create(:country, name: "Some Name")
+        country = FactoryBot.create(:country, name: "Some Name")
         country_params = country.attributes.clone
         country_params["name"] = "Changed Name"
         expect do

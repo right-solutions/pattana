@@ -2,14 +2,14 @@ require 'spec_helper'
 
 RSpec.describe City, type: :model do
 
-  let(:city) {FactoryGirl.build(:city)}
-  let(:usa) {FactoryGirl.create(:city, name: "United States of America", alternative_names: "US, USA", show_in_api: true, operational: true)}
-  let(:uae) {FactoryGirl.create(:city, name: "United Arab Emirates", alternative_names: "UAE")}
-  let(:uk) {FactoryGirl.create(:city, name: "United Kingdom", alternative_names: "UK")}
+  let(:city) {FactoryBot.build(:city)}
+  let(:usa) {FactoryBot.create(:city, name: "United States of America", alternative_names: "US, USA", show_in_api: true, operational: true)}
+  let(:uae) {FactoryBot.create(:city, name: "United Arab Emirates", alternative_names: "UAE")}
+  let(:uk) {FactoryBot.create(:city, name: "United Kingdom", alternative_names: "UK")}
   
   context "Factory" do
     it "should validate all the factories" do
-      expect(FactoryGirl.build(:city).valid?).to be true
+      expect(FactoryBot.build(:city).valid?).to be true
     end
   end
 
@@ -28,16 +28,16 @@ RSpec.describe City, type: :model do
   context "Callbacks" do
     it "set_country" do
       # It should set the country if it has region and country is nil
-      country = FactoryGirl.create(:country)
-      region = FactoryGirl.create(:region, country: country)
-      city = FactoryGirl.build(:city, region: region)
+      country = FactoryBot.create(:country)
+      region = FactoryBot.create(:region, country: country)
+      city = FactoryBot.build(:city, region: region)
       city.save
       expect(city.region_id).to eq(region.id)
       expect(city.country_id).to eq(country.id)
 
       # It should not set the country if it has it already
-      country = FactoryGirl.create(:country)
-      city = FactoryGirl.build(:city, region: nil, country: country)
+      country = FactoryBot.create(:country)
+      city = FactoryBot.build(:city, region: nil, country: country)
       city.valid?
       expect(city.region_id).to eq(nil)
       expect(city.country_id).to eq(country.id)
@@ -115,21 +115,21 @@ RSpec.describe City, type: :model do
       end
 
       it "display_show_in_api" do
-        c = FactoryGirl.build(:city, show_in_api: false)
+        c = FactoryBot.build(:city, show_in_api: false)
         expect(c.display_show_in_api).to match("No")
         c.show_in_api = true
         expect(c.display_show_in_api).to match("Yes")
       end
 
       it "display_operational" do
-        c = FactoryGirl.build(:city, operational: false)
+        c = FactoryBot.build(:city, operational: false)
         expect(c.display_operational).to match("No")
         c.operational = true
         expect(c.display_operational).to match("Yes")
       end
 
       it "default_image_url" do
-        #u = FactoryGirl.build(:pending_user)
+        #u = FactoryBot.build(:pending_user)
         #expect(u.default_image_url).to match("/assets/kuppayam/defaults/user-small.png")
         #expect(u.default_image_url("large")).to match("/assets/kuppayam/defaults/user-large.png")
       end

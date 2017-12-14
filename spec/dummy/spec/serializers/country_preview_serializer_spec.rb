@@ -4,7 +4,7 @@ RSpec.describe CountryPreviewSerializer, type: :serializer do
 
   describe "attributes" do
     it "should include preview attributes" do
-      india = FactoryGirl.create(:country, name: "India")
+      india = FactoryBot.create(:country, name: "India")
       
       json_data = ActiveModelSerializers::SerializableResource.new(india, serializer: CountryPreviewSerializer).to_json
       data = JSON.parse(json_data)

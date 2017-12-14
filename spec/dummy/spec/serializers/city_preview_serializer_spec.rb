@@ -4,8 +4,8 @@ RSpec.describe CityPreviewSerializer, type: :serializer do
 
   describe "attributes" do
     it "should show empty region if it doesn't exist" do
-      india = FactoryGirl.create(:country, name: "India")
-      kochi = FactoryGirl.create(:city, name: "Kochi", region: nil, country: india)
+      india = FactoryBot.create(:country, name: "India")
+      kochi = FactoryBot.create(:city, name: "Kochi", region: nil, country: india)
   
       json_data = ActiveModelSerializers::SerializableResource.new(kochi, serializer: CityPreviewSerializer).to_json
       data = JSON.parse(json_data)
@@ -30,9 +30,9 @@ RSpec.describe CityPreviewSerializer, type: :serializer do
     end
 
     it "should include preview attributes" do
-      india = FactoryGirl.create(:country, name: "India")
-      kerala = FactoryGirl.create(:region, name: "Kerala", country: india)
-      kochi = FactoryGirl.create(:city, name: "Kochi", region: kerala)
+      india = FactoryBot.create(:country, name: "India")
+      kerala = FactoryBot.create(:region, name: "Kerala", country: india)
+      kochi = FactoryBot.create(:city, name: "Kochi", region: kerala)
   
       json_data = ActiveModelSerializers::SerializableResource.new(kochi, serializer: CityPreviewSerializer).to_json
       data = JSON.parse(json_data)
