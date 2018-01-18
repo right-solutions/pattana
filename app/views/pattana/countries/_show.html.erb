@@ -47,10 +47,10 @@
 
       <% if @country.operational? %>
         <!-- Hide in API -->
-        <%= link_to raw("<i class=\"fa fa-toggle-off mr-5\"></i> Hide in API"), remove_operational_country_path(:id => @country.id), :remote=>true, class: "btn btn-block btn-danger btn-only-hover" %>
+        <%= link_to raw("<i class=\"fa fa-toggle-off mr-5\"></i> Remove Operational"), remove_operational_country_path(:id => @country.id), :remote=>true, class: "btn btn-block btn-danger btn-only-hover" %>
       <% else %>
         <!-- Show in API -->
-        <%= link_to raw("<i class=\"fa fa-toggle-on mr-5\"></i> Show in API"), mark_as_operational_country_path(:id => @country.id), :remote=>true, class: "btn btn-block btn-success btn-only-hover" %>
+        <%= link_to raw("<i class=\"fa fa-toggle-on mr-5\"></i> Mark as Operational"), mark_as_operational_country_path(:id => @country.id), :remote=>true, class: "btn btn-block btn-success btn-only-hover" %>
       <% end %>
 
       <% edit_link = edit_country_path(id: @country.id) %>

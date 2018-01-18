@@ -2,12 +2,18 @@
 <% delete_link = country_path(id: country.id) %>
 
 <tr id="tr_country_<%= country.id %>">
-  
+          
   <td class="text-align-center"><%= country.id %></td>
+
+  <td class="user-image">
+    <%= link_to(pattana.country_path(country), remote: true) do %>
+      <%= display_image(country, "flag_image.image.small.url", width: "120", height: "auto", class: "img-rectangle", alt: country.name) %>
+    <% end %>
+  </td>
   
   <td class="text-align-left"><%= link_to country.name, pattana.country_path(country), remote: true %></td>
 
-  <td class="text-align-center"><%= country.display_operational %></td>
+  <td class="text-align-center"><%= country.display_show_in_api %></td>
 
   <td class="text-align-center"><%= country.display_operational %></td>
 
