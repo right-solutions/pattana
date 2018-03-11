@@ -57,7 +57,7 @@ RSpec.describe Country, type: :model do
 
     context "Import Methods" do
       it "save_row_data" do
-        
+        skip
       end
     end
   end
