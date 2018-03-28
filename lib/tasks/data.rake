@@ -22,6 +22,26 @@ namespace 'pattana' do
         puts "Successfully marked the Locations in the CSV as Operational".green if verbose
       end
 
+      desc "Mark All Operational"
+      task :mark_all_operational => :environment do
+        verbose = true
+        verbose = false if ["false", "f","0","no","n"].include?(ENV["verbose"].to_s.downcase.strip)
+
+        Country.update_all(operational: true)
+        Region.update_all(operational: true)
+        City.update_all(operational: true)
+      end
+
+      desc "Mark All Show in API"
+      task :mark_all_show_in_api => :environment do
+        verbose = true
+        verbose = false if ["false", "f","0","no","n"].include?(ENV["verbose"].to_s.downcase.strip)
+
+        Country.update_all(show_in_api: true)
+        Region.update_all(show_in_api: true)
+        City.update_all(show_in_api: true)
+      end
+
     end
   end
 end
