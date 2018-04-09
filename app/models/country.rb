@@ -146,11 +146,11 @@ class Country < Pattana::ApplicationRecord
             end
 
           else
-            puts "Unsupported File encountered'#{path.to_s}'.".red if verbose
+            puts "Unsupported File encountered'#{csv_path.to_s}'.".red if verbose
             return
           end
         else
-          puts "Import File not found at '#{path.to_s}'.".red if verbose
+          puts "Import File not found at '#{csv_path.to_s}'.".red if verbose
         end
       end
     end

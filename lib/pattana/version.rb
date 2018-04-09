@@ -1,3 +1,3 @@
 module Pattana
-  VERSION = '0.2.0-materialize'
+  VERSION = '0.2.1.pre.materialize'
 end
